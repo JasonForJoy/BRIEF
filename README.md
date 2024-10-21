@@ -2,7 +2,7 @@
 
 # BRIEF: Bridging Retrieval and Inference for Multi-hop Reasoning via Compression
 
-[Yuankai Li*](https://lieziwind.github.io/), [Jia-chen Gu*](https://jasonforjoy.github.io/), [Di Wu](https://xiaowu0162.github.io/), [Kai-Wei Chang](http://web.cs.ucla.edu/~kwchang/) and [Nanyun Peng](https://vnpeng.net/)
+[Yuankai Li*](https://lieziwind.github.io/), [Jia-chen Gu*](https://jasonforjoy.github.io/), [Di Wu](https://xiaowu0162.github.io/), [Kai-Wei Chang](http://web.cs.ucla.edu/~kwchang/) and [Nanyun Peng](https://violetpeng.github.io/)
 
 *Equal contribution
 
