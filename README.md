@@ -19,11 +19,15 @@ This repository hosts the code and data for our paper **BRIEF**, a lightweight, 
 BRIEF (Bridging Retrieval and Inference through Evidence Fusion) is a lightweight approach that performs query-aware multi-hop reasoning by compressing retrieved documents into highly dense textual summaries to integrate into in-context learning. To enable learning compression for multi-hop reasoning, we curate synthetic data by extracting atomic proposition expressions that encapsulate distinct factoids from the source documents to compose synthetic summaries.
 
 <p align="center">
-  <img src="src/BRIEF_train.png" width="70%"></a> <br>
+  <img src="src/BRIEF_inference.png" width="100%"></a> <br>
+</p>
+
+<p align="center">
+  <img src="src/BRIEF_train.png" width="100%"></a> <br>
 </p>
 BRIEF generates more concise summaries and enables a range of LLMs to achieve exceptional open-domain question answering (QA) performance. For example, on HotpotQA, BRIEF improves the compression rate by 2 times compared to the state-of-the-art baseline, while outperforming it by 3.00% EM and 4.16% F1 with Flan-UL2 as the reader LM. It also generates more concise summaries than proprietary GPT-3.5, while demonstrating nearly identical QA performance.
 <p align="center">
-  <img src="src/result_multihop.png" width="70%"></a> <br>
+  <img src="src/result_multihop.png" width="100%"></a> <br>
 </p>
 
 ## Release
