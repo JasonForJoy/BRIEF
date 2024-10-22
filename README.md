@@ -6,6 +6,8 @@
 
 *Equal contribution
 
+<a href='https://arxiv.org/pdf/2410.15277'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> <a href='https://jasonforjoy.github.io/BRIEF/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
+
 <!-- <a href=''><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> <a href=''><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Models-ffd21e"></a> <a href=''><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-blue'></a> <a href=''><img src='https://img.shields.io/badge/Project-Page-Green'></a>  -->
 
 </div>
@@ -106,13 +108,14 @@ python summary_length.py --input_path ../data/TriviaQA_brief_reply.json
 If you find BRIEF useful for your research and applications, please cite using this BibTeX:
 
 ```bibtex
-@inproceedings{li-etal-2024-brief,
+@article{li2024brief,
  title = "BRIEF: Bridging Retrieval and Inference for Multi-hop Reasoning via Compression",
  author = "Li, Yuankai  and
            Gu, Jia-Chen  and
            Wu, Di  and
            Chang, Kai-Wei  and
            Peng, Nanyun",
+ journal={arXiv preprint arXiv:2410.15277},
  year = "2024"
 }
 ```
