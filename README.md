@@ -32,6 +32,7 @@ BRIEF generates more concise summaries and enables a range of LLMs to achieve ex
 
 ## Release
 
+- [10/29]  We released the test set for Multihop-NQ and Multihop-TriviaQA as well as the compressed result.
 - [10/21]  We released the compressed result and evaluation script for TriviaQA, NQ, HotpotQA and MuSiQue.
 
 ## Installation and Setup

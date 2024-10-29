@@ -1,0 +1,5706 @@
+[
+    {
+        "idx": 0,
+        "question": "What percentage of the Earth's crust is made up of atoms that are created in a star?",
+        "question_id": "341989533800524779_1_2hop",
+        "gt_label": [
+            "25%"
+        ]
+    },
+    {
+        "idx": 1,
+        "question": "In what city was the 2017 All-Ireland Senior Football Championship Final played, where the Dublin team also had a homecoming celebration?",
+        "question_id": "3500591375797927439_1_2hop",
+        "gt_label": [
+            "Dublin"
+        ]
+    },
+    {
+        "idx": 2,
+        "question": "What is the year of publication of the novel that is part of young adult academia?",
+        "question_id": "-8942693796004139638_2_2hop",
+        "gt_label": [
+            "1984"
+        ]
+    },
+    {
+        "idx": 3,
+        "question": "What is the nationality of the rapper whose parents went through a divorce?",
+        "question_id": "6587755232987393715_1_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 4,
+        "question": "Who wrote the tune of the song adopted by the U.S. Navy in 1899?",
+        "question_id": "-1134686319443655523_0_2hop",
+        "gt_label": [
+            "John Stafford Smith"
+        ]
+    },
+    {
+        "idx": 5,
+        "question": "What type of time was established by the act that established standard time in time zones?",
+        "question_id": "4760217324308407535_1_2hop",
+        "gt_label": [
+            "Daylight saving time"
+        ]
+    },
+    {
+        "idx": 6,
+        "question": "What is the country of citizenship of the actor who played Anakin Skywalker?",
+        "question_id": "-8527028843257045255_1_2hop",
+        "gt_label": [
+            "Canada"
+        ]
+    },
+    {
+        "idx": 7,
+        "question": "What design optimization technique is related to creation myths in religions?",
+        "question_id": "-666935181323556007_2_2hop",
+        "gt_label": [
+            "Evolutionary algorithms"
+        ]
+    },
+    {
+        "idx": 8,
+        "question": "What is the capital of the state where Loktak Lake is located?",
+        "question_id": "-1725278684873704443_1_2hop",
+        "gt_label": [
+            "Imphal"
+        ]
+    },
+    {
+        "idx": 9,
+        "question": "In which country did the film featuring Emma Thompson have its world premiere?",
+        "question_id": "2850182005422572459_2_2hop",
+        "gt_label": [
+            "England"
+        ]
+    },
+    {
+        "idx": 10,
+        "question": "What nationality is the film associated with the music composer who created a CD for the Sydney Olympics?",
+        "question_id": "1296506107351859987_0_2hop",
+        "gt_label": [
+            "Australian"
+        ]
+    },
+    {
+        "idx": 11,
+        "question": "Who composed the score of the film that was identified as the fourth-best to watch while in flight?",
+        "question_id": "5094013686681021739_1_2hop",
+        "gt_label": [
+            "Thomas Newman"
+        ]
+    },
+    {
+        "idx": 12,
+        "question": "In which country is the memorial that was considered as a commercial catalyst located?",
+        "question_id": "-4651988902939600798_2_2hop",
+        "gt_label": [
+            "United States"
+        ]
+    },
+    {
+        "idx": 13,
+        "question": "Which band's guitarist is the basis for the characterization of Jack Sparrow?",
+        "question_id": "8668218091582393522_0_2hop",
+        "gt_label": [
+            "The Rolling Stones"
+        ]
+    },
+    {
+        "idx": 14,
+        "question": "What city is associated with the treaty that resulted in the relinquishing of posts?",
+        "question_id": "30517978416761082_1_2hop",
+        "gt_label": [
+            "Paris"
+        ]
+    },
+    {
+        "idx": 15,
+        "question": "The government of the country with the world's second largest economy by nominal GDP emphasizes what?",
+        "question_id": "9041064440873040728_1_2hop",
+        "gt_label": [
+            "Science and technology"
+        ]
+    },
+    {
+        "idx": 16,
+        "question": "Who is the head of state of the country whose parliament enacted the Canadian Bill of Rights?",
+        "question_id": "7778523635243943423_0_2hop",
+        "gt_label": [
+            "Queen Elizabeth II"
+        ]
+    },
+    {
+        "idx": 17,
+        "question": "In which continent is the country that Bryan Robson captained located?",
+        "question_id": "-8711923978613103801_0_2hop",
+        "gt_label": [
+            "Europe"
+        ]
+    },
+    {
+        "idx": 18,
+        "question": "What is the nationality of the author of the stage play on which Mughal-e-Azam is based?",
+        "question_id": "-1189352882843110031_0_2hop",
+        "gt_label": [
+            "Indian"
+        ]
+    },
+    {
+        "idx": 19,
+        "question": "What is the name of the creator of the sitcom set in Sparkhill, East Birmingham?",
+        "question_id": "9152275065418980163_0_2hop",
+        "gt_label": [
+            "Adil Ray"
+        ]
+    },
+    {
+        "idx": 20,
+        "question": "Who is the head of state of the country where the Canadian Charter of Rights and Freedoms was signed into law?",
+        "question_id": "3561269749478306814_1_2hop",
+        "gt_label": [
+            "Queen Elizabeth II"
+        ]
+    },
+    {
+        "idx": 21,
+        "question": "In what type of territory was the film \"The Firm\" filmed?",
+        "question_id": "507589684508979294_2_2hop",
+        "gt_label": [
+            "British Overseas Territory"
+        ]
+    },
+    {
+        "idx": 22,
+        "question": "What was the previous home field of the team that plays at Soldier Field?",
+        "question_id": "3877871858420961461_0_2hop",
+        "gt_label": [
+            "Wrigley Field"
+        ]
+    },
+    {
+        "idx": 23,
+        "question": "What is the capital of the Islamic state where the Mongol conquest began?",
+        "question_id": "-6652518102768592978_0_2hop",
+        "gt_label": [
+            "Samarkand"
+        ]
+    },
+    {
+        "idx": 24,
+        "question": "What is the title of the 2018 American romantic comedy film that the actor who played the role of Noah is an actor in?",
+        "question_id": "-4692702779373258184_0_2hop",
+        "gt_label": [
+            "When We First Met"
+        ]
+    },
+    {
+        "idx": 25,
+        "question": "What was the production budget of the film that was released on DVD and Blu-ray?",
+        "question_id": "-6710607638247703058_1_2hop",
+        "gt_label": [
+            "$24 million"
+        ]
+    },
+    {
+        "idx": 26,
+        "question": "What metal forms alloys with the metal used in bullion coins?",
+        "question_id": "3029084811521014268_0_2hop",
+        "gt_label": [
+            "Silver"
+        ]
+    },
+    {
+        "idx": 27,
+        "question": "In which country was the 22nd ranked season of \"Survivor\" filmed?",
+        "question_id": "6590740514829875619_0_2hop",
+        "gt_label": [
+            "Nicaragua"
+        ]
+    },
+    {
+        "idx": 28,
+        "question": "In what city was Adam West's co-star born?",
+        "question_id": "-3279564312688312173_0_2hop",
+        "gt_label": [
+            "Los Angeles"
+        ]
+    },
+    {
+        "idx": 29,
+        "question": "In what year did the person who wrote \"(They Long to Be) Close to You\" release their own version?",
+        "question_id": "-7420102423245601244_0_2hop",
+        "gt_label": [
+            "1971"
+        ]
+    },
+    {
+        "idx": 30,
+        "question": "What is the Pulitzer Prize-winning novel written by the author associated with Robert Duvall?",
+        "question_id": "7898504147829373032_0_2hop",
+        "gt_label": [
+            "To Kill a Mockingbird"
+        ]
+    },
+    {
+        "idx": 31,
+        "question": "Who is the composer of the musical that features Christine Daa\u00e9?",
+        "question_id": "9186369412056063808_0_2hop",
+        "gt_label": [
+            "Andrew Lloyd Webber"
+        ]
+    },
+    {
+        "idx": 32,
+        "question": "What is the maiden name of the mother of the author of the autobiography \"Boy Wonder: My Life in Tights\"?",
+        "question_id": "3008542401703695479_1_2hop",
+        "gt_label": [
+            "Ward"
+        ]
+    },
+    {
+        "idx": 33,
+        "question": "What region's schools' teachings are compiled in the central text of Rabbinic Judaism?",
+        "question_id": "1975731370885886696_2_2hop",
+        "gt_label": [
+            "Galilee"
+        ]
+    },
+    {
+        "idx": 34,
+        "question": "In which country was buprenorphine approved by the FDA for opioid addiction?",
+        "question_id": "6290863985311886816_2_2hop",
+        "gt_label": [
+            "The United States"
+        ]
+    },
+    {
+        "idx": 35,
+        "question": "What nationality is the actress who is not associated with the 1961 film West Side Story?",
+        "question_id": "7232363528344228164_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 36,
+        "question": "What is the denomination of one of the notes of the currency that was initially pegged to the US dollar?",
+        "question_id": "3969709691667694227_0_2hop",
+        "gt_label": [
+            "$5"
+        ]
+    },
+    {
+        "idx": 37,
+        "question": "What city is the voice of King Louie from?",
+        "question_id": "5934560807273410006_0_2hop",
+        "gt_label": [
+            "New Orleans"
+        ]
+    },
+    {
+        "idx": 38,
+        "question": "What city is the team owned by the owner of the Tampa Bay Lightning based in?",
+        "question_id": "-3544436828970745864_1_2hop",
+        "gt_label": [
+            "Detroit"
+        ]
+    },
+    {
+        "idx": 39,
+        "question": "What nationality is the actress who played Belle in \"Once Upon a Time\"?",
+        "question_id": "4329714852413918318_0_2hop",
+        "gt_label": [
+            "Australian-American"
+        ]
+    },
+    {
+        "idx": 40,
+        "question": "Rhodesia is a country in which continent?",
+        "question_id": "-1631639411030446618_1_2hop",
+        "gt_label": [
+            "Africa"
+        ]
+    },
+    {
+        "idx": 41,
+        "question": "Who directed a sequel/spin-off of a film based on the songs of ABBA?",
+        "question_id": "9144495504648654365_2_2hop",
+        "gt_label": [
+            "Ol Parker"
+        ]
+    },
+    {
+        "idx": 42,
+        "question": "Which company developed the game that features vehicles from various manufacturers?",
+        "question_id": "-1076096808893217905_1_2hop",
+        "gt_label": [
+            "Ghost Games"
+        ]
+    },
+    {
+        "idx": 43,
+        "question": "What league is the only female member of the Hall of Fame from?",
+        "question_id": "-699798943870528578_0_2hop",
+        "gt_label": [
+            "Negro Leagues"
+        ]
+    },
+    {
+        "idx": 44,
+        "question": "In which state is the location of the First Battle of Bull Run listed on the National Register of Historic Places?",
+        "question_id": "-1181542203967482044_0_2hop",
+        "gt_label": [
+            "Virginia"
+        ]
+    },
+    {
+        "idx": 45,
+        "question": "What company distributed the film that had its release date changed to December 2010?",
+        "question_id": "-3497674382880097885_0_2hop",
+        "gt_label": [
+            "20th Century Fox"
+        ]
+    },
+    {
+        "idx": 46,
+        "question": "What continent are snowy owls native to?",
+        "question_id": "-548708429888776673_2_2hop",
+        "gt_label": [
+            "Eurasia"
+        ]
+    },
+    {
+        "idx": 47,
+        "question": "Who is the CEO of the company that released the film on Ultra HD Blu-ray, Blu-ray, and DVD on September 25, 2018?",
+        "question_id": "-6312298525758245224_2_2hop",
+        "gt_label": [
+            "Bob Iger"
+        ]
+    },
+    {
+        "idx": 48,
+        "question": "What is the number of the asteroid named after the actress who played Major Kira Nerys?",
+        "question_id": "-7539723085204169510_0_2hop",
+        "gt_label": [
+            "26733"
+        ]
+    },
+    {
+        "idx": 49,
+        "question": "What title is the novel written by F. Scott Fitzgerald a contender for?",
+        "question_id": "-5488868768040535566_1_2hop",
+        "gt_label": [
+            "Great American Novel"
+        ]
+    },
+    {
+        "idx": 50,
+        "question": "In which country did the person who sent letters to the Royal Society develop a laboratory?",
+        "question_id": "8306479214285516082_2_2hop",
+        "gt_label": [
+            "America"
+        ]
+    },
+    {
+        "idx": 51,
+        "question": "In what year did the country whose Soviet Socialist Republic was created in 1924 declare its independence?",
+        "question_id": "-2640067491425622232_0_2hop",
+        "gt_label": [
+            "1991"
+        ]
+    },
+    {
+        "idx": 52,
+        "question": "What is the estimated salary per episode of Kaley Cuoco's co-star on \"The Big Bang Theory\"?",
+        "question_id": "8189200879608305458_0_2hop",
+        "gt_label": [
+            "$1 million"
+        ]
+    },
+    {
+        "idx": 53,
+        "question": "Who is the author of the book promoted by Oprah Winfrey?",
+        "question_id": "6801416798355505494_1_2hop",
+        "gt_label": [
+            "Elie Wiesel"
+        ]
+    },
+    {
+        "idx": 54,
+        "question": "What is the occupation of the father of the actress who played Jan Ward in the BBC One's thriller miniseries \"Remember Me\"?",
+        "question_id": "1108053353899805259_0_2hop",
+        "gt_label": [
+            "Actor"
+        ]
+    },
+    {
+        "idx": 55,
+        "question": "What is the estimated size of the genome of a sacred plant for Hindus?",
+        "question_id": "-1273167158902973613_1_2hop",
+        "gt_label": [
+            "612 mega bases"
+        ]
+    },
+    {
+        "idx": 56,
+        "question": "What company is a producer of the TV series that Milo Ventimiglia is a cast member of?",
+        "question_id": "7441168483774266611_0_2hop",
+        "gt_label": [
+            "20th Century Fox Television"
+        ]
+    },
+    {
+        "idx": 57,
+        "question": "What is the nationality of the president of the company that produces the Star Wars franchise, which features a character portrayed by an actress of the same nationality?",
+        "question_id": "6773195646729812676_0_2hop",
+        "gt_label": [
+            "English"
+        ]
+    },
+    {
+        "idx": 58,
+        "question": "What nationality is the actress who voices Rey in certain video games?",
+        "question_id": "6773195646729812676_2_2hop",
+        "gt_label": [
+            "English"
+        ]
+    },
+    {
+        "idx": 59,
+        "question": "In which continent is the country where \"Mamma Mia! Here We Go Again\" was filmed located?",
+        "question_id": "-781275813220526177_0_2hop",
+        "gt_label": [
+            "Europe"
+        ]
+    },
+    {
+        "idx": 60,
+        "question": "In which country did Messi sign his first professional contract?",
+        "question_id": "-7888974918085237101_0_2hop",
+        "gt_label": [
+            "Spain"
+        ]
+    },
+    {
+        "idx": 61,
+        "question": "In which country did Messi relocate to at age 13?",
+        "question_id": "-7888974918085237101_1_2hop",
+        "gt_label": [
+            "Spain"
+        ]
+    },
+    {
+        "idx": 62,
+        "question": "In what location is the exterior set of a TV series set in Oregon?",
+        "question_id": "-3667499812923695302_0_2hop",
+        "gt_label": [
+            "Aldergrove"
+        ]
+    },
+    {
+        "idx": 63,
+        "question": "Who is the opponent of the person who dined at the White House with Theodore Roosevelt?",
+        "question_id": "5980192797543770060_0_2hop",
+        "gt_label": [
+            "William Monroe Trotter"
+        ]
+    },
+    {
+        "idx": 64,
+        "question": "What is the name of the American company that made the surgical system named after Leonardo da Vinci?",
+        "question_id": "8821465139569654770_0_2hop",
+        "gt_label": [
+            "Intuitive Surgical"
+        ]
+    },
+    {
+        "idx": 65,
+        "question": "What television show featured the vocals of the artist Ziegler performed with at the launch of Apple's iPhone 7?",
+        "question_id": "-7002135887637898520_0_2hop",
+        "gt_label": [
+            "The Ellen DeGeneres Show"
+        ]
+    },
+    {
+        "idx": 66,
+        "question": "Who is the critic from \"The New York Times\" who reviewed the film starring Mel Gibson?",
+        "question_id": "9162002685618208305_0_2hop",
+        "gt_label": [
+            "Elvis Mitchell"
+        ]
+    },
+    {
+        "idx": 67,
+        "question": "What is the nationality of the duo that performed the song with Margaret?",
+        "question_id": "-1875757696019289126_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 68,
+        "question": "In which state are renewable energy projects being developed in the region that lies in the counties of Imperial and Riverside?",
+        "question_id": "-4310426848908200081_2_2hop",
+        "gt_label": [
+            "California"
+        ]
+    },
+    {
+        "idx": 69,
+        "question": "Who designed the building where Constantino Brumidi created art?",
+        "question_id": "9066249414040463974_1_2hop",
+        "gt_label": [
+            "William Thornton"
+        ]
+    },
+    {
+        "idx": 70,
+        "question": "What role did the actress who played Queen Gorgo portray in the HBO series \"Game of Thrones\"?",
+        "question_id": "-5492672719877331052_0_2hop",
+        "gt_label": [
+            "Cersei Lannister"
+        ]
+    },
+    {
+        "idx": 71,
+        "question": "The author whose works are published by The MIT Press was born in what city?",
+        "question_id": "1550709003548368557_1_2hop",
+        "gt_label": [
+            "Madrid"
+        ]
+    },
+    {
+        "idx": 72,
+        "question": "Which continent is the country located in where the parliamentary practice that the Senate is related to originated?",
+        "question_id": "-1271549392917520251_2_2hop",
+        "gt_label": [
+            "Europe"
+        ]
+    },
+    {
+        "idx": 73,
+        "question": "What high school did the actor who played a character in \"Saved by the Bell\" attend?",
+        "question_id": "-7352836620829271478_2_2hop",
+        "gt_label": [
+            "Hart High School"
+        ]
+    },
+    {
+        "idx": 74,
+        "question": "What is the name of the production company that produces a show that had a showrunner who was fired?",
+        "question_id": "7838876620627598945_2_2hop",
+        "gt_label": [
+            "Berlanti Productions"
+        ]
+    },
+    {
+        "idx": 75,
+        "question": "In which region did the experts and players participating in the tournament back up the smaller teams taking part in the World Cup?",
+        "question_id": "4493455296851883676_0_2hop",
+        "gt_label": [
+            "The West Indies"
+        ]
+    },
+    {
+        "idx": 76,
+        "question": "Which singer, who appeared on \"Sesame Street\", had a song named one of The 10 Best Songs of 2007?",
+        "question_id": "7612266629030918227_1_2hop",
+        "gt_label": [
+            "Feist"
+        ]
+    },
+    {
+        "idx": 77,
+        "question": "What is the nationality of the producer of Halloween, who is associated with the producer of Halloween II?",
+        "question_id": "-6580199312356555515_2_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 78,
+        "question": "What state is associated with the song that inspired the title of the film featuring Reese Witherspoon?",
+        "question_id": "5644548152036705562_2_2hop",
+        "gt_label": [
+            "Alabama"
+        ]
+    },
+    {
+        "idx": 79,
+        "question": "What network is associated with the series adapted by David Benioff and D. B. Weiss?",
+        "question_id": "1255598583248711469_0_2hop",
+        "gt_label": [
+            "HBO"
+        ]
+    },
+    {
+        "idx": 80,
+        "question": "What is the name of the Christian rock band that recorded the song certified platinum by the RIAA?",
+        "question_id": "8709883724381050620_1_2hop",
+        "gt_label": [
+            "MercyMe"
+        ]
+    },
+    {
+        "idx": 81,
+        "question": "What is the reception of the film based on the novel written by Jeanne DuPrau?",
+        "question_id": "5286794233177654844_1_2hop",
+        "gt_label": [
+            "Mixed reviews"
+        ]
+    },
+    {
+        "idx": 82,
+        "question": "What is the Rotten Tomatoes score for the film that Bill Murray acted in?",
+        "question_id": "5286794233177654844_2_2hop",
+        "gt_label": [
+            "53%"
+        ]
+    },
+    {
+        "idx": 83,
+        "question": "What type of album did the singer who sings in multiple languages sing for?",
+        "question_id": "1382016378887661878_0_2hop",
+        "gt_label": [
+            "International"
+        ]
+    },
+    {
+        "idx": 84,
+        "question": "What nationality is the singer of the song that has sold over three million digital downloads in the US?",
+        "question_id": "165771837952974279_1_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 85,
+        "question": "In what year did the player with the most maximum breaks achieve the fastest maximum break?",
+        "question_id": "-2025308299659224215_0_2hop",
+        "gt_label": [
+            "1997"
+        ]
+    },
+    {
+        "idx": 86,
+        "question": "What is the nationality of the player who made the 100th maximum break?",
+        "question_id": "-2025308299659224215_2_2hop",
+        "gt_label": [
+            "English"
+        ]
+    },
+    {
+        "idx": 87,
+        "question": "What year did the American Football League team, which has a rivalry with the Miami Dolphins, adopt its current uniform and logo design?",
+        "question_id": "-7200470736507161143_0_2hop",
+        "gt_label": [
+            "1998"
+        ]
+    },
+    {
+        "idx": 88,
+        "question": "What is the official language of the country where CARICOM is headquartered?",
+        "question_id": "4521728595361069101_0_2hop",
+        "gt_label": [
+            "English"
+        ]
+    },
+    {
+        "idx": 89,
+        "question": "What is the occupation of the person who was told to hide himself in the Wadi Chorath east of the Jordan?",
+        "question_id": "2545343162127074954_0_2hop",
+        "gt_label": [
+            "Prophet"
+        ]
+    },
+    {
+        "idx": 90,
+        "question": "What is the country where the song by the group that holds the record for longest run at number one on the \"Billboard\" Hot 100 was certified Diamond for sales of over 800,000 digital downloads?",
+        "question_id": "1069039464452999504_2_2hop",
+        "gt_label": [
+            "Canada"
+        ]
+    },
+    {
+        "idx": 91,
+        "question": "In which country were the Winter Olympics held in 1976?",
+        "question_id": "2702623331227216654_0_2hop",
+        "gt_label": [
+            "Sweden"
+        ]
+    },
+    {
+        "idx": 92,
+        "question": "What is the country of citizenship of the most recognizable composer in other countries?",
+        "question_id": "-4419975866641434841_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 93,
+        "question": "In which city did the film directed by Luca Guadagnino begin its limited run?",
+        "question_id": "1649663258062447666_2_2hop",
+        "gt_label": [
+            "New York City"
+        ]
+    },
+    {
+        "idx": 94,
+        "question": "What actress plays a character who has feelings for Damon?",
+        "question_id": "1073305318478591594_1_2hop",
+        "gt_label": [
+            "Nina Dobrev"
+        ]
+    },
+    {
+        "idx": 95,
+        "question": "What company is the producer of the TV series that is broadcast on NBC?",
+        "question_id": "4230989846806746977_2_2hop",
+        "gt_label": [
+            "20th Century Fox Television"
+        ]
+    },
+    {
+        "idx": 96,
+        "question": "Who is the director of the film that was criticised by the director of \"Jinnah\"?",
+        "question_id": "-8855134068594829495_1_2hop",
+        "gt_label": [
+            "Richard Attenborough"
+        ]
+    },
+    {
+        "idx": 97,
+        "question": "What city is the filming location of the TV show associated with HBO?",
+        "question_id": "5706779148132378909_0_2hop",
+        "gt_label": [
+            "Belfast"
+        ]
+    },
+    {
+        "idx": 98,
+        "question": "What continent is the character played by the person who originally wanted to become a journalist from?",
+        "question_id": "375030001683269400_2_2hop",
+        "gt_label": [
+            "Westeros"
+        ]
+    },
+    {
+        "idx": 99,
+        "question": "In which state is the city on the trade route from Mathura to Varanasi and Rajgir located?",
+        "question_id": "3049646401961236550_1_2hop",
+        "gt_label": [
+            "Uttar Pradesh"
+        ]
+    },
+    {
+        "idx": 100,
+        "question": "In which year did the company that filed for bankruptcy in the Southern District of New York experience a revenue drop?",
+        "question_id": "4230706759875544410_0_2hop",
+        "gt_label": [
+            "1997"
+        ]
+    },
+    {
+        "idx": 101,
+        "question": "Who directed the film that features Darth Vader, who is part of the Galactic Empire?",
+        "question_id": "-7045749074416456493_0_2hop",
+        "gt_label": [
+            "Irvin Kershner"
+        ]
+    },
+    {
+        "idx": 102,
+        "question": "Who is the composer of the song honored by the ASCAP?",
+        "question_id": "3215819941698895338_0_2hop",
+        "gt_label": [
+            "Roger Hodgson"
+        ]
+    },
+    {
+        "idx": 103,
+        "question": "What is the name of the album by the band that Roger Hodgson is a member of, which was released in 1977?",
+        "question_id": "3215819941698895338_1_2hop",
+        "gt_label": [
+            "Even in the Quietest Moments..."
+        ]
+    },
+    {
+        "idx": 104,
+        "question": "What TV channel did the show hosted by Ravi Dubey premiere on?",
+        "question_id": "-6306994329889601864_2_2hop",
+        "gt_label": [
+            "Colors TV"
+        ]
+    },
+    {
+        "idx": 105,
+        "question": "What college did the star of \"Hee Haw\" who recorded comedy-music albums attend?",
+        "question_id": "-2410419214535218171_0_2hop",
+        "gt_label": [
+            "Mars Hill College"
+        ]
+    },
+    {
+        "idx": 106,
+        "question": "What club is associated with the winners of the award given to the best player in the FIFA World Cup?",
+        "question_id": "-7814557214388303516_0_2hop",
+        "gt_label": [
+            "Barcelona"
+        ]
+    },
+    {
+        "idx": 107,
+        "question": "Who wrote the song that The Beatles recorded a version of during the Get Back sessions?",
+        "question_id": "-7265634707282045637_0_2hop",
+        "gt_label": [
+            "Little Richard"
+        ]
+    },
+    {
+        "idx": 108,
+        "question": "What nationality is the band that went on tour with Chase Atlantic?",
+        "question_id": "8969786332933050711_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 109,
+        "question": "What party did the president who was defeated by Jimmy Carter belong to?",
+        "question_id": "4932493826204797977_1_2hop",
+        "gt_label": [
+            "Republican"
+        ]
+    },
+    {
+        "idx": 110,
+        "question": "Who is the head coach of the college McClung is committed to?",
+        "question_id": "304785445526999282_0_2hop",
+        "gt_label": [
+            "Patrick Ewing"
+        ]
+    },
+    {
+        "idx": 111,
+        "question": "What city is a hub for both US Airways and Piedmont Airlines?",
+        "question_id": "-6618865702711778226_1_2hop",
+        "gt_label": [
+            "Charlotte"
+        ]
+    },
+    {
+        "idx": 112,
+        "question": "What is the nationality of the author of the novel that takes place in Delhi and Bangalore?",
+        "question_id": "2828944649428470163_1_2hop",
+        "gt_label": [
+            "Indian"
+        ]
+    },
+    {
+        "idx": 113,
+        "question": "What is the title of the 2013 American animated film about the princess of Arendelle?",
+        "question_id": "1893168743348691118_0_2hop",
+        "gt_label": [
+            "Frozen"
+        ]
+    },
+    {
+        "idx": 114,
+        "question": "In what state did Brooks Koepka win the 2018 U.S. Open?",
+        "question_id": "-4733868721660952677_2_2hop",
+        "gt_label": [
+            "New York"
+        ]
+    },
+    {
+        "idx": 115,
+        "question": "Who portrays the character that is friends with Sheldon Cooper?",
+        "question_id": "4685387790423706475_1_2hop",
+        "gt_label": [
+            "Kaley Cuoco"
+        ]
+    },
+    {
+        "idx": 116,
+        "question": "What company released the film directed by Joe Dante?",
+        "question_id": "-7232390237590691171_0_2hop",
+        "gt_label": [
+            "Warner Home Video"
+        ]
+    },
+    {
+        "idx": 117,
+        "question": "Who directed the film that starred the actor who played Oliver Queen in \"Arrow\"?",
+        "question_id": "3502069805959681607_0_2hop",
+        "gt_label": [
+            "Dave Green"
+        ]
+    },
+    {
+        "idx": 118,
+        "question": "What is the name of the web series of the person who voices a character in a Netflix original animated series?",
+        "question_id": "7604758203535719875_0_2hop",
+        "gt_label": [
+            "Penelope Princess of Pets"
+        ]
+    },
+    {
+        "idx": 119,
+        "question": "What is the name of the company that installed the solar power plant at the first fully solar powered airport in the world?",
+        "question_id": "3398795161453273259_1_2hop",
+        "gt_label": [
+            "Bosch Ltd."
+        ]
+    },
+    {
+        "idx": 120,
+        "question": "What company produced the film adaptation of a novel written by Scott O'Dell?",
+        "question_id": "-1660402422952905825_1_2hop",
+        "gt_label": [
+            "Universal Pictures"
+        ]
+    },
+    {
+        "idx": 121,
+        "question": "What is the nationality of the artist associated with \"The Ultimate Hits\" Collection, which featured \"Austin City Limits\"?",
+        "question_id": "1418442352495508081_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 122,
+        "question": "What television show features the actor who played Clyde Barrow?",
+        "question_id": "5565965362526222268_0_2hop",
+        "gt_label": [
+            "Monty Python's Flying Circus"
+        ]
+    },
+    {
+        "idx": 123,
+        "question": "What is the nationality of the actor who played a character in \"Merry Christmas, Drake & Josh\"?",
+        "question_id": "8372506389764670500_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 124,
+        "question": "Who was the master of the most famous artist of the German Renaissance?",
+        "question_id": "-8968845041314663850_0_2hop",
+        "gt_label": [
+            "Michael Wolgemut"
+        ]
+    },
+    {
+        "idx": 125,
+        "question": "What is the country of citizenship of the person who was educated at University College London?",
+        "question_id": "4048384906795734481_0_2hop",
+        "gt_label": [
+            "England"
+        ]
+    },
+    {
+        "idx": 126,
+        "question": "In what year did the voice actor of Doc Hudson die?",
+        "question_id": "-2258198823524440602_1_2hop",
+        "gt_label": [
+            "2008"
+        ]
+    },
+    {
+        "idx": 127,
+        "question": "What nationality is the actress who portrayed the title character in the television series and was later criticized for her persona?",
+        "question_id": "9703582676488061_2_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 128,
+        "question": "In what year was the film released in which Andy Serkis played the role of Caesar?",
+        "question_id": "-8941073225677651262_0_2hop",
+        "gt_label": [
+            "2011"
+        ]
+    },
+    {
+        "idx": 129,
+        "question": "What was the original name of the person who worked with Adam West in the film \"Batman: The Movie\"?",
+        "question_id": "-1517209544476686965_2_2hop",
+        "gt_label": [
+            "Gervis"
+        ]
+    },
+    {
+        "idx": 130,
+        "question": "Who wrote the song that Kree Harrison sang on American Idol?",
+        "question_id": "-7359504353912795143_0_2hop",
+        "gt_label": [
+            "Kris Kristofferson"
+        ]
+    },
+    {
+        "idx": 131,
+        "question": "In which city is the University of California, San Francisco located?",
+        "question_id": "-4710027936377573287_0_2hop",
+        "gt_label": [
+            "San Francisco"
+        ]
+    },
+    {
+        "idx": 132,
+        "question": "What is the name of the person who created the series where Harris played Dr. Smith and also created \"Space Academy\"?",
+        "question_id": "6978760993529891125_1_2hop",
+        "gt_label": [
+            "Irwin Allen"
+        ]
+    },
+    {
+        "idx": 133,
+        "question": "Who played Carlisle Cullen in the Twilight film adaptation, and also co-starred with Christian Slater?",
+        "question_id": "-4386063288756064802_0_2hop",
+        "gt_label": [
+            "Peter Facinelli"
+        ]
+    },
+    {
+        "idx": 134,
+        "question": "What continent is the country where the Kia Soul is manufactured located in?",
+        "question_id": "1520390685089352632_2_2hop",
+        "gt_label": [
+            "Asia"
+        ]
+    },
+    {
+        "idx": 135,
+        "question": "A.A. Milne's country home is in which county in England?",
+        "question_id": "7833311422233034089_0_2hop",
+        "gt_label": [
+            "East Sussex"
+        ]
+    },
+    {
+        "idx": 136,
+        "question": "What type of movement is the International Committee of the Red Cross part of?",
+        "question_id": "3240082031212052385_1_2hop",
+        "gt_label": [
+            "International humanitarian movement"
+        ]
+    },
+    {
+        "idx": 137,
+        "question": "Who developed the operating system that dropped support for iPhone 4S?",
+        "question_id": "-6164724462695719308_0_2hop",
+        "gt_label": [
+            "Apple Inc."
+        ]
+    },
+    {
+        "idx": 138,
+        "question": "What is the nationality of the poet who wrote about the character played by famous actors in Shakespeare's play?",
+        "question_id": "441658759958091200_1_2hop",
+        "gt_label": [
+            "English"
+        ]
+    },
+    {
+        "idx": 139,
+        "question": "What TV series is the actor who struggled in Hollywood as a closeted actor part of?",
+        "question_id": "3078254829229473830_1_2hop",
+        "gt_label": [
+            "The Flash"
+        ]
+    },
+    {
+        "idx": 140,
+        "question": "Which division includes a team that joined the league in 1995?",
+        "question_id": "-2345580553301833619_0_2hop",
+        "gt_label": [
+            "NFC South"
+        ]
+    },
+    {
+        "idx": 141,
+        "question": "What part of the brain is the hippocampus connected to a structure located in?",
+        "question_id": "-4362668240173089306_2_2hop",
+        "gt_label": [
+            "Forebrain"
+        ]
+    },
+    {
+        "idx": 142,
+        "question": "What is the name of the main character in the book written by Jeff Kinney?",
+        "question_id": "-450228645259827754_2_2hop",
+        "gt_label": [
+            "Greg Heffley"
+        ]
+    },
+    {
+        "idx": 143,
+        "question": "What was the position of Angelo Mozilo in the company that was purchased by the parent company of Bank of America Home Loans?",
+        "question_id": "8226594507078887108_0_2hop",
+        "gt_label": [
+            "CEO"
+        ]
+    },
+    {
+        "idx": 144,
+        "question": "What is the nationality of the singer who performs \"Red Red Wine\" live using the UB40 reggae arrangement?",
+        "question_id": "-2516653022072675445_1_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 145,
+        "question": "At what address is the stock exchange located where the Bank of New York has its shares traded?",
+        "question_id": "-1182030867488307312_0_2hop",
+        "gt_label": [
+            "11 Wall Street"
+        ]
+    },
+    {
+        "idx": 146,
+        "question": "Who is the leading man in the film co-produced by Jerry Bruckheimer Films?",
+        "question_id": "5677693259525085129_0_2hop",
+        "gt_label": [
+            "Denzel Washington"
+        ]
+    },
+    {
+        "idx": 147,
+        "question": "Which country's local rightsholder has rights to the Olympics through to 2024?",
+        "question_id": "1847077991146873208_2_2hop",
+        "gt_label": [
+            "South Korea"
+        ]
+    },
+    {
+        "idx": 148,
+        "question": "At what age did Quinn Sullivan appear on the TV show that gave him a Gibson ES-335 guitar?",
+        "question_id": "-4913363532567722618_1_2hop",
+        "gt_label": [
+            "Six"
+        ]
+    },
+    {
+        "idx": 149,
+        "question": "What is the country of citizenship of the fastest man in the world?",
+        "question_id": "-267326166911504395_1_2hop",
+        "gt_label": [
+            "Jamaica"
+        ]
+    },
+    {
+        "idx": 150,
+        "question": "What is the publisher of the video game series that Angelina Jolie's character is from?",
+        "question_id": "5581580015757710127_1_2hop",
+        "gt_label": [
+            "Eidos"
+        ]
+    },
+    {
+        "idx": 151,
+        "question": "What is the nationality of the singer who spoke to \"Mojo\"?",
+        "question_id": "-2688523342687459945_0_2hop",
+        "gt_label": [
+            "Welsh"
+        ]
+    },
+    {
+        "idx": 152,
+        "question": "Who commented on how to outline a company's goal?",
+        "question_id": "5656388729994422903_1_2hop",
+        "gt_label": [
+            "Richard Branson"
+        ]
+    },
+    {
+        "idx": 153,
+        "question": "What band was Adler set to join after leaving the band founded by Axl Rose and Izzy Stradlin?",
+        "question_id": "-3068131541685394725_1_2hop",
+        "gt_label": [
+            "AC/DC"
+        ]
+    },
+    {
+        "idx": 154,
+        "question": "What company developed the game that The Taken King is an expansion for?",
+        "question_id": "3475685364572728529_0_2hop",
+        "gt_label": [
+            "Bungie"
+        ]
+    },
+    {
+        "idx": 155,
+        "question": "In what type of neighborhood does the bus terminate?",
+        "question_id": "-3696037775809290736_2_2hop",
+        "gt_label": [
+            "Jewish"
+        ]
+    },
+    {
+        "idx": 156,
+        "question": "In which continent are the countries located where the research and production sites of the project led by the United States are situated?",
+        "question_id": "8801362979789138983_1_2hop",
+        "gt_label": [
+            "North America"
+        ]
+    },
+    {
+        "idx": 157,
+        "question": "What nationality is the band that Frankie Banali is the drummer of?",
+        "question_id": "-1685090285093111549_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 158,
+        "question": "In what year were the countries that hosted the 2002 FIFA World Cup selected as hosts?",
+        "question_id": "-1590599713728502312_0_2hop",
+        "gt_label": [
+            "1996"
+        ]
+    },
+    {
+        "idx": 159,
+        "question": "What type of film did John Patrick Shanley write?",
+        "question_id": "-4844245625611114334_1_2hop",
+        "gt_label": [
+            "Romantic comedy"
+        ]
+    },
+    {
+        "idx": 160,
+        "question": "What is the name of the network that aired the season with a 94% approval rating on Rotten Tomatoes?",
+        "question_id": "-1673149607296222381_0_2hop",
+        "gt_label": [
+            "HBO"
+        ]
+    },
+    {
+        "idx": 161,
+        "question": "Which actor who won an Emmy Award is part of the cast of the show that has a Facebook page hosted by HBO?",
+        "question_id": "-1673149607296222381_2_2hop",
+        "gt_label": [
+            "Peter Dinklage"
+        ]
+    },
+    {
+        "idx": 162,
+        "question": "What is the nationality of the designer of the gift to the United States?",
+        "question_id": "238616731349431462_1_2hop",
+        "gt_label": [
+            "French"
+        ]
+    },
+    {
+        "idx": 163,
+        "question": "What state is the road named in the album that features the song \"A Pirate Looks at Forty\"?",
+        "question_id": "5807634001891133125_0_2hop",
+        "gt_label": [
+            "Florida"
+        ]
+    },
+    {
+        "idx": 164,
+        "question": "What award did the film associated with William Joyce, the author and co-producer of the series, receive?",
+        "question_id": "-3501118930297372743_1_2hop",
+        "gt_label": [
+            "Hollywood Animation Award"
+        ]
+    },
+    {
+        "idx": 165,
+        "question": "What company released the film produced by Cecil B. DeMille?",
+        "question_id": "4159929465534173549_2_2hop",
+        "gt_label": [
+            "Paramount Pictures"
+        ]
+    },
+    {
+        "idx": 166,
+        "question": "What university did the player for the Houston Rockets attend?",
+        "question_id": "8136413788040650155_1_2hop",
+        "gt_label": [
+            "Wake Forest University"
+        ]
+    },
+    {
+        "idx": 167,
+        "question": "Where did the actress who played a role in \"Supernatural\" perform in a Broadway theatre production?",
+        "question_id": "-4260489981642835680_1_2hop",
+        "gt_label": [
+            "Guthrie Theater"
+        ]
+    },
+    {
+        "idx": 168,
+        "question": "What country is the mother of the actress who plays Ruth Langmore in the Netflix series \"Ozark\" from?",
+        "question_id": "5654736096578152581_0_2hop",
+        "gt_label": [
+            "Israel"
+        ]
+    },
+    {
+        "idx": 169,
+        "question": "Which team played in the Super Bowl where Justin Timberlake performed?",
+        "question_id": "8740634485661755846_0_2hop",
+        "gt_label": [
+            "The Eagles"
+        ]
+    },
+    {
+        "idx": 170,
+        "question": "What is the nationality of the rock band that performed at Nippon Budokan?",
+        "question_id": "-6659376382984372667_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 171,
+        "question": "What did the act replaced by the Every Student Succeeds Act require states to develop?",
+        "question_id": "-5933817941341944587_0_2hop",
+        "gt_label": [
+            "Assessments"
+        ]
+    },
+    {
+        "idx": 172,
+        "question": "What nationality is the television series that Kyle Chandler is an actor in?",
+        "question_id": "1447988273536048687_1_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 173,
+        "question": "In which country did Japan's Ministry of International Trade and Industry initiate a project?",
+        "question_id": "-3899287147635543035_0_2hop",
+        "gt_label": [
+            "Japan"
+        ]
+    },
+    {
+        "idx": 174,
+        "question": "What is the nationality of the person who may have masterminded the theft of the \"Mona Lisa\"?",
+        "question_id": "933468258864776092_1_2hop",
+        "gt_label": [
+            "Italian"
+        ]
+    },
+    {
+        "idx": 175,
+        "question": "What city is the birthplace of the actress associated with the show based on Piper Kerman's memoir?",
+        "question_id": "3207794978890044044_2_2hop",
+        "gt_label": [
+            "Boston"
+        ]
+    },
+    {
+        "idx": 176,
+        "question": "What company took over the brand of dolls sold by Xavier Roberts?",
+        "question_id": "-159413386921321352_0_2hop",
+        "gt_label": [
+            "Mattel"
+        ]
+    },
+    {
+        "idx": 177,
+        "question": "What award did the children's entertainment act that Genevieve Goings is part of win in 2007?",
+        "question_id": "-7137983552683740938_2_2hop",
+        "gt_label": [
+            "Parents' Choice Award"
+        ]
+    },
+    {
+        "idx": 178,
+        "question": "What was the cause of death of the lyricist who wrote the soundtrack album with Alan Menken?",
+        "question_id": "7341677686200798923_0_2hop",
+        "gt_label": [
+            "AIDS"
+        ]
+    },
+    {
+        "idx": 179,
+        "question": "In what state is the rivalry between two collegiate teams located?",
+        "question_id": "1728429312103042571_0_2hop",
+        "gt_label": [
+            "Alabama"
+        ]
+    },
+    {
+        "idx": 180,
+        "question": "What is the name of the director of the film that features the character Dory?",
+        "question_id": "-8632724300237885128_2_2hop",
+        "gt_label": [
+            "Andrew Stanton"
+        ]
+    },
+    {
+        "idx": 181,
+        "question": "What company released the film that stars Sally Field as Aunt May?",
+        "question_id": "-5274672762718319946_0_2hop",
+        "gt_label": [
+            "Sony Pictures Home Entertainment"
+        ]
+    },
+    {
+        "idx": 182,
+        "question": "What is the number of bits in the character set used in the country for which ISCII is an encoding?",
+        "question_id": "8097222833582194293_2_2hop",
+        "gt_label": [
+            "7"
+        ]
+    },
+    {
+        "idx": 183,
+        "question": "What is the nationality of the rock band whose song is featured in the film \"Mystery Men\"?",
+        "question_id": "880223852499207581_1_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 184,
+        "question": "What band performs the song featured in the movie \"Mystery Men\"?",
+        "question_id": "880223852499207581_2_2hop",
+        "gt_label": [
+            "Smash Mouth"
+        ]
+    },
+    {
+        "idx": 185,
+        "question": "What is the name of the home stadium of the team that participated in Super Bowl XLIII?",
+        "question_id": "8908217149513797343_2_2hop",
+        "gt_label": [
+            "University of Phoenix Stadium"
+        ]
+    },
+    {
+        "idx": 186,
+        "question": "What continent is a country with an age of consent of 16 located in?",
+        "question_id": "5328582025028493628_0_2hop",
+        "gt_label": [
+            "Africa"
+        ]
+    },
+    {
+        "idx": 187,
+        "question": "How old was Jacob's father when Jacob was born?",
+        "question_id": "4461649429439597158_1_2hop",
+        "gt_label": [
+            "60"
+        ]
+    },
+    {
+        "idx": 188,
+        "question": "Who is the founder of the party that won all 32 assembly seats in Sikkim Legislative Assembly in 2009?",
+        "question_id": "3472467800623517596_0_2hop",
+        "gt_label": [
+            "Pawan Kumar Chamling"
+        ]
+    },
+    {
+        "idx": 189,
+        "question": "Who is the Chief Minister of the state that was visited by Narendra Modi?",
+        "question_id": "3472467800623517596_2_2hop",
+        "gt_label": [
+            "Pawan Kumar Chamling"
+        ]
+    },
+    {
+        "idx": 190,
+        "question": "Who is the author of the novel about the company near Charlie Bucket's home?",
+        "question_id": "3881748030966662034_1_2hop",
+        "gt_label": [
+            "Roald Dahl"
+        ]
+    },
+    {
+        "idx": 191,
+        "question": "What is the Metacritic rating of the fifth season of the television drama series that aired on FX?",
+        "question_id": "642517333877300094_0_2hop",
+        "gt_label": [
+            "72"
+        ]
+    },
+    {
+        "idx": 192,
+        "question": "What company produced the film whose character's figure was released by The Disney Store?",
+        "question_id": "4965171297562089389_0_2hop",
+        "gt_label": [
+            "Walt Disney Animation Studios"
+        ]
+    },
+    {
+        "idx": 193,
+        "question": "What is the name of the company that produced the film featuring a character who will make a debut appearance in Kingdom Hearts III?",
+        "question_id": "4965171297562089389_2_2hop",
+        "gt_label": [
+            "Walt Disney Animation Studios"
+        ]
+    },
+    {
+        "idx": 194,
+        "question": "What country has a version of the album from which the Doors released \"People Are Strange\"?",
+        "question_id": "-7097541671108899988_0_2hop",
+        "gt_label": [
+            "Japan"
+        ]
+    },
+    {
+        "idx": 195,
+        "question": "What is the name of the folk music singer who wrote and sang the song that appears in the TV series Sisters?",
+        "question_id": "1635960264719528344_2_2hop",
+        "gt_label": [
+            "Melanie"
+        ]
+    },
+    {
+        "idx": 196,
+        "question": "What is the title of the TV show created and produced by the person who produced the show that Kathie Lee Gifford worked on as a singer?",
+        "question_id": "-6592884301141405407_0_2hop",
+        "gt_label": [
+            "This Is Your Life"
+        ]
+    },
+    {
+        "idx": 197,
+        "question": "What type of celestial event is the Sigma Hydrids associated with a constellation?",
+        "question_id": "-2732433755523340434_0_2hop",
+        "gt_label": [
+            "Meteor shower"
+        ]
+    },
+    {
+        "idx": 198,
+        "question": "What continent is the country that is the top destination for international tourist arrivals in located?",
+        "question_id": "571836923204404449_1_2hop",
+        "gt_label": [
+            "South America"
+        ]
+    },
+    {
+        "idx": 199,
+        "question": "What university did the child of a Swedish-born father attend?",
+        "question_id": "-3993035610493716051_2_2hop",
+        "gt_label": [
+            "University College London"
+        ]
+    },
+    {
+        "idx": 200,
+        "question": "What is the nationality of the actor who played Barney Stinson in \"How I Met Your Mother\"?",
+        "question_id": "2414038462629594294_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 201,
+        "question": "What is the country of origin of the band with leftist and revolutionary political views?",
+        "question_id": "7812599167908283438_1_2hop",
+        "gt_label": [
+            "United States"
+        ]
+    },
+    {
+        "idx": 202,
+        "question": "In which country is the city that hosted the 2018 Commonwealth Games located?",
+        "question_id": "9143358019149769534_2_2hop",
+        "gt_label": [
+            "Australia"
+        ]
+    },
+    {
+        "idx": 203,
+        "question": "What continent is Tunisia located in?",
+        "question_id": "-812198783780116130_0_2hop",
+        "gt_label": [
+            "Africa"
+        ]
+    },
+    {
+        "idx": 204,
+        "question": "What language is widely used in the country where Algiers is the capital and most populous city?",
+        "question_id": "-812198783780116130_2_2hop",
+        "gt_label": [
+            "French"
+        ]
+    },
+    {
+        "idx": 205,
+        "question": "What is the nationality of the singer who released the album that includes the song \"Ex's & Oh's\"?",
+        "question_id": "-8880166371370859112_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 206,
+        "question": "What role does the actress who was confirmed to return for the new film as early as March 2013 play in the movie?",
+        "question_id": "-6133777136612951049_2_2hop",
+        "gt_label": [
+            "Leia"
+        ]
+    },
+    {
+        "idx": 207,
+        "question": "What team released an American hit song?",
+        "question_id": "4239295805095466550_2_2hop",
+        "gt_label": [
+            "The Chicago Bears"
+        ]
+    },
+    {
+        "idx": 208,
+        "question": "What is the target audience of the series that features the character played by Dafne Keen?",
+        "question_id": "1470627488685036442_0_2hop",
+        "gt_label": [
+            "Young adults"
+        ]
+    },
+    {
+        "idx": 209,
+        "question": "What company uses the logo of the character that is an adversary of the one modelled after Ken Harris?",
+        "question_id": "-4749105370824636535_2_2hop",
+        "gt_label": [
+            "Partas"
+        ]
+    },
+    {
+        "idx": 210,
+        "question": "What continent is the country named after its geographic location situated in?",
+        "question_id": "807757406487290988_1_2hop",
+        "gt_label": [
+            "Africa"
+        ]
+    },
+    {
+        "idx": 211,
+        "question": "What was the next film directed by the directors of Catfish?",
+        "question_id": "-7330811176711289091_2_2hop",
+        "gt_label": [
+            "Paranormal Activity 3"
+        ]
+    },
+    {
+        "idx": 212,
+        "question": "What is the occupation of Wiley's wife in relation to \"Orange Is the New Black\"?",
+        "question_id": "5584390537897079918_2_2hop",
+        "gt_label": [
+            "Writer"
+        ]
+    },
+    {
+        "idx": 213,
+        "question": "Who wrote poetry about the lake that is part of the national park established by Theodore Roosevelt?",
+        "question_id": "1761143608984220497_2_2hop",
+        "gt_label": [
+            "Joaquin Miller"
+        ]
+    },
+    {
+        "idx": 214,
+        "question": "What country's war crimes led to a payment being made to the Philippines?",
+        "question_id": "4943148846276714353_2_2hop",
+        "gt_label": [
+            "Japan"
+        ]
+    },
+    {
+        "idx": 215,
+        "question": "What group performed the soundtrack of the film starring John Travolta?",
+        "question_id": "268525348435643300_0_2hop",
+        "gt_label": [
+            "The Bee Gees"
+        ]
+    },
+    {
+        "idx": 216,
+        "question": "What is the nationality of the actor who played Hal Carter in \"Picnic\"?",
+        "question_id": "5179493812051437465_0_2hop",
+        "gt_label": [
+            "Romanian American"
+        ]
+    },
+    {
+        "idx": 217,
+        "question": "What city did the actor who has a recurring role in \"Once Upon a Time\" work in?",
+        "question_id": "5179493812051437465_2_2hop",
+        "gt_label": [
+            "New York"
+        ]
+    },
+    {
+        "idx": 218,
+        "question": "On which network does Milo Ventimiglia's show air?",
+        "question_id": "4909085195941176995_0_2hop",
+        "gt_label": [
+            "NBC"
+        ]
+    },
+    {
+        "idx": 219,
+        "question": "What was Leland Stanford's position in the state whose capital is Sacramento?",
+        "question_id": "1033614257731889831_1_2hop",
+        "gt_label": [
+            "Governor"
+        ]
+    },
+    {
+        "idx": 220,
+        "question": "What is the nationality of the native of Dagenham who performed the theme song?",
+        "question_id": "-903662978238257655_1_2hop",
+        "gt_label": [
+            "British"
+        ]
+    },
+    {
+        "idx": 221,
+        "question": "In which country is the airport that serves 28 countries located?",
+        "question_id": "380089363579077994_0_2hop",
+        "gt_label": [
+            "Dominican Republic"
+        ]
+    },
+    {
+        "idx": 222,
+        "question": "What is the major religion in a country with a constitution that prohibits establishing a church?",
+        "question_id": "8383603340527240769_1_2hop",
+        "gt_label": [
+            "Christianity"
+        ]
+    },
+    {
+        "idx": 223,
+        "question": "What record label is the winner of American Idol (season 1) signed with?",
+        "question_id": "6912020554330415465_1_2hop",
+        "gt_label": [
+            "RCA Records"
+        ]
+    },
+    {
+        "idx": 224,
+        "question": "What section of the Australian Constitution grants powers to the Australian Parliament that also has the power to grant money to States?",
+        "question_id": "6622179682980933446_0_2hop",
+        "gt_label": [
+            "Section 51"
+        ]
+    },
+    {
+        "idx": 225,
+        "question": "What chart did both Percy Sledge's recording and the song reach number one on?",
+        "question_id": "-2882356131958038534_2_2hop",
+        "gt_label": [
+            "Billboard Hot 100"
+        ]
+    },
+    {
+        "idx": 226,
+        "question": "What company did the person who has a star on the Hollywood Walk of Fame work with?",
+        "question_id": "-2336256569017875924_0_2hop",
+        "gt_label": [
+            "MGM"
+        ]
+    },
+    {
+        "idx": 227,
+        "question": "Who is the manager of the band that released the song \"Drive\"?",
+        "question_id": "-7559345847011053936_0_2hop",
+        "gt_label": [
+            "Elliot Roberts"
+        ]
+    },
+    {
+        "idx": 228,
+        "question": "What is the nationality of the band that John Lennon was a member of?",
+        "question_id": "2148129937121490144_1_2hop",
+        "gt_label": [
+            "English"
+        ]
+    },
+    {
+        "idx": 229,
+        "question": "In which country did the series set on the SS \"Tipton\" air?",
+        "question_id": "1235766574637230471_2_2hop",
+        "gt_label": [
+            "United Kingdom"
+        ]
+    },
+    {
+        "idx": 230,
+        "question": "In what year was the GT-R's predecessor's nickname given?",
+        "question_id": "-8170213862550956619_1_2hop",
+        "gt_label": [
+            "1989"
+        ]
+    },
+    {
+        "idx": 231,
+        "question": "Who is the author of the novel that has a full text on Project Gutenberg?",
+        "question_id": "-8317488335593325134_0_2hop",
+        "gt_label": [
+            "Henry Fielding"
+        ]
+    },
+    {
+        "idx": 232,
+        "question": "In which city did the founder of the team that won the World Series in 2002 die?",
+        "question_id": "1657651823521818979_0_2hop",
+        "gt_label": [
+            "Anaheim"
+        ]
+    },
+    {
+        "idx": 233,
+        "question": "What is the name of the person associated with the film that was reviewed by Monica Castillo of RogerEbert.com?",
+        "question_id": "-1157751495542966724_1_2hop",
+        "gt_label": [
+            "Tyler Perry"
+        ]
+    },
+    {
+        "idx": 234,
+        "question": "What nationality is the television drama series that Vince Gilligan worked on?",
+        "question_id": "-8299356949529469978_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 235,
+        "question": "What act changed the date of a holiday associated with national cemeteries?",
+        "question_id": "-8266608374478571666_0_2hop",
+        "gt_label": [
+            "The Uniform Monday Holiday Act"
+        ]
+    },
+    {
+        "idx": 236,
+        "question": "What is the nationality of the husband of the actress who plays Christina Ross?",
+        "question_id": "-2078984137560775673_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 237,
+        "question": "What kind of strength does the person captured by the Philistines have?",
+        "question_id": "6293617953404762472_0_2hop",
+        "gt_label": [
+            "Superhuman strength"
+        ]
+    },
+    {
+        "idx": 238,
+        "question": "What city was a real person, who pitted his great strength against the oppressors of Israel, taken to?",
+        "question_id": "6293617953404762472_1_2hop",
+        "gt_label": [
+            "Gaza"
+        ]
+    },
+    {
+        "idx": 239,
+        "question": "What is the name of the band that was set to collaborate with the artist who has a song that reached No. 6 in the UK Singles Chart?",
+        "question_id": "-8883092003495733798_0_2hop",
+        "gt_label": [
+            "In This Moment"
+        ]
+    },
+    {
+        "idx": 240,
+        "question": "What is the title of the 1998 film that the artist of the song \"White Wedding\" appeared in?",
+        "question_id": "-8883092003495733798_2_2hop",
+        "gt_label": [
+            "The Wedding Singer"
+        ]
+    },
+    {
+        "idx": 241,
+        "question": "In what city were the location shots of the film with music by Leonard Bernstein taken?",
+        "question_id": "-193076507773220913_2_2hop",
+        "gt_label": [
+            "New York"
+        ]
+    },
+    {
+        "idx": 242,
+        "question": "Who is the founder of the community that is part of a trading network with The Hilltop community?",
+        "question_id": "3944885784140167864_0_2hop",
+        "gt_label": [
+            "Ezekiel"
+        ]
+    },
+    {
+        "idx": 243,
+        "question": "What company distributed the film that Jamie Lee Curtis played Laurie Strode in?",
+        "question_id": "6272317711834640943_0_2hop",
+        "gt_label": [
+            "Universal Pictures"
+        ]
+    },
+    {
+        "idx": 244,
+        "question": "Which country has a similar celebration to the Philippines in honoring the dead?",
+        "question_id": "7382361436323995714_0_2hop",
+        "gt_label": [
+            "Mexico"
+        ]
+    },
+    {
+        "idx": 245,
+        "question": "Who was the first Prime Minister of the country that gained independence from the United Kingdom?",
+        "question_id": "-3551482329449390200_2_2hop",
+        "gt_label": [
+            "Jawaharlal Nehru"
+        ]
+    },
+    {
+        "idx": 246,
+        "question": "In what state is the university where Nola Ochs took a class located?",
+        "question_id": "5006034846751961001_0_2hop",
+        "gt_label": [
+            "Kansas"
+        ]
+    },
+    {
+        "idx": 247,
+        "question": "What is the nationality of the actress who reprised her role on \"General Hospital\" in October 2018?",
+        "question_id": "-9029481702400474171_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 248,
+        "question": "What city did the Boeing B-29 Superfortress drop the nuclear bomb?",
+        "question_id": "6935132312874856065_0_2hop",
+        "gt_label": [
+            "Nagasaki"
+        ]
+    },
+    {
+        "idx": 249,
+        "question": "What city did the Boeing B-29 Superfortress drop the nuclear bomb?",
+        "question_id": "6935132312874856065_1_2hop",
+        "gt_label": [
+            "Nagasaki"
+        ]
+    },
+    {
+        "idx": 250,
+        "question": "In what city was the opera about Orfeo and his wife first performed?",
+        "question_id": "8430363323724784255_0_2hop",
+        "gt_label": [
+            "Florence"
+        ]
+    },
+    {
+        "idx": 251,
+        "question": "What is the name of the father of Lisa Ann Russell's husband?",
+        "question_id": "-7047271188915204010_2_2hop",
+        "gt_label": [
+            "Hans Gosselaar"
+        ]
+    },
+    {
+        "idx": 252,
+        "question": "What mental illness is also associated with a symptom of diabetes?",
+        "question_id": "-124254636916786983_1_2hop",
+        "gt_label": [
+            "Schizophrenia"
+        ]
+    },
+    {
+        "idx": 253,
+        "question": "What is the name of the foreign policy style that led to a Nobel Peace Prize for negotiating a peace treaty?",
+        "question_id": "6600787476462997241_0_2hop",
+        "gt_label": [
+            "Big stick ideology"
+        ]
+    },
+    {
+        "idx": 254,
+        "question": "Scholars from which city rediscovered literature that deals with various topics?",
+        "question_id": "-2332590110765947547_2_2hop",
+        "gt_label": [
+            "Jaffna"
+        ]
+    },
+    {
+        "idx": 255,
+        "question": "What region is associated with a revolution that led to the Chalcolithic period?",
+        "question_id": "-5946990978741818458_0_2hop",
+        "gt_label": [
+            "Mesopotamia"
+        ]
+    },
+    {
+        "idx": 256,
+        "question": "What is the animation studio founded by the co-creator of \"Rick and Morty\" best known for producing?",
+        "question_id": "6311896026639308520_0_2hop",
+        "gt_label": [
+            "\"Rick and Morty\""
+        ]
+    },
+    {
+        "idx": 257,
+        "question": "Who is the chairman of the company that Toy Story 3 is produced for?",
+        "question_id": "-4816649482213437877_0_2hop",
+        "gt_label": [
+            "Michael Eisner"
+        ]
+    },
+    {
+        "idx": 258,
+        "question": "In what city is the I-Beam nightclub located?",
+        "question_id": "2289606145375710428_0_2hop",
+        "gt_label": [
+            "San Francisco"
+        ]
+    },
+    {
+        "idx": 259,
+        "question": "Who is the author of the play that was adapted into a film where Paul McCartney was considered for a role?",
+        "question_id": "-3679256474836751665_0_2hop",
+        "gt_label": [
+            "William Shakespeare"
+        ]
+    },
+    {
+        "idx": 260,
+        "question": "Who wrote the song performed by Kate Smith at a Flyers game?",
+        "question_id": "-3015953652013538859_0_2hop",
+        "gt_label": [
+            "Irving Berlin"
+        ]
+    },
+    {
+        "idx": 261,
+        "question": "Who is the person who inspired the song written by Bob Dylan?",
+        "question_id": "7971746991282698473_0_2hop",
+        "gt_label": [
+            "Suze Rotolo"
+        ]
+    },
+    {
+        "idx": 262,
+        "question": "In which city did the Byzantine Empire eventually fall to the Ottoman Empire?",
+        "question_id": "6561342635737832229_0_2hop",
+        "gt_label": [
+            "Istanbul"
+        ]
+    },
+    {
+        "idx": 263,
+        "question": "What is the relationship between Rosa and the inventor of the Caesar salad?",
+        "question_id": "-1673009993299625057_2_2hop",
+        "gt_label": [
+            "Daughter"
+        ]
+    },
+    {
+        "idx": 264,
+        "question": "Who is associated with the producer of the Pirates of the Caribbean film series?",
+        "question_id": "8701129308886388566_2_2hop",
+        "gt_label": [
+            "Stuart Beattie"
+        ]
+    },
+    {
+        "idx": 265,
+        "question": "In which country did Kilian Jornet climb a mountain?",
+        "question_id": "-5876244408048774987_0_2hop",
+        "gt_label": [
+            "Argentina"
+        ]
+    },
+    {
+        "idx": 266,
+        "question": "What is the nationality of the television channel that aired The Fray's video?",
+        "question_id": "-2562967211912327702_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 267,
+        "question": "Who was the Commissioner of the league that was formed as the American Professional Football Association?",
+        "question_id": "1130107018615864543_0_2hop",
+        "gt_label": [
+            "Pete Rozelle"
+        ]
+    },
+    {
+        "idx": 268,
+        "question": "What state is the Metra train station located in?",
+        "question_id": "-7608769638677497433_2_2hop",
+        "gt_label": [
+            "Illinois"
+        ]
+    },
+    {
+        "idx": 269,
+        "question": "What is the country of citizenship of the author of Season of Migration to the North?",
+        "question_id": "-8040108997395557321_0_2hop",
+        "gt_label": [
+            "Sudan"
+        ]
+    },
+    {
+        "idx": 270,
+        "question": "What language is the word for Justice that is equivalent to the Roman goddess from which Lady Justice originates?",
+        "question_id": "-8183174848104393093_1_2hop",
+        "gt_label": [
+            "Greek"
+        ]
+    },
+    {
+        "idx": 271,
+        "question": "What is the surname of the family that holds Yara Greyjoy's brother prisoner?",
+        "question_id": "-8643946298960307768_1_2hop",
+        "gt_label": [
+            "Bolton"
+        ]
+    },
+    {
+        "idx": 272,
+        "question": "In which country were the 2018 Winter Olympics held?",
+        "question_id": "1535817019138657766_1_2hop",
+        "gt_label": [
+            "South Korea"
+        ]
+    },
+    {
+        "idx": 273,
+        "question": "What country was the format of the reality show broadcast in India developed in?",
+        "question_id": "7665986954559929599_0_2hop",
+        "gt_label": [
+            "Netherlands"
+        ]
+    },
+    {
+        "idx": 274,
+        "question": "Who is the owner of the University of Georgia's mascot?",
+        "question_id": "1181305915446390578_1_2hop",
+        "gt_label": [
+            "Sonny Seiler"
+        ]
+    },
+    {
+        "idx": 275,
+        "question": "The city that was founded by the French was later under the rule of what nation?",
+        "question_id": "-1788153961588359331_2_2hop",
+        "gt_label": [
+            "Spain"
+        ]
+    },
+    {
+        "idx": 276,
+        "question": "What is the duration of the longest episode in the season that was pirated more than one billion times?",
+        "question_id": "-4716272419394063602_0_2hop",
+        "gt_label": [
+            "81 minutes"
+        ]
+    },
+    {
+        "idx": 277,
+        "question": "Who is the proprietor of the colony where Germantown was settled?",
+        "question_id": "327846554367894763_0_2hop",
+        "gt_label": [
+            "William Penn"
+        ]
+    },
+    {
+        "idx": 278,
+        "question": "Who developed the city where the German Society of Pennsylvania is headquartered?",
+        "question_id": "327846554367894763_2_2hop",
+        "gt_label": [
+            "William Penn"
+        ]
+    },
+    {
+        "idx": 279,
+        "question": "What is the nationality of the actor who starred in all eight films of the Harry Potter series?",
+        "question_id": "-7734582227901517795_2_2hop",
+        "gt_label": [
+            "English"
+        ]
+    },
+    {
+        "idx": 280,
+        "question": "What is the abbreviation of the region that contains the country of Ethiopia?",
+        "question_id": "-4950677294336516706_2_2hop",
+        "gt_label": [
+            "HOA"
+        ]
+    },
+    {
+        "idx": 281,
+        "question": "In which country was the draw for the 2018 FIFA World Cup held?",
+        "question_id": "-4641104269833912691_2_2hop",
+        "gt_label": [
+            "Russia"
+        ]
+    },
+    {
+        "idx": 282,
+        "question": "What is the country of citizenship of the ally of the country whose emigration was prevented by the Berlin Wall?",
+        "question_id": "279971931277975980_2_2hop",
+        "gt_label": [
+            "Soviet Union"
+        ]
+    },
+    {
+        "idx": 283,
+        "question": "In what city did the director of Dawn of the Planet of the Apes hold the film's premiere?",
+        "question_id": "-5271802559837640420_0_2hop",
+        "gt_label": [
+            "San Francisco"
+        ]
+    },
+    {
+        "idx": 284,
+        "question": "Which god, who was involved in the battle with Mahabali, has an avatar that has temples?",
+        "question_id": "1841587760347698465_1_2hop",
+        "gt_label": [
+            "Vishnu"
+        ]
+    },
+    {
+        "idx": 285,
+        "question": "What is the nationality of the actress who played Willa McPherson in the series \"Dirt\"?",
+        "question_id": "9002906599503249244_1_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 286,
+        "question": "What is the nationality of the singer featured in Eminem's song \"Stan\"?",
+        "question_id": "6601331792695020167_0_2hop",
+        "gt_label": [
+            "English"
+        ]
+    },
+    {
+        "idx": 287,
+        "question": "What organization governs the park where the Art Institute of Chicago is located?",
+        "question_id": "-2209103265376734511_1_2hop",
+        "gt_label": [
+            "Chicago Park District"
+        ]
+    },
+    {
+        "idx": 288,
+        "question": "Who wrote the song recorded by the artist who recorded \"Judith\"?",
+        "question_id": "-708032286562083982_0_2hop",
+        "gt_label": [
+            "Steve Goodman"
+        ]
+    },
+    {
+        "idx": 289,
+        "question": "Who is the director associated with the actor who received an Academy Award nomination for \"The Dark Knight\"?",
+        "question_id": "5521787839373505850_1_2hop",
+        "gt_label": [
+            "Terry Gilliam"
+        ]
+    },
+    {
+        "idx": 290,
+        "question": "Who provides a heart to Dorothy Gale's friend?",
+        "question_id": "-5945144032666678509_0_2hop",
+        "gt_label": [
+            "The Wizard"
+        ]
+    },
+    {
+        "idx": 291,
+        "question": "Who rediscovered the National Historic Landmark that is traversed by Wyoming Highway 28?",
+        "question_id": "-950402265956186085_0_2hop",
+        "gt_label": [
+            "William Henry Ashley"
+        ]
+    },
+    {
+        "idx": 292,
+        "question": "In which state was the movie based on Bill Bryson's book filmed?",
+        "question_id": "-8770678861271889883_1_2hop",
+        "gt_label": [
+            "Georgia"
+        ]
+    },
+    {
+        "idx": 293,
+        "question": "What country's presidents had their seat of power in the office of the current President of the Czech Republic?",
+        "question_id": "-1443289980256197734_0_2hop",
+        "gt_label": [
+            "Czechoslovakia"
+        ]
+    },
+    {
+        "idx": 294,
+        "question": "What is the number of locks in the non-tidal part of the river that rises in Gloucestershire?",
+        "question_id": "3944744779582480247_0_2hop",
+        "gt_label": [
+            "45"
+        ]
+    },
+    {
+        "idx": 295,
+        "question": "In which country was the film written by the Academy Award winner Tom Schulman released?",
+        "question_id": "7461271434196308940_1_2hop",
+        "gt_label": [
+            "United Kingdom"
+        ]
+    },
+    {
+        "idx": 296,
+        "question": "What is the record of Nick Saban against the Tigers?",
+        "question_id": "-4969337787823508490_2_2hop",
+        "gt_label": [
+            "7-4"
+        ]
+    },
+    {
+        "idx": 297,
+        "question": "What continent is the country of citizenship of the oldest person in the world located in?",
+        "question_id": "-1045852036459608515_0_2hop",
+        "gt_label": [
+            "Europe"
+        ]
+    },
+    {
+        "idx": 298,
+        "question": "What is the capital of the state in northern India where the Himalayas border the state on the north?",
+        "question_id": "-2280632646835498596_1_2hop",
+        "gt_label": [
+            "Lucknow"
+        ]
+    },
+    {
+        "idx": 299,
+        "question": "What country is the state with a total area of located in?",
+        "question_id": "-2280632646835498596_2_2hop",
+        "gt_label": [
+            "India"
+        ]
+    },
+    {
+        "idx": 300,
+        "question": "Who is the half-brother of the person who is coping with blindness?",
+        "question_id": "1480047205502539560_0_2hop",
+        "gt_label": [
+            "Malcolm Winters"
+        ]
+    },
+    {
+        "idx": 301,
+        "question": "What record label is signed to the actor in \"Stranger Things\" in the United States and Canada?",
+        "question_id": "6308056065560121986_2_2hop",
+        "gt_label": [
+            "Royal Mountain Records"
+        ]
+    },
+    {
+        "idx": 302,
+        "question": "What is the nationality of the singer who has a DVD called \"Bonnie on Tour\"?",
+        "question_id": "-5550489214924297810_1_2hop",
+        "gt_label": [
+            "Welsh"
+        ]
+    },
+    {
+        "idx": 303,
+        "question": "Is the country where the film \"Jeepers Creepers 3\" was filmed one of the countries where The Oberoi Group has hotels?",
+        "question_id": "-2638841196521838851_2_2hop",
+        "gt_label": [
+            "No"
+        ]
+    },
+    {
+        "idx": 304,
+        "question": "What company acquired the rights to make the film featuring an actress who is interested in returning as Lara Croft?",
+        "question_id": "3395040077012571686_2_2hop",
+        "gt_label": [
+            "GK Films"
+        ]
+    },
+    {
+        "idx": 305,
+        "question": "What is the country of citizenship of the owner of a studio in Holden, Louisiana?",
+        "question_id": "-3992306828155988202_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 306,
+        "question": "What is the name of the soap opera on which Lang plays one of the core characters?",
+        "question_id": "-597157194827193239_0_2hop",
+        "gt_label": [
+            "The Bold and the Beautiful"
+        ]
+    },
+    {
+        "idx": 307,
+        "question": "What is the nationality of the actress who was originally cast as Christine in The Phantom of the Opera (2004 film)?",
+        "question_id": "-2686675434632283946_2_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 308,
+        "question": "Who directed the film for which Kate Winslet was nominated for her role?",
+        "question_id": "-6642144296187590298_0_2hop",
+        "gt_label": [
+            "James Cameron"
+        ]
+    },
+    {
+        "idx": 309,
+        "question": "What company worked with the director of the film about the person arrested for McVitie's murder?",
+        "question_id": "4927014087037632740_1_2hop",
+        "gt_label": [
+            "Working Title"
+        ]
+    },
+    {
+        "idx": 310,
+        "question": "What is the relative position of the feet to the head in humans?",
+        "question_id": "7455848121346983053_2_2hop",
+        "gt_label": [
+            "Below"
+        ]
+    },
+    {
+        "idx": 311,
+        "question": "What artist performed the title song of the film that won five Academy Awards?",
+        "question_id": "-6669705804817775340_1_2hop",
+        "gt_label": [
+            "Ray Charles"
+        ]
+    },
+    {
+        "idx": 312,
+        "question": "What company is associated with the show that received Peabody Awards?",
+        "question_id": "8032253782349938608_2_2hop",
+        "gt_label": [
+            "Comedy Central"
+        ]
+    },
+    {
+        "idx": 313,
+        "question": "What is the nationality of the developer of the scale used by Met \u00c9ireann?",
+        "question_id": "111831984286747349_1_2hop",
+        "gt_label": [
+            "Irish"
+        ]
+    },
+    {
+        "idx": 314,
+        "question": "On which planet was Kylo Ren born?",
+        "question_id": "-7039231001787635562_1_2hop",
+        "gt_label": [
+            "Chandrila"
+        ]
+    },
+    {
+        "idx": 315,
+        "question": "In which country did the song by the artist who performed on The Tonight Show Starring Jimmy Fallon chart?",
+        "question_id": "-2226448970074813724_2_2hop",
+        "gt_label": [
+            "United Kingdom"
+        ]
+    },
+    {
+        "idx": 316,
+        "question": "What is the nationality of the actress who appears in both \"The L Word\" and \"Lie to Me\"?",
+        "question_id": "3778708469880600783_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 317,
+        "question": "Is the senior chief deputy minority whip a Republican?",
+        "question_id": "4556857004836596843_2_2hop",
+        "gt_label": [
+            "No"
+        ]
+    },
+    {
+        "idx": 318,
+        "question": "What type of holiday is associated with the weekend on which The Memorial Tournament golf event is held?",
+        "question_id": "-4158540590071541134_0_2hop",
+        "gt_label": [
+            "Federal holiday"
+        ]
+    },
+    {
+        "idx": 319,
+        "question": "What nationality is the television series that Vera Farmiga acted in?",
+        "question_id": "-8257979084224104259_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 320,
+        "question": "On what date was the mix of the album that contains \"You Never Give Me Your Money\" made?",
+        "question_id": "-1405706666195794114_0_2hop",
+        "gt_label": [
+            "30 July"
+        ]
+    },
+    {
+        "idx": 321,
+        "question": "What was the religion of the champion who won the battle described in the Mozarabic Chronicle of 754?",
+        "question_id": "1054397577000762619_2_2hop",
+        "gt_label": [
+            "Christianity"
+        ]
+    },
+    {
+        "idx": 322,
+        "question": "In what country was the card game that uses two decks of cards devised?",
+        "question_id": "6964423262258531416_1_2hop",
+        "gt_label": [
+            "Uruguay"
+        ]
+    },
+    {
+        "idx": 323,
+        "question": "What is the country of origin of the first African footballer to play in the English Premier League?",
+        "question_id": "6904394328347822499_0_2hop",
+        "gt_label": [
+            "Zimbabwe"
+        ]
+    },
+    {
+        "idx": 324,
+        "question": "Who composed the musical score for the film \"Three Billboards Outside Ebbing, Missouri\"?",
+        "question_id": "1394899863734645549_1_2hop",
+        "gt_label": [
+            "Carter Burwell"
+        ]
+    },
+    {
+        "idx": 325,
+        "question": "Who is the director of the film that has a sequel being directed by the same person?",
+        "question_id": "5419393081882338012_0_2hop",
+        "gt_label": [
+            "Zack Snyder"
+        ]
+    },
+    {
+        "idx": 326,
+        "question": "Was the first Roman Emperor, who was of plebeian origin, a citizen of Rome?",
+        "question_id": "-2362187864077445627_0_2hop",
+        "gt_label": [
+            "Yes"
+        ]
+    },
+    {
+        "idx": 327,
+        "question": "What is the nationality of the composer whose music is compared to Thomas Hart Benton's murals?",
+        "question_id": "882848317758444295_2_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 328,
+        "question": "What is the name of the group whose song Minogue performed on her concert tours?",
+        "question_id": "-8800987976186004715_0_2hop",
+        "gt_label": [
+            "Chairmen of the Board"
+        ]
+    },
+    {
+        "idx": 329,
+        "question": "What is the association of the ancient Vedic goddess who shares the same name as the girl discovered by the King of Mithila?",
+        "question_id": "5336710714332306132_0_2hop",
+        "gt_label": [
+            "Fertility"
+        ]
+    },
+    {
+        "idx": 330,
+        "question": "What is the name of the coach of the team that was ranked No. 1 by the AP Poll, while UCF was ranked No. 6?",
+        "question_id": "8644747900234299127_2_2hop",
+        "gt_label": [
+            "Nick Saban"
+        ]
+    },
+    {
+        "idx": 331,
+        "question": "Which football team did the actor who appeared in \"Starsky and Hutch\" play for?",
+        "question_id": "-5540877244072439652_0_2hop",
+        "gt_label": [
+            "Oakland Raiders"
+        ]
+    },
+    {
+        "idx": 332,
+        "question": "What instrument does the subject of the film Great Balls of Fire! play?",
+        "question_id": "2260004367850979167_0_2hop",
+        "gt_label": [
+            "Piano"
+        ]
+    },
+    {
+        "idx": 333,
+        "question": "Who performed the song featured in the film \"Top Gun\"?",
+        "question_id": "7901498780501780141_1_2hop",
+        "gt_label": [
+            "Kenny Loggins"
+        ]
+    },
+    {
+        "idx": 334,
+        "question": "In which city did the predecessor of \"Dark Phoenix\" premiere?",
+        "question_id": "4723362974938373123_0_2hop",
+        "gt_label": [
+            "London"
+        ]
+    },
+    {
+        "idx": 335,
+        "question": "What is the name of the wife of the Former Marvel Comics writer who had a cameo in \"X-Men: Apocalypse\"?",
+        "question_id": "4723362974938373123_1_2hop",
+        "gt_label": [
+            "Joan"
+        ]
+    },
+    {
+        "idx": 336,
+        "question": "What chapter of the book written by Paul describes the Armor of God?",
+        "question_id": "-1580949668050894237_2_2hop",
+        "gt_label": [
+            "6"
+        ]
+    },
+    {
+        "idx": 337,
+        "question": "What is the nationality of the first-ever player of Manchester United from a certain country?",
+        "question_id": "-1527125065758253572_2_2hop",
+        "gt_label": [
+            "Portuguese"
+        ]
+    },
+    {
+        "idx": 338,
+        "question": "From which airport did Sullenberger's flight take off?",
+        "question_id": "1545874540399174475_0_2hop",
+        "gt_label": [
+            "LaGuardia Airport"
+        ]
+    },
+    {
+        "idx": 339,
+        "question": "From which airport did the flight that ditched in the Hudson River near Manhattan and Weehawken, New Jersey take off?",
+        "question_id": "1545874540399174475_2_2hop",
+        "gt_label": [
+            "LaGuardia"
+        ]
+    },
+    {
+        "idx": 340,
+        "question": "Who wrote the script for the sequel of the film they also wrote?",
+        "question_id": "8131788492664222516_0_2hop",
+        "gt_label": [
+            "Nia Vardalos"
+        ]
+    },
+    {
+        "idx": 341,
+        "question": "In which state was the sister of the most recorded artist in music history born?",
+        "question_id": "-7552302353881988872_2_2hop",
+        "gt_label": [
+            "Madhya Pradesh"
+        ]
+    },
+    {
+        "idx": 342,
+        "question": "What is the title of the members of the body that the Governor is involved in dissolving?",
+        "question_id": "-261180949508940639_1_2hop",
+        "gt_label": [
+            "MLAs"
+        ]
+    },
+    {
+        "idx": 343,
+        "question": "What is the nationality of the actor who played Tonto in the American TV series The Lone Ranger?",
+        "question_id": "-3563122665765606829_2_2hop",
+        "gt_label": [
+            "Canadian"
+        ]
+    },
+    {
+        "idx": 344,
+        "question": "Who is associated with a film that was produced on a $55 million budget and invested $6 million in its production?",
+        "question_id": "-8213490553480167520_0_2hop",
+        "gt_label": [
+            "Andrew Lloyd Webber"
+        ]
+    },
+    {
+        "idx": 345,
+        "question": "Who is associated with the singer who recorded \"Genie in a Bottle\"?",
+        "question_id": "-1885673196779022856_0_2hop",
+        "gt_label": [
+            "Etta James"
+        ]
+    },
+    {
+        "idx": 346,
+        "question": "What is the nationality of the director of the film that Andy Serkis acted in?",
+        "question_id": "979631680833522855_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 347,
+        "question": "What is the nationality of the singer-songwriter whose album was released by Big Machine Records and involved Tim McGraw?",
+        "question_id": "-4423273451577800592_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 348,
+        "question": "What organization publishes an annual Compendium related to the concept that has improved through evolution?",
+        "question_id": "1026918764257116161_0_2hop",
+        "gt_label": [
+            "The OECD"
+        ]
+    },
+    {
+        "idx": 349,
+        "question": "What instrument did the member from Overcast play in Killswitch Engage?",
+        "question_id": "-4906940360873233579_2_2hop",
+        "gt_label": [
+            "Bass"
+        ]
+    },
+    {
+        "idx": 350,
+        "question": "What is the nationality of the author of the book that was adapted into video games by Electronic Arts?",
+        "question_id": "-7506324997539485270_0_2hop",
+        "gt_label": [
+            "British"
+        ]
+    },
+    {
+        "idx": 351,
+        "question": "What is the nationality of the rock band associated with the original version of the song that was covered in the style of Jos\u00e9 Feliciano's version?",
+        "question_id": "1593684483388405307_1_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 352,
+        "question": "In which state is broccoli grown in a country that is a secondary producer of broccoli?",
+        "question_id": "-7783923588773241452_1_2hop",
+        "gt_label": [
+            "California"
+        ]
+    },
+    {
+        "idx": 353,
+        "question": "What is the name of the reserve arrangement established by the group that South Africa is a member of?",
+        "question_id": "5086156697087132556_2_2hop",
+        "gt_label": [
+            "BRICS Contingent Reserve Arrangement"
+        ]
+    },
+    {
+        "idx": 354,
+        "question": "In what city did Don Henley and Glenn Frey record the album of the song they wrote?",
+        "question_id": "4412990613905803099_1_2hop",
+        "gt_label": [
+            "Miami"
+        ]
+    },
+    {
+        "idx": 355,
+        "question": "What type of system of government does the country with a top twenty economy have?",
+        "question_id": "-3900246219649464122_1_2hop",
+        "gt_label": [
+            "Absolute monarchy"
+        ]
+    },
+    {
+        "idx": 356,
+        "question": "Who is the spouse of an actor in Scooby-Doo?",
+        "question_id": "-1886436265922945175_0_2hop",
+        "gt_label": [
+            "Sarah Michelle Gellar"
+        ]
+    },
+    {
+        "idx": 357,
+        "question": "Who wrote the screenplay of the film based on the novel by Dashiell Hammett?",
+        "question_id": "-4090092645632790438_0_2hop",
+        "gt_label": [
+            "Albert Hackett and Frances Goodrich"
+        ]
+    },
+    {
+        "idx": 358,
+        "question": "Who wrote the song recorded by George Jones?",
+        "question_id": "-8364056548540119335_0_2hop",
+        "gt_label": [
+            "Bobby Braddock and Curly Putman"
+        ]
+    },
+    {
+        "idx": 359,
+        "question": "What nationality is Ridgway part of a band?",
+        "question_id": "-1795441533772786673_1_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 360,
+        "question": "Who is the director of the film that received 10 out of 10 stars from Scott Mendelson of \"Forbes\"?",
+        "question_id": "-1684454695926835713_0_2hop",
+        "gt_label": [
+            "George Miller"
+        ]
+    },
+    {
+        "idx": 361,
+        "question": "What country was the president whose autobiography was adapted into the film \"Mandela: Long Walk to Freedom\"?",
+        "question_id": "1241986980009592187_0_2hop",
+        "gt_label": [
+            "South Africa"
+        ]
+    },
+    {
+        "idx": 362,
+        "question": "What is the occupation of the person who remarked that he has only ever been asked by white viewers whether Mookie did the right thing?",
+        "question_id": "-5692079449305377623_1_2hop",
+        "gt_label": [
+            "Film director"
+        ]
+    },
+    {
+        "idx": 363,
+        "question": "What war was the entity that passed the Intolerable Acts involved in?",
+        "question_id": "4179060941393604527_1_2hop",
+        "gt_label": [
+            "Seven Years' War"
+        ]
+    },
+    {
+        "idx": 364,
+        "question": "What is the nationality of the Slayer in the series?",
+        "question_id": "-5723360481991307181_1_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 365,
+        "question": "What is the relationship between Azazel and the mother of John's son?",
+        "question_id": "2217405633688805024_1_2hop",
+        "gt_label": [
+            "Father"
+        ]
+    },
+    {
+        "idx": 366,
+        "question": "What is the nationality of the cast member of \"The Facts of Life\" who refused a storyline that would have made her character the first among the four main young women on the show to lose her virginity?",
+        "question_id": "2187036874987404612_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 367,
+        "question": "What show did the star of \"The Facts of Life\" appear on in 2012?",
+        "question_id": "2187036874987404612_1_2hop",
+        "gt_label": [
+            "Survivor"
+        ]
+    },
+    {
+        "idx": 368,
+        "question": "What continent is the country of citizenship of the president who issued a proclamation of the Vietnam War located in?",
+        "question_id": "4117873923873533335_0_2hop",
+        "gt_label": [
+            "Asia"
+        ]
+    },
+    {
+        "idx": 369,
+        "question": "What organization did the actress who played Wonder Woman participate in an event with, related to the Empowerment of Women and Girls?",
+        "question_id": "-2211270112897054069_0_2hop",
+        "gt_label": [
+            "United Nations"
+        ]
+    },
+    {
+        "idx": 370,
+        "question": "What is the nationality of Nick Offerman's wife?",
+        "question_id": "4377931241651558594_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 371,
+        "question": "What crop is produced in the country whose economy is supported by its agricultural industry?",
+        "question_id": "-8488358311228167346_2_2hop",
+        "gt_label": [
+            "Vanilla"
+        ]
+    },
+    {
+        "idx": 372,
+        "question": "In which country did the director of the sequel to \"Alice in Wonderland\" work on a film that was released?",
+        "question_id": "4254772560037112289_0_2hop",
+        "gt_label": [
+            "UK"
+        ]
+    },
+    {
+        "idx": 373,
+        "question": "In what city does the character played by an actress in the film Something Borrowed go to?",
+        "question_id": "-7574769788311422777_1_2hop",
+        "gt_label": [
+            "London"
+        ]
+    },
+    {
+        "idx": 374,
+        "question": "Who is the actor who plays Indiana's father in the third installment of the Indiana Jones franchise directed by Steven Spielberg?",
+        "question_id": "-3668369254141613538_1_2hop",
+        "gt_label": [
+            "Sean Connery"
+        ]
+    },
+    {
+        "idx": 375,
+        "question": "In which magazine was Kate Chopin's work published?",
+        "question_id": "-87015785531224490_0_2hop",
+        "gt_label": [
+            "Vogue"
+        ]
+    },
+    {
+        "idx": 376,
+        "question": "Who plays the wife of Sanjay Dutt in the film \"Sanju\"?",
+        "question_id": "6074047652133728264_0_2hop",
+        "gt_label": [
+            "Dia Mirza"
+        ]
+    },
+    {
+        "idx": 377,
+        "question": "What nationality is the singer that Fernando Garibay collaborated with?",
+        "question_id": "-7369414213544299319_2_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 378,
+        "question": "What is the name of the singer of the song featured in the TV series Sisters?",
+        "question_id": "5751540676636955251_2_2hop",
+        "gt_label": [
+            "Melanie"
+        ]
+    },
+    {
+        "idx": 379,
+        "question": "Who directed the film that Mike Myers provided voice acting for?",
+        "question_id": "-63212217403420384_2_2hop",
+        "gt_label": [
+            "Chris Miller"
+        ]
+    },
+    {
+        "idx": 380,
+        "question": "What is the nationality of the actress who played the role of the little sister?",
+        "question_id": "8504183877526910857_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 381,
+        "question": "What is the nationality of the television series that Lennie James is associated with?",
+        "question_id": "8984118465112554054_1_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 382,
+        "question": "Who is the husband of the actress who portrays Sansa Stark in Game of Thrones?",
+        "question_id": "-7052945978033872291_1_2hop",
+        "gt_label": [
+            "Joe Jonas"
+        ]
+    },
+    {
+        "idx": 383,
+        "question": "What state does the team that Stephen Curry plays for represent?",
+        "question_id": "-8628591345527136652_1_2hop",
+        "gt_label": [
+            "California"
+        ]
+    },
+    {
+        "idx": 384,
+        "question": "In which city did Jenkins sing a song featuring a vocalist from 12 Stones?",
+        "question_id": "-1409120770638682069_2_2hop",
+        "gt_label": [
+            "London"
+        ]
+    },
+    {
+        "idx": 385,
+        "question": "In what city did the band signed with Syco Records work with RedOne?",
+        "question_id": "3693459640333682880_2_2hop",
+        "gt_label": [
+            "Los Angeles"
+        ]
+    },
+    {
+        "idx": 386,
+        "question": "What is the name of the lead vocalist of the band that recorded the song that has explicit references to Jesus and Heaven?",
+        "question_id": "5180907331378248267_2_2hop",
+        "gt_label": [
+            "Bart Millard"
+        ]
+    },
+    {
+        "idx": 387,
+        "question": "Who appoints the person who appoints the head of the council of ministers in a state?",
+        "question_id": "-6022967361330531017_1_2hop",
+        "gt_label": [
+            "The President"
+        ]
+    },
+    {
+        "idx": 388,
+        "question": "Who is the creator of the first film released in 1977?",
+        "question_id": "-8080273652888190604_2_2hop",
+        "gt_label": [
+            "George Lucas"
+        ]
+    },
+    {
+        "idx": 389,
+        "question": "What type of author is the author of The Phantom of the Opera?",
+        "question_id": "7031640044429525007_2_2hop",
+        "gt_label": [
+            "Crime mystery author"
+        ]
+    },
+    {
+        "idx": 390,
+        "question": "What city's police department does the actor who was offered a role through Richard Belzer play a detective with?",
+        "question_id": "6030257108556131358_1_2hop",
+        "gt_label": [
+            "New York"
+        ]
+    },
+    {
+        "idx": 391,
+        "question": "Who is associated with the iPhone 4S virtual assistant?",
+        "question_id": "-4639445421121157743_0_2hop",
+        "gt_label": [
+            "Becky O'Donohue"
+        ]
+    },
+    {
+        "idx": 392,
+        "question": "What did the creator of The Marvelous Mrs. Maisel write for the pilot episode?",
+        "question_id": "-2413729541426561137_1_2hop",
+        "gt_label": [
+            "Dialogue"
+        ]
+    },
+    {
+        "idx": 393,
+        "question": "In what city did the Willis Tower name change take place?",
+        "question_id": "-3364981961565330415_0_2hop",
+        "gt_label": [
+            "Chicago"
+        ]
+    },
+    {
+        "idx": 394,
+        "question": "What is the nationality of Jennifer Hawks' husband?",
+        "question_id": "-1742539358951240267_2_2hop",
+        "gt_label": [
+            "German"
+        ]
+    },
+    {
+        "idx": 395,
+        "question": "What nationality is the television series owned by The Nashville Network?",
+        "question_id": "-4227975147779389006_1_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 396,
+        "question": "What city has an official anthem associated with Tony Bennett?",
+        "question_id": "-5581404014950681377_0_2hop",
+        "gt_label": [
+            "San Francisco"
+        ]
+    },
+    {
+        "idx": 397,
+        "question": "What is the country of origin of the automobile whose body is used in the pro stock class?",
+        "question_id": "-534489342383631271_0_2hop",
+        "gt_label": [
+            "United States"
+        ]
+    },
+    {
+        "idx": 398,
+        "question": "Who is the writer of the film directed by Zack Snyder?",
+        "question_id": "5906674010321566132_0_2hop",
+        "gt_label": [
+            "Chris Terrio"
+        ]
+    },
+    {
+        "idx": 399,
+        "question": "What video game series does the main protagonist of \"The Nightmare Before Christmas\" appear in?",
+        "question_id": "8189828171446294486_1_2hop",
+        "gt_label": [
+            "Kingdom Hearts"
+        ]
+    },
+    {
+        "idx": 400,
+        "question": "Who is the Sony president who commented on the success of the movie starring Blake Lively?",
+        "question_id": "-3933614079071590048_0_2hop",
+        "gt_label": [
+            "Josh Greenstein"
+        ]
+    },
+    {
+        "idx": 401,
+        "question": "What nationality had a colony that had Africans as slave laborers?",
+        "question_id": "7034702612530709840_0_2hop",
+        "gt_label": [
+            "Dutch"
+        ]
+    },
+    {
+        "idx": 402,
+        "question": "In which city did the subject of the film Sachin: A Billion Dreams promote the film?",
+        "question_id": "-5464179038916494719_2_2hop",
+        "gt_label": [
+            "London"
+        ]
+    },
+    {
+        "idx": 403,
+        "question": "In what city did the band that recorded \"A Horse with No Name\" record some of their songs?",
+        "question_id": "-7033585819545855052_2_2hop",
+        "gt_label": [
+            "London"
+        ]
+    },
+    {
+        "idx": 404,
+        "question": "In what city was Anna Wood's husband born?",
+        "question_id": "-7412215463544563815_0_2hop",
+        "gt_label": [
+            "Allentown"
+        ]
+    },
+    {
+        "idx": 405,
+        "question": "What is the nationality of the father of Lilac and Leone Richmond?",
+        "question_id": "6755727693248303363_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 406,
+        "question": "In which country was the helium spectral line recorded by a person related to its discovery?",
+        "question_id": "8686927723443383954_0_2hop",
+        "gt_label": [
+            "India"
+        ]
+    },
+    {
+        "idx": 407,
+        "question": "What type of TV series is available on Netflix?",
+        "question_id": "-8180011246386869658_2_2hop",
+        "gt_label": [
+            "Fantasy"
+        ]
+    },
+    {
+        "idx": 408,
+        "question": "What type of food is eaten routinely by most of the human population?",
+        "question_id": "5996036527646469530_1_2hop",
+        "gt_label": [
+            "Cereals"
+        ]
+    },
+    {
+        "idx": 409,
+        "question": "Who played the saxophone solo in the song by Billy Joel?",
+        "question_id": "8038126111204781953_0_2hop",
+        "gt_label": [
+            "Phil Woods"
+        ]
+    },
+    {
+        "idx": 410,
+        "question": "What is the nationality of the father of Lilac and Leone Richmond?",
+        "question_id": "-8904648380591290777_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 411,
+        "question": "In which state was a protected monument declared in the town that was permitted to expand to include three surrounding villages as part of the settlement with the Nayak?",
+        "question_id": "1945661284172347310_0_2hop",
+        "gt_label": [
+            "Tamil Nadu"
+        ]
+    },
+    {
+        "idx": 412,
+        "question": "What country did Panama declare independence from and then join initially in 1821?",
+        "question_id": "-5907428535059834356_0_2hop",
+        "gt_label": [
+            "Colombia"
+        ]
+    },
+    {
+        "idx": 413,
+        "question": "What is the Q Score of the actress who appears in \"\" and plays Abby Sciuto on NCIS?",
+        "question_id": "-3381528379467072425_2_2hop",
+        "gt_label": [
+            "44"
+        ]
+    },
+    {
+        "idx": 414,
+        "question": "What is the nationality of Ava Lorenn's mother's husband?",
+        "question_id": "-112472903586799497_2_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 415,
+        "question": "On which network did the show featuring Milo Ventimiglia premiere?",
+        "question_id": "7134338923870264523_2_2hop",
+        "gt_label": [
+            "NBC"
+        ]
+    },
+    {
+        "idx": 416,
+        "question": "What is the capital of a Latin country that has the third most World Heritage Sites in the world?",
+        "question_id": "7984244225665641226_0_2hop",
+        "gt_label": [
+            "Madrid"
+        ]
+    },
+    {
+        "idx": 417,
+        "question": "What is the capital of the country that granted citizenship to people from Ecuador?",
+        "question_id": "7984244225665641226_1_2hop",
+        "gt_label": [
+            "Madrid"
+        ]
+    },
+    {
+        "idx": 418,
+        "question": "What celestial body did the mission associated with Frank Sinatra's version of the song written by Bart Howard orbit?",
+        "question_id": "-6843012136725315531_1_2hop",
+        "gt_label": [
+            "The Moon"
+        ]
+    },
+    {
+        "idx": 419,
+        "question": "In what city is a film produced by Walt Disney Animation Studios set?",
+        "question_id": "6310204385478208627_0_2hop",
+        "gt_label": [
+            "New Orleans"
+        ]
+    },
+    {
+        "idx": 420,
+        "question": "In which city did Charles M. Russell create a significant piece of art in the state capitol building?",
+        "question_id": "582796518271092364_0_2hop",
+        "gt_label": [
+            "Helena"
+        ]
+    },
+    {
+        "idx": 421,
+        "question": "Which artist has a song on the \"Rolling Stone\" list of the 500 Greatest Songs of All Time?",
+        "question_id": "5409549500440559350_0_2hop",
+        "gt_label": [
+            "Prince"
+        ]
+    },
+    {
+        "idx": 422,
+        "question": "What is the original language of the novel that the Phantom of the Opera film is ultimately based on?",
+        "question_id": "-8450467725658266461_0_2hop",
+        "gt_label": [
+            "French"
+        ]
+    },
+    {
+        "idx": 423,
+        "question": "What is the original language of the novel that the Phantom of the Opera film is based on?",
+        "question_id": "-8450467725658266461_2_2hop",
+        "gt_label": [
+            "French"
+        ]
+    },
+    {
+        "idx": 424,
+        "question": "What type of institutions did the first Prime Minister of India establish?",
+        "question_id": "2415865307966682853_1_2hop",
+        "gt_label": [
+            "Institutions of higher learning"
+        ]
+    },
+    {
+        "idx": 425,
+        "question": "What type of teacher is associated with Noblesville High School?",
+        "question_id": "9045317195932473443_2_2hop",
+        "gt_label": [
+            "Science teacher"
+        ]
+    },
+    {
+        "idx": 426,
+        "question": "What is the nationality of Keith Britton's fianc\u00e9e?",
+        "question_id": "-1791014809007626688_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 427,
+        "question": "What is a symptom of a condition that men are more at risk for?",
+        "question_id": "7485809745439944392_2_2hop",
+        "gt_label": [
+            "Shortness of breath"
+        ]
+    },
+    {
+        "idx": 428,
+        "question": "What character is Marvel's first female-led film based on?",
+        "question_id": "6607321314673497808_0_2hop",
+        "gt_label": [
+            "Carol Danvers"
+        ]
+    },
+    {
+        "idx": 429,
+        "question": "What type of chemistry, besides organic chemistry, does the organization responsible for the nomenclature of organic chemistry also provide a nomenclature for?",
+        "question_id": "8846572892971200264_2_2hop",
+        "gt_label": [
+            "Inorganic chemistry"
+        ]
+    },
+    {
+        "idx": 430,
+        "question": "What is the nationality of the author of The General Theory of Employment, Interest and Money?",
+        "question_id": "7935325020752739269_1_2hop",
+        "gt_label": [
+            "English"
+        ]
+    },
+    {
+        "idx": 431,
+        "question": "What company is associated with the format on which Dire Straits' album \"Brothers in Arms\" was released?",
+        "question_id": "154919792870554095_2_2hop",
+        "gt_label": [
+            "Sony"
+        ]
+    },
+    {
+        "idx": 432,
+        "question": "What record label was the winner from Conway, Arkansas signed to?",
+        "question_id": "-1586298431098320696_0_2hop",
+        "gt_label": [
+            "19 Entertainment/Jive Records"
+        ]
+    },
+    {
+        "idx": 433,
+        "question": "Who voiced Dorothy's uncle in the 1980 animated short film \"Dorothy in the Land of Oz\"?",
+        "question_id": "-8024861909031306008_1_2hop",
+        "gt_label": [
+            "Charles Woolf"
+        ]
+    },
+    {
+        "idx": 434,
+        "question": "Who is the head coach of the team that is not led by the player with the most Super Bowl appearances?",
+        "question_id": "-7526438505038841705_0_2hop",
+        "gt_label": [
+            "Dan Quinn"
+        ]
+    },
+    {
+        "idx": 435,
+        "question": "Who was considered to play the role of a character who is with the Huntsman?",
+        "question_id": "-5218194790276556537_0_2hop",
+        "gt_label": [
+            "Kristen Stewart"
+        ]
+    },
+    {
+        "idx": 436,
+        "question": "What city is the top Grade 1 race in the United States outside the Breeders' Cup races held in?",
+        "question_id": "-900884781666734937_0_2hop",
+        "gt_label": [
+            "Louisville"
+        ]
+    },
+    {
+        "idx": 437,
+        "question": "What is the number of copies sold by the song that was covered by Mayday Parade?",
+        "question_id": "-2830354405034284897_0_2hop",
+        "gt_label": [
+            "13 million"
+        ]
+    },
+    {
+        "idx": 438,
+        "question": "In which country was the film distributed by iDream Productions, which has a stage musical version of the film in London?",
+        "question_id": "7906602863179894200_2_2hop",
+        "gt_label": [
+            "India"
+        ]
+    },
+    {
+        "idx": 439,
+        "question": "What type of peas are used in a traditional street food in Salvador, Brazil?",
+        "question_id": "2142139420054444570_0_2hop",
+        "gt_label": [
+            "Black-eyed peas"
+        ]
+    },
+    {
+        "idx": 440,
+        "question": "Has the national team of the country hosting the 2022 World Cup ever played a finals match before?",
+        "question_id": "6427073360933271856_0_2hop",
+        "gt_label": [
+            "No"
+        ]
+    },
+    {
+        "idx": 441,
+        "question": "What is the characteristic of the city that plays an important role in the green policy agenda?",
+        "question_id": "7396843675979623744_2_2hop",
+        "gt_label": [
+            "Sustainable"
+        ]
+    },
+    {
+        "idx": 442,
+        "question": "What is the nationality of the actor in the movie that features the song?",
+        "question_id": "-2123114135001652165_2_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 443,
+        "question": "What is the nationality of the singer who appears in Frank Sinatra's video?",
+        "question_id": "-6036754827460950862_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 444,
+        "question": "What is the nationality of the rock group that performed at the halftime show held at Levi's Stadium?",
+        "question_id": "-6952242804660626495_0_2hop",
+        "gt_label": [
+            "British"
+        ]
+    },
+    {
+        "idx": 445,
+        "question": "What is the relationship of Shuri to the ruler of Wakanda?",
+        "question_id": "-3225835548674626120_1_2hop",
+        "gt_label": [
+            "Sister"
+        ]
+    },
+    {
+        "idx": 446,
+        "question": "Who is the director of the film with a soundtrack released on December 9, 2011?",
+        "question_id": "-8913429884027459928_0_2hop",
+        "gt_label": [
+            "Woody Allen"
+        ]
+    },
+    {
+        "idx": 447,
+        "question": "What character did the actress who played Ashley Abbott in \"The Young and the Restless\" also play?",
+        "question_id": "-860751546168266756_2_2hop",
+        "gt_label": [
+            "Kristen DiMera"
+        ]
+    },
+    {
+        "idx": 448,
+        "question": "Who is the head coach who worked with the quarterback that was considered by the Patriots?",
+        "question_id": "-516772191417039164_0_2hop",
+        "gt_label": [
+            "Bill Belichick"
+        ]
+    },
+    {
+        "idx": 449,
+        "question": "What state is the power plant located in, which is also the state of the warrior that the dam is named after?",
+        "question_id": "-3172732804331910053_1_2hop",
+        "gt_label": [
+            "Rajasthan"
+        ]
+    },
+    {
+        "idx": 450,
+        "question": "What honor was given to the voice of Snow White?",
+        "question_id": "2867439071592380698_2_2hop",
+        "gt_label": [
+            "Disney Legend"
+        ]
+    },
+    {
+        "idx": 451,
+        "question": "What publication is associated with a story that is part of school curricula?",
+        "question_id": "-6399289027966169386_2_2hop",
+        "gt_label": [
+            "Collier's"
+        ]
+    },
+    {
+        "idx": 452,
+        "question": "In which city did the Continental Congress that petitioned King George III meet?",
+        "question_id": "5446548256451076088_0_2hop",
+        "gt_label": [
+            "Philadelphia"
+        ]
+    },
+    {
+        "idx": 453,
+        "question": "In what city was the rock band that recorded songs in studio 606 formed?",
+        "question_id": "6779883751698893957_0_2hop",
+        "gt_label": [
+            "Seattle"
+        ]
+    },
+    {
+        "idx": 454,
+        "question": "What is the name of the composer of the musical being adapted into a film released by Warner Bros.?",
+        "question_id": "7209599420541968074_0_2hop",
+        "gt_label": [
+            "Lin-Manuel Miranda"
+        ]
+    },
+    {
+        "idx": 455,
+        "question": "In what millennium BCE did Sarah's husband live?",
+        "question_id": "7859147962587169454_0_2hop",
+        "gt_label": [
+            "2nd"
+        ]
+    },
+    {
+        "idx": 456,
+        "question": "What league followed the league that instituted the three-point rule and introduced the three-pointer?",
+        "question_id": "7613023753903525910_0_2hop",
+        "gt_label": [
+            "The Eastern Professional Basketball League"
+        ]
+    },
+    {
+        "idx": 457,
+        "question": "Who does the sole heir to the Cantilever Group work with?",
+        "question_id": "8480096169926492255_0_2hop",
+        "gt_label": [
+            "Booth"
+        ]
+    },
+    {
+        "idx": 458,
+        "question": "What award was given to the song sung by Judy Garland in the movie \"The Wizard of Oz\"?",
+        "question_id": "-284750309187837457_0_2hop",
+        "gt_label": [
+            "Towering Song Award"
+        ]
+    },
+    {
+        "idx": 459,
+        "question": "What company developed the game played by Casey Viner?",
+        "question_id": "5535248270453810151_1_2hop",
+        "gt_label": [
+            "Sledgehammer Games"
+        ]
+    },
+    {
+        "idx": 460,
+        "question": "In what state does the film starring Burt Reynolds involve bootlegging Coors beer?",
+        "question_id": "-7725870224735001558_0_2hop",
+        "gt_label": [
+            "Georgia"
+        ]
+    },
+    {
+        "idx": 461,
+        "question": "What is the season number of the show that Patrick J. Adams' fianc\u00e9 is related to?",
+        "question_id": "6695294531441208988_0_2hop",
+        "gt_label": [
+            "7"
+        ]
+    },
+    {
+        "idx": 462,
+        "question": "What is the name of the award-winning cast member of the show that had over 30 million viewers in its premiere?",
+        "question_id": "8626417524622478937_2_2hop",
+        "gt_label": [
+            "Peter Dinklage"
+        ]
+    },
+    {
+        "idx": 463,
+        "question": "In what year was the term coined for the condition proposed in 2000?",
+        "question_id": "-1886919489341423192_2_2hop",
+        "gt_label": [
+            "2001"
+        ]
+    },
+    {
+        "idx": 464,
+        "question": "What company released the game that Patton Oswalt did voice work for?",
+        "question_id": "-2951713608719408849_0_2hop",
+        "gt_label": [
+            "Telltale"
+        ]
+    },
+    {
+        "idx": 465,
+        "question": "What region is the snake with a yellow mid-back stripe and one on each side primarily found in?",
+        "question_id": "-1348000404127306451_1_2hop",
+        "gt_label": [
+            "Northeastern United States"
+        ]
+    },
+    {
+        "idx": 466,
+        "question": "What type of economy is the country with the world's second largest economy by nominal GDP known for?",
+        "question_id": "-1412447036280740150_1_2hop",
+        "gt_label": [
+            "Manufacturing"
+        ]
+    },
+    {
+        "idx": 467,
+        "question": "What actor's voice is featured in the video game \"The Lion King\"?",
+        "question_id": "-5998901562869835071_0_2hop",
+        "gt_label": [
+            "Jeremy Irons"
+        ]
+    },
+    {
+        "idx": 468,
+        "question": "What is the name of the person after whom the trophy won by Vince Young is named?",
+        "question_id": "-5184395721137493559_1_2hop",
+        "gt_label": [
+            "John Heisman"
+        ]
+    },
+    {
+        "idx": 469,
+        "question": "What is the name of the children's literature centre in the UK that holds the artwork of the book adapted into Welsh?",
+        "question_id": "5738150005449132700_0_2hop",
+        "gt_label": [
+            "Seven Stories"
+        ]
+    },
+    {
+        "idx": 470,
+        "question": "What organization did the group that sang \"If You Leave Me Now\" team with in 2010?",
+        "question_id": "-8125223799903855191_1_2hop",
+        "gt_label": [
+            "The American Cancer Society"
+        ]
+    },
+    {
+        "idx": 471,
+        "question": "What city is the disc jockey who coined the phrase \"rock and roll\" based in?",
+        "question_id": "-2013760708843297184_0_2hop",
+        "gt_label": [
+            "Cleveland"
+        ]
+    },
+    {
+        "idx": 472,
+        "question": "What is the location of the pyramid built by the Pharaoh represented by the Sphinx?",
+        "question_id": "-1191526386386485412_0_2hop",
+        "gt_label": [
+            "Giza"
+        ]
+    },
+    {
+        "idx": 473,
+        "question": "What actor did Carey Lowell work with in the film she is associated with?",
+        "question_id": "-3957467434839712384_2_2hop",
+        "gt_label": [
+            "Timothy Dalton"
+        ]
+    },
+    {
+        "idx": 474,
+        "question": "What country colonized the island that is now a United States territory?",
+        "question_id": "6052858106040428672_0_2hop",
+        "gt_label": [
+            "Spain"
+        ]
+    },
+    {
+        "idx": 475,
+        "question": "In which city was the song covered by Knorkator recorded?",
+        "question_id": "-8803576254455288759_0_2hop",
+        "gt_label": [
+            "New York"
+        ]
+    },
+    {
+        "idx": 476,
+        "question": "Who is the composer of the original work that Percy Grainger arranged a movement from?",
+        "question_id": "5723615043678009891_0_2hop",
+        "gt_label": [
+            "Tchaikovsky"
+        ]
+    },
+    {
+        "idx": 477,
+        "question": "What is the nationality of the recording artist who composed \"Beat It\"?",
+        "question_id": "5252557394836755200_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 478,
+        "question": "What nationality is the series that Freddie Highmore is associated with?",
+        "question_id": "-4795964962481650208_1_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 479,
+        "question": "What award ceremony did the song with a sad theme talking about \"the glitter and fatigue of a party girl's life\" receive nominations from?",
+        "question_id": "2787852030780675834_1_2hop",
+        "gt_label": [
+            "MTV Video Music Awards"
+        ]
+    },
+    {
+        "idx": 480,
+        "question": "What company manufactures the kit of the team that played under the name of Aotearoa?",
+        "question_id": "3919623452136288003_0_2hop",
+        "gt_label": [
+            "Canterbury of New Zealand"
+        ]
+    },
+    {
+        "idx": 481,
+        "question": "What university's logo was used in the film starring Michael J. Fox?",
+        "question_id": "4527125173028719425_0_2hop",
+        "gt_label": [
+            "Oregon State University"
+        ]
+    },
+    {
+        "idx": 482,
+        "question": "What is the nationality of the author of a best-loved novel in the UK?",
+        "question_id": "-8649108481663608173_2_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 483,
+        "question": "In which country was the album of the American electronica project Owl City released?",
+        "question_id": "-2890066653814658912_1_2hop",
+        "gt_label": [
+            "United Kingdom"
+        ]
+    },
+    {
+        "idx": 484,
+        "question": "Who did the player who was Man of the Match play with?",
+        "question_id": "2585253469062323753_2_2hop",
+        "gt_label": [
+            "Gautam Gambhir"
+        ]
+    },
+    {
+        "idx": 485,
+        "question": "What is the nationality of the actor who played Barney Stinson?",
+        "question_id": "-3006864289261491912_1_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 486,
+        "question": "What is the name of the band whose member sang the opening theme song for the television series released on DVD by TGG Direct?",
+        "question_id": "8766014957282367119_2_2hop",
+        "gt_label": [
+            "Chicago"
+        ]
+    },
+    {
+        "idx": 487,
+        "question": "What is the title of the album that features the song used on American Idol by the husband of Jodi Albert?",
+        "question_id": "2250940803229826498_1_2hop",
+        "gt_label": [
+            "Top Hits"
+        ]
+    },
+    {
+        "idx": 488,
+        "question": "In what city is the Grammy Awards ceremony held?",
+        "question_id": "2013006303570095306_1_2hop",
+        "gt_label": [
+            "Los Angeles"
+        ]
+    },
+    {
+        "idx": 489,
+        "question": "What state is the institution Mariyappan graduated from located in, where he also requested help from the government?",
+        "question_id": "-6649256974008133650_0_2hop",
+        "gt_label": [
+            "Tamil Nadu"
+        ]
+    },
+    {
+        "idx": 490,
+        "question": "What is the planet of origin of the villain in the American film Masters of the Universe?",
+        "question_id": "-4631114933281449936_2_2hop",
+        "gt_label": [
+            "Eternia"
+        ]
+    },
+    {
+        "idx": 491,
+        "question": "What city is the native of the person who presented a bouquet of flowers to Princess Margaret?",
+        "question_id": "9145927603817843073_1_2hop",
+        "gt_label": [
+            "Guildford"
+        ]
+    },
+    {
+        "idx": 492,
+        "question": "What is the country where the chief minister Pawan Chamling is governing a state?",
+        "question_id": "2801770175033622494_2_2hop",
+        "gt_label": [
+            "India"
+        ]
+    },
+    {
+        "idx": 493,
+        "question": "In which city is the Duke associated with the army that Othello is a general in located?",
+        "question_id": "3977235202687033441_0_2hop",
+        "gt_label": [
+            "Venice"
+        ]
+    },
+    {
+        "idx": 494,
+        "question": "What is the name of the actress who won a Saturn Award for Best Actress on Television for her performance in the series inspired by \"Twin Peaks\"?",
+        "question_id": "-677058927889354045_2_2hop",
+        "gt_label": [
+            "Vera Farmiga"
+        ]
+    },
+    {
+        "idx": 495,
+        "question": "What is the nationality of Marvin Gaye's father?",
+        "question_id": "-2661086639572352155_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 496,
+        "question": "In what city does the game take place, which has a protagonist who takes shelter in Vault 111 and is not a direct sequel to Fallout 3?",
+        "question_id": "4211103615594957736_0_2hop",
+        "gt_label": [
+            "Boston"
+        ]
+    },
+    {
+        "idx": 497,
+        "question": "What is the nationality of the television series that Charlie Hunnam acted in?",
+        "question_id": "-4714565158979540655_1_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 498,
+        "question": "What is the nationality of the rock band that has a YouTube channel where the video \"In the End\" was uploaded?",
+        "question_id": "-5421830288323042317_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 499,
+        "question": "Who wrote the novel that was adapted into the film released by Universal Pictures?",
+        "question_id": "-8364672851534004785_0_2hop",
+        "gt_label": [
+            "John Bellairs"
+        ]
+    },
+    {
+        "idx": 500,
+        "question": "What is the ranking of the manga series that continues to enjoy high readership today in terms of sales?",
+        "question_id": "840092518333335213_0_2hop",
+        "gt_label": [
+            "Second"
+        ]
+    },
+    {
+        "idx": 501,
+        "question": "Which city was the band attacked by Kurt Cobain from?",
+        "question_id": "-37658862816410823_1_2hop",
+        "gt_label": [
+            "Seattle"
+        ]
+    },
+    {
+        "idx": 502,
+        "question": "What company founded the colony that the House of Burgesses is related to?",
+        "question_id": "-4103894660835969663_0_2hop",
+        "gt_label": [
+            "Virginia Company"
+        ]
+    },
+    {
+        "idx": 503,
+        "question": "What ranking did the novel written by the author who criticized the screenplay debut at on the New York Times bestseller list?",
+        "question_id": "-3316740611795463594_0_2hop",
+        "gt_label": [
+            "Number one"
+        ]
+    },
+    {
+        "idx": 504,
+        "question": "Which country was suggested by Netflix as a filming location for a series associated with a company that partnered with Toyota?",
+        "question_id": "343990915387584724_1_2hop",
+        "gt_label": [
+            "Iceland"
+        ]
+    },
+    {
+        "idx": 505,
+        "question": "What is the nationality of the person who performed in New York City?",
+        "question_id": "2392370029759530745_1_2hop",
+        "gt_label": [
+            "French"
+        ]
+    },
+    {
+        "idx": 506,
+        "question": "What is the nationality of the actor who played The Wolf Man?",
+        "question_id": "8091436510772810239_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 507,
+        "question": "Who wrote the lyrics of the song that debuted on the Billboard Hot 100 on 11 October 2003?",
+        "question_id": "-1935277547337752000_0_2hop",
+        "gt_label": [
+            "Bart Millard"
+        ]
+    },
+    {
+        "idx": 508,
+        "question": "What is the nationality of the actress who stars as Piper Chapman in the Netflix original series \"Orange Is the New Black\"?",
+        "question_id": "-6363374028164121184_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 509,
+        "question": "What is the nationality of the folk hero similar to Enkidu and Heracles?",
+        "question_id": "5320412974306920401_2_2hop",
+        "gt_label": [
+            "Israelite"
+        ]
+    },
+    {
+        "idx": 510,
+        "question": "Who was the Prime Minister of the country that transferred sovereignty over Hong Kong to China?",
+        "question_id": "-5772010391100214746_0_2hop",
+        "gt_label": [
+            "Margaret Thatcher"
+        ]
+    },
+    {
+        "idx": 511,
+        "question": "What is the name of the author who wrote the book about a family traveling to the resort where the parents stayed on their honeymoon?",
+        "question_id": "9143453306264664567_2_2hop",
+        "gt_label": [
+            "Jeff Kinney"
+        ]
+    },
+    {
+        "idx": 512,
+        "question": "Who assisted in designing the course that Young Tom Morris won a major open event at?",
+        "question_id": "-2468553952201293348_2_2hop",
+        "gt_label": [
+            "Old Tom Morris"
+        ]
+    },
+    {
+        "idx": 513,
+        "question": "In which city was the film released by Universal Pictures filmed?",
+        "question_id": "-7842309715383742887_0_2hop",
+        "gt_label": [
+            "Paris"
+        ]
+    },
+    {
+        "idx": 514,
+        "question": "In what year did the person who developed a dozen models of aircraft die in a gliding crash?",
+        "question_id": "-4472099963363887145_0_2hop",
+        "gt_label": [
+            "1896"
+        ]
+    },
+    {
+        "idx": 515,
+        "question": "In which continent is the country that hosted the 2018 FIFA World Cup located?",
+        "question_id": "-5924795989654548821_0_2hop",
+        "gt_label": [
+            "Europe"
+        ]
+    },
+    {
+        "idx": 516,
+        "question": "In which city did the band that used The Starship for their concert tours perform a show in 1973?",
+        "question_id": "356031315184709065_0_2hop",
+        "gt_label": [
+            "San Francisco"
+        ]
+    },
+    {
+        "idx": 517,
+        "question": "What is the entity that is investigating a campaign associated with the country that was established by the peace treaty of 1783?",
+        "question_id": "-5072811006979753732_2_2hop",
+        "gt_label": [
+            "The FBI"
+        ]
+    },
+    {
+        "idx": 518,
+        "question": "What is the name of the person who is one of the writers of a song that was parodied in a South Park episode?",
+        "question_id": "7850790834228914822_1_2hop",
+        "gt_label": [
+            "Phil Spector"
+        ]
+    },
+    {
+        "idx": 519,
+        "question": "Who wrote Morgan Freeman's favorite book?",
+        "question_id": "940952825388874509_0_2hop",
+        "gt_label": [
+            "Stephen King"
+        ]
+    },
+    {
+        "idx": 520,
+        "question": "What is the nationality of the most famous man in Lowville?",
+        "question_id": "85199518537924968_1_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 521,
+        "question": "Who was the husband of the artist who recorded \"Something to Talk About\"?",
+        "question_id": "7286454870579705076_0_2hop",
+        "gt_label": [
+            "Michael O'Keefe"
+        ]
+    },
+    {
+        "idx": 522,
+        "question": "What is the name of the creator of the show that had an actress who was busy with \"Party of Five\"?",
+        "question_id": "477281861548098452_0_2hop",
+        "gt_label": [
+            "Seth MacFarlane"
+        ]
+    },
+    {
+        "idx": 523,
+        "question": "Who is the creator of the television series that features Meg Griffin?",
+        "question_id": "477281861548098452_2_2hop",
+        "gt_label": [
+            "Seth MacFarlane"
+        ]
+    },
+    {
+        "idx": 524,
+        "question": "What country supported North Vietnam in the war that involved more than 3 million American military personnel?",
+        "question_id": "7274967802277566062_1_2hop",
+        "gt_label": [
+            "The Soviet Union"
+        ]
+    },
+    {
+        "idx": 525,
+        "question": "What network is the TV series that Lana Parrilla stars in on?",
+        "question_id": "-721505607756693388_0_2hop",
+        "gt_label": [
+            "ABC"
+        ]
+    },
+    {
+        "idx": 526,
+        "question": "Who are the parents of Persephone's husband?",
+        "question_id": "-1085928132280576267_2_2hop",
+        "gt_label": [
+            "Cronus and Rhea"
+        ]
+    },
+    {
+        "idx": 527,
+        "question": "From which year did the country of origin of the only player to win the Golden Ball award gain independence?",
+        "question_id": "2411611251294020788_1_2hop",
+        "gt_label": [
+            "1991"
+        ]
+    },
+    {
+        "idx": 528,
+        "question": "What continent is a country in the European Union with a low drinking age located in?",
+        "question_id": "-1844261961741713776_2_2hop",
+        "gt_label": [
+            "Europe"
+        ]
+    },
+    {
+        "idx": 529,
+        "question": "Who created the character played by Blake Lively in the 2011 feature film \"Green Lantern\"?",
+        "question_id": "8030691307224028541_1_2hop",
+        "gt_label": [
+            "John Broome and Gil Kane"
+        ]
+    },
+    {
+        "idx": 530,
+        "question": "What television show does the fellow \"Lost\" star of Rebecca Mader star in?",
+        "question_id": "2805943870224655225_1_2hop",
+        "gt_label": [
+            "Once Upon a Time"
+        ]
+    },
+    {
+        "idx": 531,
+        "question": "What university did the mentee of John Houseman attend?",
+        "question_id": "3795417619369575407_2_2hop",
+        "gt_label": [
+            "University of Oregon"
+        ]
+    },
+    {
+        "idx": 532,
+        "question": "What county in England is the inventor who built an engine at Coalbrookdale Company's works from?",
+        "question_id": "-732817863689218736_0_2hop",
+        "gt_label": [
+            "Cornwall"
+        ]
+    },
+    {
+        "idx": 533,
+        "question": "What type of neurotransmitter is released by the motor nerve terminals?",
+        "question_id": "5149365160001660931_0_2hop",
+        "gt_label": [
+            "Acetylcholine"
+        ]
+    },
+    {
+        "idx": 534,
+        "question": "Who played Bruce Wayne's childhood sweetheart in \"The Dark Knight\"?",
+        "question_id": "6295684420333917619_2_2hop",
+        "gt_label": [
+            "Maggie Gyllenhaal"
+        ]
+    },
+    {
+        "idx": 535,
+        "question": "What is the nationality of the musician associated with a song used like national anthems?",
+        "question_id": "-1030203699838529601_0_2hop",
+        "gt_label": [
+            "English"
+        ]
+    },
+    {
+        "idx": 536,
+        "question": "What is the nationality of Ra's al Ghul?",
+        "question_id": "-4411264999269857597_0_2hop",
+        "gt_label": [
+            "Australian"
+        ]
+    },
+    {
+        "idx": 537,
+        "question": "What city is the society that Piotr Glinski visited the sets of a show set in located in?",
+        "question_id": "-6826756984313068827_0_2hop",
+        "gt_label": [
+            "Mumbai"
+        ]
+    },
+    {
+        "idx": 538,
+        "question": "Which country is the country of origin of one of the three F1 World Drivers' Champions who holds many records in F1 including the most world championship titles and the most consecutive titles?",
+        "question_id": "5217501691248368925_0_2hop",
+        "gt_label": [
+            "Germany"
+        ]
+    },
+    {
+        "idx": 539,
+        "question": "What is the country of citizenship of the person who has a lifetime pass to the Twin Towers' Observation Deck?",
+        "question_id": "76385443080450799_0_2hop",
+        "gt_label": [
+            "France"
+        ]
+    },
+    {
+        "idx": 540,
+        "question": "In what city did the band that Fall Out Boy cites as an influence originate?",
+        "question_id": "-5011377910921523630_0_2hop",
+        "gt_label": [
+            "Chicago"
+        ]
+    },
+    {
+        "idx": 541,
+        "question": "In which city was the English band that performed at Wembley Stadium formed?",
+        "question_id": "7580591139050794833_0_2hop",
+        "gt_label": [
+            "London"
+        ]
+    },
+    {
+        "idx": 542,
+        "question": "In which city was the Bellefontaine Air Force Station located?",
+        "question_id": "6197717494712934330_2_2hop",
+        "gt_label": [
+            "Bellefontaine"
+        ]
+    },
+    {
+        "idx": 543,
+        "question": "What country was part of a federation dominated by Southern Rhodesia?",
+        "question_id": "4584541739020028618_0_2hop",
+        "gt_label": [
+            "Malawi"
+        ]
+    },
+    {
+        "idx": 544,
+        "question": "What city is the team based in that the Mets beat to win the World Series in 1986?",
+        "question_id": "-6489109777570502785_1_2hop",
+        "gt_label": [
+            "Boston"
+        ]
+    },
+    {
+        "idx": 545,
+        "question": "What is the country of citizenship of the person who lives in Rhinebeck, New York?",
+        "question_id": "-7525222797790682411_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 546,
+        "question": "What is the highest-grossing movie of the company that released Last Vegas?",
+        "question_id": "7099659935068588439_0_2hop",
+        "gt_label": [
+            "Last Vegas"
+        ]
+    },
+    {
+        "idx": 547,
+        "question": "In which city did the actor who starred in the BBC thriller \"Bodyguard\" perform on stage?",
+        "question_id": "3235279004340022174_2_2hop",
+        "gt_label": [
+            "London"
+        ]
+    },
+    {
+        "idx": 548,
+        "question": "What company currently distributes The Year Without a Santa Claus?",
+        "question_id": "6393360637584004312_1_2hop",
+        "gt_label": [
+            "Warner Bros."
+        ]
+    },
+    {
+        "idx": 549,
+        "question": "Who acted in a film directed by the director of A Star Is Born?",
+        "question_id": "588120617842880454_0_2hop",
+        "gt_label": [
+            "Lady Gaga"
+        ]
+    },
+    {
+        "idx": 550,
+        "question": "What is the nationality of the person who appeared in a music video for \"Weird Al\" Yankovic's song \"Tacky\"?",
+        "question_id": "-4995529378870413683_1_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 551,
+        "question": "In what year did the singer associated with \"Take Me Home Tonight\" release her second solo album?",
+        "question_id": "-3155872136929805590_2_2hop",
+        "gt_label": [
+            "1987"
+        ]
+    },
+    {
+        "idx": 552,
+        "question": "What is the largest city in the state that was separated from Telangana?",
+        "question_id": "-1586323436804638275_1_2hop",
+        "gt_label": [
+            "Visakhapatnam"
+        ]
+    },
+    {
+        "idx": 553,
+        "question": "What nationality is the artist who won an American Music Award for the song \"You Give Good Love\"?",
+        "question_id": "8372691887190682902_1_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 554,
+        "question": "What was the role of the state that had people fighting for the Union Army during the American Revolution?",
+        "question_id": "7187290221441844234_0_2hop",
+        "gt_label": [
+            "Patriot base"
+        ]
+    },
+    {
+        "idx": 555,
+        "question": "What is the name of the band that performed the song featured in \"24/7 Penguins/Capitals: Road to the NHL Winter Classic\"?",
+        "question_id": "-4639022365311972468_0_2hop",
+        "gt_label": [
+            "Boston"
+        ]
+    },
+    {
+        "idx": 556,
+        "question": "What institution appoints the committee that awards the Nobel Peace Prize?",
+        "question_id": "-2176190349746194286_0_2hop",
+        "gt_label": [
+            "The Parliament of Norway"
+        ]
+    },
+    {
+        "idx": 557,
+        "question": "What is the production company of the program that requires permission to show?",
+        "question_id": "37787598008238750_2_2hop",
+        "gt_label": [
+            "Rankin/Bass Productions"
+        ]
+    },
+    {
+        "idx": 558,
+        "question": "What high school did the husband of Lisa Ann Russell attend?",
+        "question_id": "5514178460170062128_0_2hop",
+        "gt_label": [
+            "Hart High School"
+        ]
+    },
+    {
+        "idx": 559,
+        "question": "Who is the captain of the team that played against Pontus Aberg's team in the 2017 Stanley Cup Finals?",
+        "question_id": "-4318989592091686068_0_2hop",
+        "gt_label": [
+            "Sidney Crosby"
+        ]
+    },
+    {
+        "idx": 560,
+        "question": "Who is the parent of the captor of Theon, a friend of Robb Stark?",
+        "question_id": "6494638087515605397_0_2hop",
+        "gt_label": [
+            "Roose Bolton"
+        ]
+    },
+    {
+        "idx": 561,
+        "question": "Who is the executive producer of the show that Lana Parrilla is a cast member of?",
+        "question_id": "-2497190220368875937_0_2hop",
+        "gt_label": [
+            "Adam Horowitz"
+        ]
+    },
+    {
+        "idx": 562,
+        "question": "Who wrote a review of the movie starring Paul Rudd?",
+        "question_id": "-1143709875899960699_1_2hop",
+        "gt_label": [
+            "Todd McCarthy"
+        ]
+    },
+    {
+        "idx": 563,
+        "question": "What bacterium caused the plague that occurred in the city where 68,596 deaths were recorded in 1665?",
+        "question_id": "4812993244461325647_2_2hop",
+        "gt_label": [
+            "Yersinia pestis"
+        ]
+    },
+    {
+        "idx": 564,
+        "question": "What nationality is the band that Steven Tyler is a member of?",
+        "question_id": "3665710504003154950_2_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 565,
+        "question": "In which country is the stratovolcano where Pliny the Younger documented a volcanic eruption located?",
+        "question_id": "520977884308040213_2_2hop",
+        "gt_label": [
+            "Italy"
+        ]
+    },
+    {
+        "idx": 566,
+        "question": "What is the name of the film that was re-developed due to the success of the film that featured Robin Williams, whose verbal inventiveness is comparable to that of James Woods in his portrayal of Hades?",
+        "question_id": "2548414966309928169_0_2hop",
+        "gt_label": [
+            "Treasure Planet"
+        ]
+    },
+    {
+        "idx": 567,
+        "question": "What is the name of the critic of the \"Chicago Sun-Times\" who reviewed the film written and directed by Michael Mann?",
+        "question_id": "-1227070257502917253_1_2hop",
+        "gt_label": [
+            "Roger Ebert"
+        ]
+    },
+    {
+        "idx": 568,
+        "question": "What replaced the successor to the Pontiac Grand Am in Mexico?",
+        "question_id": "5796631546175651850_2_2hop",
+        "gt_label": [
+            "Buick LaCrosse"
+        ]
+    },
+    {
+        "idx": 569,
+        "question": "What continent is the insect whose secretions are used to create Seraticin found in?",
+        "question_id": "-945588391975602454_0_2hop",
+        "gt_label": [
+            "Africa"
+        ]
+    },
+    {
+        "idx": 570,
+        "question": "In what city did Matthew Lewis receive an honorary degree from a university?",
+        "question_id": "7334565396274776409_0_2hop",
+        "gt_label": [
+            "Leeds"
+        ]
+    },
+    {
+        "idx": 571,
+        "question": "In which TV series is the voice actor of Buzz Lightyear mentioned?",
+        "question_id": "5334103133798533576_2_2hop",
+        "gt_label": [
+            "The Simpsons"
+        ]
+    },
+    {
+        "idx": 572,
+        "question": "Who directed the music video of the song that debuted at number 37 on the U.S. \"Billboard\" Hot Country Singles & Tracks for the week of May 21, 2005?",
+        "question_id": "940247860270051417_2_2hop",
+        "gt_label": [
+            "Michael Salomon"
+        ]
+    },
+    {
+        "idx": 573,
+        "question": "In what state is the Daytona 500 held?",
+        "question_id": "-3927417069601046557_0_2hop",
+        "gt_label": [
+            "Florida"
+        ]
+    },
+    {
+        "idx": 574,
+        "question": "What city is the team that the Mets beat in the World Series located in?",
+        "question_id": "-5128024316597155095_1_2hop",
+        "gt_label": [
+            "Boston"
+        ]
+    },
+    {
+        "idx": 575,
+        "question": "What is the country that the Welsh people are associated with part of?",
+        "question_id": "281737852246455326_1_2hop",
+        "gt_label": [
+            "The United Kingdom"
+        ]
+    },
+    {
+        "idx": 576,
+        "question": "What band is the member whose biography is related to the series a part of?",
+        "question_id": "-2810137468556044688_2_2hop",
+        "gt_label": [
+            "Red Hot Chili Peppers"
+        ]
+    },
+    {
+        "idx": 577,
+        "question": "In which country was the music video for a song written by the lead singer and guitarist of Death Cab for Cutie filmed?",
+        "question_id": "933909729484219981_2_2hop",
+        "gt_label": [
+            "Romania"
+        ]
+    },
+    {
+        "idx": 578,
+        "question": "Who sang the lead vocals on the song \"Oh What a Night\"?",
+        "question_id": "2161614913240654059_1_2hop",
+        "gt_label": [
+            "Frankie Valli"
+        ]
+    },
+    {
+        "idx": 579,
+        "question": "Who is the director of the sequel of the film directed by Phyllida Lloyd?",
+        "question_id": "506915244579333256_2_2hop",
+        "gt_label": [
+            "Ol Parker"
+        ]
+    },
+    {
+        "idx": 580,
+        "question": "What city is the stadium with luxury suites located in?",
+        "question_id": "-1574133516238453241_0_2hop",
+        "gt_label": [
+            "Chicago"
+        ]
+    },
+    {
+        "idx": 581,
+        "question": "What company created the title sequence that was homaged in The Simpsons episode \"Exit Through the Kwik-E-Mart\"?",
+        "question_id": "-266442259834249240_2_2hop",
+        "gt_label": [
+            "Elastic"
+        ]
+    },
+    {
+        "idx": 582,
+        "question": "In which city was the standard presentation of Olympic medals and awards introduced?",
+        "question_id": "8959009055501900041_1_2hop",
+        "gt_label": [
+            "Los Angeles"
+        ]
+    },
+    {
+        "idx": 583,
+        "question": "What year did the actor who played Will Horton earn a nomination for the Daytime Emmy Award for Outstanding Supporting Actor in a Drama Series?",
+        "question_id": "-6432845632246153563_2_2hop",
+        "gt_label": [
+            "2018"
+        ]
+    },
+    {
+        "idx": 584,
+        "question": "In which city did the film discussed by Anna Menta of \"Elite Daily\" have a premiere?",
+        "question_id": "3733912979650364028_0_2hop",
+        "gt_label": [
+            "London"
+        ]
+    },
+    {
+        "idx": 585,
+        "question": "What is one of the first European languages spoken in the country that has English as its national language?",
+        "question_id": "4371729100722991261_1_2hop",
+        "gt_label": [
+            "English"
+        ]
+    },
+    {
+        "idx": 586,
+        "question": "What did the father of the President of SAMCRO write?",
+        "question_id": "-8394725223059400277_0_2hop",
+        "gt_label": [
+            "Memoirs"
+        ]
+    },
+    {
+        "idx": 587,
+        "question": "What Mexican holiday is the story of Manolo related to?",
+        "question_id": "810304277291887656_0_2hop",
+        "gt_label": [
+            "D\u00eda de los Muertos"
+        ]
+    },
+    {
+        "idx": 588,
+        "question": "What key is the song that debuted at number one on the \"Billboard\" Hot 100 written in?",
+        "question_id": "1728641796384927292_0_2hop",
+        "gt_label": [
+            "Eb major"
+        ]
+    },
+    {
+        "idx": 589,
+        "question": "Who is the founder of the organization that gives the award that is often compared to the Eagle Scout?",
+        "question_id": "-5599841854366206795_1_2hop",
+        "gt_label": [
+            "Juliette Gordon Low"
+        ]
+    },
+    {
+        "idx": 590,
+        "question": "What is the number of World Series titles won by an American League team that has won the most World Series titles?",
+        "question_id": "7017345826942455445_0_2hop",
+        "gt_label": [
+            "27"
+        ]
+    },
+    {
+        "idx": 591,
+        "question": "What is the nationality of the person who sang \"Vande Mataram\"?",
+        "question_id": "-6917134608147878437_0_2hop",
+        "gt_label": [
+            "Indian"
+        ]
+    },
+    {
+        "idx": 592,
+        "question": "Where did the actress who played Belle in Beauty and the Beast perform in concert with the Gay Men's Chorus of Los Angeles?",
+        "question_id": "5108456701028499808_2_2hop",
+        "gt_label": [
+            "Walt Disney Concert Hall"
+        ]
+    },
+    {
+        "idx": 593,
+        "question": "In which country was the actor cast by George Lucas as Emperor Palpatine born?",
+        "question_id": "-3839325706331514458_1_2hop",
+        "gt_label": [
+            "Scotland"
+        ]
+    },
+    {
+        "idx": 594,
+        "question": "What is the name of the album by the Fugees that features a song originally recorded by Lori Lieberman?",
+        "question_id": "-8204316699420373938_0_2hop",
+        "gt_label": [
+            "The Score"
+        ]
+    },
+    {
+        "idx": 595,
+        "question": "What continent is the country of the winner of the 2014 FIFA World Cup located in?",
+        "question_id": "8186256952519372497_2_2hop",
+        "gt_label": [
+            "Europe"
+        ]
+    },
+    {
+        "idx": 596,
+        "question": "What nationality is the author of a book related to Harry Potter and the Cursed Child?",
+        "question_id": "-2565531184707513537_0_2hop",
+        "gt_label": [
+            "British"
+        ]
+    },
+    {
+        "idx": 597,
+        "question": "What type of designation was given to the area with the tallest sand dunes in North America, which was established by an act of Congress?",
+        "question_id": "-3139902676132936387_0_2hop",
+        "gt_label": [
+            "National park and preserve"
+        ]
+    },
+    {
+        "idx": 598,
+        "question": "In what city did the theological writer who published \"Institutes of the Christian Religion\" spend his adult life?",
+        "question_id": "-2430892891443078620_0_2hop",
+        "gt_label": [
+            "Geneva"
+        ]
+    },
+    {
+        "idx": 599,
+        "question": "In what year was India's central bank nationalized?",
+        "question_id": "-7441255122870251385_0_2hop",
+        "gt_label": [
+            "1949"
+        ]
+    },
+    {
+        "idx": 600,
+        "question": "What is the publisher of the game that was released on Mac OS X?",
+        "question_id": "8379007718836884349_1_2hop",
+        "gt_label": [
+            "Electronic Arts"
+        ]
+    },
+    {
+        "idx": 601,
+        "question": "What is the nationality of a partner of the North West Company who conducted a survey of Lake Superior?",
+        "question_id": "7733577208355720834_2_2hop",
+        "gt_label": [
+            "British-Canadian"
+        ]
+    },
+    {
+        "idx": 602,
+        "question": "Who directed the music video of a song written by Cat Stevens?",
+        "question_id": "8848278568799493096_0_2hop",
+        "gt_label": [
+            "Wayne Isham"
+        ]
+    },
+    {
+        "idx": 603,
+        "question": "What television network does the face of wine in Waitrose UK stores work for?",
+        "question_id": "2984714203039626205_1_2hop",
+        "gt_label": [
+            "ITV"
+        ]
+    },
+    {
+        "idx": 604,
+        "question": "What chart did Jackson's song with Akon debut on?",
+        "question_id": "1707268789681937221_0_2hop",
+        "gt_label": [
+            "Billboard Jazz Songs Chart"
+        ]
+    },
+    {
+        "idx": 605,
+        "question": "What is the name of the comic book series where the character connected to the Punisher first appeared?",
+        "question_id": "3756917073879659303_1_2hop",
+        "gt_label": [
+            "The Amazing Spider-Man"
+        ]
+    },
+    {
+        "idx": 606,
+        "question": "In what country was the James Bond film starring Sean Connery set?",
+        "question_id": "-4318437421873309179_0_2hop",
+        "gt_label": [
+            "Japan"
+        ]
+    },
+    {
+        "idx": 607,
+        "question": "Which film, also starring the actress who played Rosalee in Soul Men, features Paulette Bonafont\u00e9 Parcelle the manicurist?",
+        "question_id": "4567675673070140745_0_2hop",
+        "gt_label": [
+            "Legally Blonde"
+        ]
+    },
+    {
+        "idx": 608,
+        "question": "What age is bubonic plague associated with?",
+        "question_id": "2301083429160971236_1_2hop",
+        "gt_label": [
+            "Late Bronze Age"
+        ]
+    },
+    {
+        "idx": 609,
+        "question": "What holiday is the story of Samuel's mother related to?",
+        "question_id": "-1537720500440058272_1_2hop",
+        "gt_label": [
+            "Rosh Hashanah"
+        ]
+    },
+    {
+        "idx": 610,
+        "question": "What is the nationality of the actor who played Hal Carter in the Roundabout Theater Company's production of William Inge's \"Picnic\"?",
+        "question_id": "8584003146348794003_0_2hop",
+        "gt_label": [
+            "Romanian American"
+        ]
+    },
+    {
+        "idx": 611,
+        "question": "Who designed the flag that features the symbol adopted from the shipping line incorporated by Marcus Garvey?",
+        "question_id": "7571692992354471020_0_2hop",
+        "gt_label": [
+            "Theodosia Okoh"
+        ]
+    },
+    {
+        "idx": 612,
+        "question": "What is the name of the design director of the company that developed Red Dead Redemption 2?",
+        "question_id": "-1002040877922509011_0_2hop",
+        "gt_label": [
+            "Imran Sarwar"
+        ]
+    },
+    {
+        "idx": 613,
+        "question": "In which state is the origin of the Godavari river located?",
+        "question_id": "6601516019702667528_0_2hop",
+        "gt_label": [
+            "Maharashtra"
+        ]
+    },
+    {
+        "idx": 614,
+        "question": "What is the name of the film produced by the person who gave an interview to Frank Wetta?",
+        "question_id": "3889947818556623251_1_2hop",
+        "gt_label": [
+            "Pearl Harbor"
+        ]
+    },
+    {
+        "idx": 615,
+        "question": "What is the name of the founder of the heavy metal band whose vocalist is Ivan Moody?",
+        "question_id": "-6313785055524250298_1_2hop",
+        "gt_label": [
+            "Zoltan Bathory"
+        ]
+    },
+    {
+        "idx": 616,
+        "question": "In what year did the Giants win a world championship in San Francisco?",
+        "question_id": "-7657903854884265238_2_2hop",
+        "gt_label": [
+            "2010"
+        ]
+    },
+    {
+        "idx": 617,
+        "question": "Which country's possessions were the United States of America formed from?",
+        "question_id": "-1530110622919166255_0_2hop",
+        "gt_label": [
+            "Britain"
+        ]
+    },
+    {
+        "idx": 618,
+        "question": "Who is the creator of the Star Wars franchise, which features a character voiced by Matt Lanter?",
+        "question_id": "-4240994093824309809_0_2hop",
+        "gt_label": [
+            "George Lucas"
+        ]
+    },
+    {
+        "idx": 619,
+        "question": "In which country is the film with a musical theater production debuting in London's West End theatre preserved in the National Film Registry?",
+        "question_id": "4540905739211743396_2_2hop",
+        "gt_label": [
+            "United States"
+        ]
+    },
+    {
+        "idx": 620,
+        "question": "What composer's work is referenced in the song that the Pet Shop Boys' version is related to?",
+        "question_id": "2808394746102495773_0_2hop",
+        "gt_label": [
+            "Tchaikovsky"
+        ]
+    },
+    {
+        "idx": 621,
+        "question": "What is the country of citizenship of the person commemorated by the Government of India's coin?",
+        "question_id": "4738417695398424549_0_2hop",
+        "gt_label": [
+            "India"
+        ]
+    },
+    {
+        "idx": 622,
+        "question": "What scientist predicted the element that was later named after Yuri Oganessian?",
+        "question_id": "4851006925847787047_1_2hop",
+        "gt_label": [
+            "Niels Bohr"
+        ]
+    },
+    {
+        "idx": 623,
+        "question": "In which state was a member of the Grand Army of the Republic born?",
+        "question_id": "506148433105420581_0_2hop",
+        "gt_label": [
+            "New York"
+        ]
+    },
+    {
+        "idx": 624,
+        "question": "The Breakers is located in the same city where the Welcome Center is located. What state is this city in?",
+        "question_id": "3138887807375284555_0_2hop",
+        "gt_label": [
+            "Rhode Island"
+        ]
+    },
+    {
+        "idx": 625,
+        "question": "What nationality is the ownership of the vessels that use the canal expansion, which is overseen by the Panama Canal Authority?",
+        "question_id": "-4748307027742098744_1_2hop",
+        "gt_label": [
+            "Chinese"
+        ]
+    },
+    {
+        "idx": 626,
+        "question": "What is the country of citizenship of a founding member of the band formed in Melbourne, Australia?",
+        "question_id": "-3622592128958739008_0_2hop",
+        "gt_label": [
+            "New Zealand"
+        ]
+    },
+    {
+        "idx": 627,
+        "question": "What network does the soap opera feature a character who had a romantic partner named Danny Romalotti?",
+        "question_id": "7798072777454594667_1_2hop",
+        "gt_label": [
+            "CBS"
+        ]
+    },
+    {
+        "idx": 628,
+        "question": "Who was the character that Tognoni plays in a romance with?",
+        "question_id": "7798072777454594667_2_2hop",
+        "gt_label": [
+            "Danny Romalotti"
+        ]
+    },
+    {
+        "idx": 629,
+        "question": "What is the heritage of the artist who released the album \"Camila\"?",
+        "question_id": "-7543815342073091586_1_2hop",
+        "gt_label": [
+            "Cuban"
+        ]
+    },
+    {
+        "idx": 630,
+        "question": "What does the philosopher who values ataraxia, aponia, and friendships think life is?",
+        "question_id": "-7349313235581279819_1_2hop",
+        "gt_label": [
+            "A bitter gift."
+        ]
+    },
+    {
+        "idx": 631,
+        "question": "What network does the TV series of the actor who attended Kutztown University air on?",
+        "question_id": "6339316475005736418_1_2hop",
+        "gt_label": [
+            "Oprah Winfrey Network"
+        ]
+    },
+    {
+        "idx": 632,
+        "question": "What region is the Organisation internationale de la Francophonie associated with a country member located in?",
+        "question_id": "3252853864217948745_2_2hop",
+        "gt_label": [
+            "West Indies"
+        ]
+    },
+    {
+        "idx": 633,
+        "question": "What is the name of the Netflix series that Barbara Rosenblat plays a character in?",
+        "question_id": "2439462421376918567_1_2hop",
+        "gt_label": [
+            "Orange Is the New Black"
+        ]
+    },
+    {
+        "idx": 634,
+        "question": "What movie featured a song performed by LeAnn Rimes?",
+        "question_id": "8344603150068007717_0_2hop",
+        "gt_label": [
+            "Con Air"
+        ]
+    },
+    {
+        "idx": 635,
+        "question": "What organization is associated with the Battle of the Sexes match?",
+        "question_id": "1919660989901688964_0_2hop",
+        "gt_label": [
+            "Women's Tennis Association (WTA)"
+        ]
+    },
+    {
+        "idx": 636,
+        "question": "What hormone is produced by the part of the small intestine that chyme passes into?",
+        "question_id": "5163648306834473265_0_2hop",
+        "gt_label": [
+            "Secretin"
+        ]
+    },
+    {
+        "idx": 637,
+        "question": "What is the nationality of the main character in the novel Outlander?",
+        "question_id": "-5756436416300446741_0_2hop",
+        "gt_label": [
+            "English"
+        ]
+    },
+    {
+        "idx": 638,
+        "question": "What is the name of the child of the person who starred as the Fairy Godmother in \"Cinderella\"?",
+        "question_id": "-6256881697851641200_0_2hop",
+        "gt_label": [
+            "Kitt McDonald"
+        ]
+    },
+    {
+        "idx": 639,
+        "question": "Who wrote the song that was covered by Chase Bryant, which was originally performed by Little Big Town?",
+        "question_id": "6955929110381176162_0_2hop",
+        "gt_label": [
+            "Taylor Swift"
+        ]
+    },
+    {
+        "idx": 640,
+        "question": "What city does American Airlines have a hub in?",
+        "question_id": "2957586260494566622_2_2hop",
+        "gt_label": [
+            "Charlotte"
+        ]
+    },
+    {
+        "idx": 641,
+        "question": "What is the nationality of the student who attended Notre Dame High School?",
+        "question_id": "1442637821988806468_0_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 642,
+        "question": "What is the legal status in most jurisdictions of the most common drug used to facilitate sexual assault?",
+        "question_id": "1693953275032458412_2_2hop",
+        "gt_label": [
+            "Legal"
+        ]
+    },
+    {
+        "idx": 643,
+        "question": "What field of economics studies the structure of a system that facilitates resource allocation in a society?",
+        "question_id": "6340566112953772889_0_2hop",
+        "gt_label": [
+            "Microeconomics"
+        ]
+    },
+    {
+        "idx": 644,
+        "question": "What body of water is the city where the airport named after John Lennon located situated on the banks of?",
+        "question_id": "9158176088191973628_0_2hop",
+        "gt_label": [
+            "River Mersey"
+        ]
+    },
+    {
+        "idx": 645,
+        "question": "Who are the parents of the person seduced by Snoke?",
+        "question_id": "-1274620813053227202_0_2hop",
+        "gt_label": [
+            "Han Solo and Leia Organa"
+        ]
+    },
+    {
+        "idx": 646,
+        "question": "What is the audience score on Rotten Tomatoes for the eighth season of a series?",
+        "question_id": "-8243116706104009514_2_2hop",
+        "gt_label": [
+            "62%"
+        ]
+    },
+    {
+        "idx": 647,
+        "question": "What is the name of the daughter of the brother of Edward VIII?",
+        "question_id": "2883391369186330532_1_2hop",
+        "gt_label": [
+            "Elizabeth II"
+        ]
+    },
+    {
+        "idx": 648,
+        "question": "In which city was the father of Jacob and Esau buried?",
+        "question_id": "-8852000785889901453_1_2hop",
+        "gt_label": [
+            "Hebron"
+        ]
+    },
+    {
+        "idx": 649,
+        "question": "What is the title of the sequel of the film based on Steve Harvey's book?",
+        "question_id": "-4240418366497822272_0_2hop",
+        "gt_label": [
+            "Think Like a Man Too"
+        ]
+    },
+    {
+        "idx": 650,
+        "question": "What team drafted the role model of LeBron James?",
+        "question_id": "5607093277282549143_1_2hop",
+        "gt_label": [
+            "The Chicago Bulls"
+        ]
+    },
+    {
+        "idx": 651,
+        "question": "What city is the birthplace of the actor who made a documentary about The Life Aquatic with Steve Zissou?",
+        "question_id": "-4557362633802729780_2_2hop",
+        "gt_label": [
+            "Las Vegas"
+        ]
+    },
+    {
+        "idx": 652,
+        "question": "Who was the President of the United States in the year Labor Day was formally adopted as a federal holiday?",
+        "question_id": "-1835616474762966734_0_2hop",
+        "gt_label": [
+            "Grover Cleveland"
+        ]
+    },
+    {
+        "idx": 653,
+        "question": "What is the nationality of the actor who plays Hagrid in the Harry Potter series?",
+        "question_id": "1160012104512734717_0_2hop",
+        "gt_label": [
+            "Scottish"
+        ]
+    },
+    {
+        "idx": 654,
+        "question": "The themed land inspired by a moon of a gas giant in the Alpha Centauri star system is located in what state?",
+        "question_id": "-1053511381647118340_2_2hop",
+        "gt_label": [
+            "Florida"
+        ]
+    },
+    {
+        "idx": 655,
+        "question": "Who defined the dogma of the Virgin Mary's conception?",
+        "question_id": "3289687642937609257_2_2hop",
+        "gt_label": [
+            "Pope Pius IX"
+        ]
+    },
+    {
+        "idx": 656,
+        "question": "What is the nationality of the person who appeared on \"Mister Rogers' Neighborhood\"?",
+        "question_id": "-8106231750225527185_2_2hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 657,
+        "question": "Who composed the music for the film directed by Sanjay Leela Bhansali?",
+        "question_id": "-4894106329957994291_0_2hop",
+        "gt_label": [
+            "Ismail Darbar"
+        ]
+    },
+    {
+        "idx": 658,
+        "question": "Who directed the film that starred the actor who worked with Steve Buscemi on \"The Big Lebowski\" and \"Barton Fink\"?",
+        "question_id": "2617085186848248559_0_2hop",
+        "gt_label": [
+            "Pete Docter"
+        ]
+    },
+    {
+        "idx": 659,
+        "question": "What is the nationality of the television sitcom that debuted in the United Kingdom on channels E4 and Channel 4 and started off slowly in the ratings, failing to make the top 50 in its first season?",
+        "question_id": "733016474692161086_0_3hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 660,
+        "question": "Who is a collaborator of the artist that announced \"Whataya Want from Me\" as his second single?",
+        "question_id": "-1196720759960064456_0_3hop",
+        "gt_label": [
+            "Pink"
+        ]
+    },
+    {
+        "idx": 661,
+        "question": "What is the nationality of the artist who released the debut album that includes the song that has sold 2,470,000 copies in the U.S.?",
+        "question_id": "8689865750613223093_1_3hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 662,
+        "question": "What city is the headquarters of CARICOM, an organization of which the only South American nation with English as its official language is a member?",
+        "question_id": "4521728595361069101_0_3hop",
+        "gt_label": [
+            "Georgetown"
+        ]
+    },
+    {
+        "idx": 663,
+        "question": "In which country, apart from Germany, France, and Spain, does the series inspired by the life of former \"Cosmopolitan\" editor-in-chief Joanna Coles air exclusively on Amazon Prime Video?",
+        "question_id": "-223501589945476914_0_3hop",
+        "gt_label": [
+            "United Kingdom"
+        ]
+    },
+    {
+        "idx": 664,
+        "question": "What is the nationality of the historian who first used the word \"Renaissance\"?",
+        "question_id": "3946814622015562472_0_3hop",
+        "gt_label": [
+            "French"
+        ]
+    },
+    {
+        "idx": 665,
+        "question": "In which state is the society that hired the publisher of \"The North Star\" located?",
+        "question_id": "-3462087517766042385_2_3hop",
+        "gt_label": [
+            "Massachusetts"
+        ]
+    },
+    {
+        "idx": 666,
+        "question": "What city did the rock band that signed a contract with Mainstream Records go on to become the house band at the Avalon Ballroom in?",
+        "question_id": "7929421867816669989_0_3hop",
+        "gt_label": [
+            "San Francisco"
+        ]
+    },
+    {
+        "idx": 667,
+        "question": "What is the nationality of the high-wire artist who performed in Washington Square Park and gained fame for his high-wire walk between the Twin Towers?",
+        "question_id": "790195950839759984_2_3hop",
+        "gt_label": [
+            "French"
+        ]
+    },
+    {
+        "idx": 668,
+        "question": "What is the nationality of the grunge band that covered the song from the album ranked by its member?",
+        "question_id": "-702461120712879294_2_3hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 669,
+        "question": "What is the nationality of the cowboy entertainer who recorded \"Back in the Saddle Again\" for Columbia?",
+        "question_id": "-7798280335249092847_2_3hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 670,
+        "question": "What is the name of the actress who stars in the film that is one of the two movies that triggered a resurgence of romantic comedy in Hollywood, alongside \"When Harry Met Sally\"?",
+        "question_id": "-5845413948428294330_1_3hop",
+        "gt_label": [
+            "Julia Roberts"
+        ]
+    },
+    {
+        "idx": 671,
+        "question": "What species does the fossa hunt as prey in the film produced by DreamWorks Animation?",
+        "question_id": "-4562776853170616635_1_3hop",
+        "gt_label": [
+            "Lemurs"
+        ]
+    },
+    {
+        "idx": 672,
+        "question": "What network aired the fourth season of \"The Flash\", which premiered on the same day as the season of \"Arrow\" that was involved in the crossover \"Crisis on Earth-X\"?",
+        "question_id": "-414725907011542294_0_3hop",
+        "gt_label": [
+            "The CW"
+        ]
+    },
+    {
+        "idx": 673,
+        "question": "What is the nationality of the author of the book that was included in Barnes & Noble's showcasing of new writers?",
+        "question_id": "4354463189411073506_0_3hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 674,
+        "question": "What country did the vocalist who collaborated with Greg Johnson on Choo Choo Soul tour with the act that released a two-disc set with Disney?",
+        "question_id": "-7137983552683740938_0_3hop",
+        "gt_label": [
+            "United States"
+        ]
+    },
+    {
+        "idx": 675,
+        "question": "What airport did the flight that was featured in the Discovery Channel (Canada) / National Geographic TV series \"Mayday\" on the episode \"Hudson Splash Down\" take off from?",
+        "question_id": "-988109223290976535_0_3hop",
+        "gt_label": [
+            "LaGuardia"
+        ]
+    },
+    {
+        "idx": 676,
+        "question": "What is the nationality of the film directed by the person who considered Paul McCartney of The Beatles for the role of Romeo?",
+        "question_id": "-3679256474836751665_0_3hop",
+        "gt_label": [
+            "British-Italian"
+        ]
+    },
+    {
+        "idx": 677,
+        "question": "What country is the person who became State President of Janata Party (Haryana) in 1979 and was the first female Spokesperson of a national political party in India serving as the Minister of External Affairs of?",
+        "question_id": "-6459253726884842833_0_3hop",
+        "gt_label": [
+            "India"
+        ]
+    },
+    {
+        "idx": 678,
+        "question": "What is the name of the oblast whose administrative center is in the city founded by Peter the Great?",
+        "question_id": "1749006537688137408_1_3hop",
+        "gt_label": [
+            "Leningrad"
+        ]
+    },
+    {
+        "idx": 679,
+        "question": "What city is the river that was named a \"Civil Engineering Monument of the Millennium\" by the American Society of Civil Engineers (ASCE) and flows west from Lake Michigan located in?",
+        "question_id": "2492115790000331807_0_3hop",
+        "gt_label": [
+            "Chicago"
+        ]
+    },
+    {
+        "idx": 680,
+        "question": "What nationality is the game show that is announced by the same person who announces \"Jeopardy!\" and broadcast from the Ritz Theater?",
+        "question_id": "3118284888186877483_2_3hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 681,
+        "question": "What concentration of alcohol in hand sanitizer is most effective in eliminating most viruses?",
+        "question_id": "772958295460327597_2_3hop",
+        "gt_label": [
+            "95%"
+        ]
+    },
+    {
+        "idx": 682,
+        "question": "What building is the official who announces the arrival of the President responsible for security in?",
+        "question_id": "-4409717465276847271_2_3hop",
+        "gt_label": [
+            "The United States Capitol"
+        ]
+    },
+    {
+        "idx": 683,
+        "question": "What publication did Owen Gleiberman write for, who praised the direction of the director of the sequel to 1964's \"Mary Poppins\"?",
+        "question_id": "-6763235730017703935_0_3hop",
+        "gt_label": [
+            "Variety"
+        ]
+    },
+    {
+        "idx": 684,
+        "question": "What is the outermost part of the three meninges found in mammals?",
+        "question_id": "-120946192803906358_2_3hop",
+        "gt_label": [
+            "The dura mater"
+        ]
+    },
+    {
+        "idx": 685,
+        "question": "What is the official color of the bridge located near the road that was replaced by Presidio Parkway?",
+        "question_id": "698472502323459593_0_3hop",
+        "gt_label": [
+            "International orange"
+        ]
+    },
+    {
+        "idx": 686,
+        "question": "What is the ethnicity of the longest-serving justice on the Supreme Court?",
+        "question_id": "7425154493384697205_1_3hop",
+        "gt_label": [
+            "African-American"
+        ]
+    },
+    {
+        "idx": 687,
+        "question": "Who is the voice actor of the character who becomes \"super gay\" in the future in the episode Roger Passes the Bar?",
+        "question_id": "-5056070965802624572_1_3hop",
+        "gt_label": [
+            "Scott Grimes"
+        ]
+    },
+    {
+        "idx": 688,
+        "question": "In which state is the city with a mall that changed its name to Lone Pine Mall and where many family businesses are passed down from generation to generation located?",
+        "question_id": "5658047965617781393_1_3hop",
+        "gt_label": [
+            "California"
+        ]
+    },
+    {
+        "idx": 689,
+        "question": "What is the nationality of the person who proposed the Analytical Engine?",
+        "question_id": "-4460018501864442445_1_3hop",
+        "gt_label": [
+            "English"
+        ]
+    },
+    {
+        "idx": 690,
+        "question": "What year is the painting that Awol Erizku recreated as a print in 2009 estimated to have been painted around?",
+        "question_id": "-4546286952183553757_0_3hop",
+        "gt_label": [
+            "1665"
+        ]
+    },
+    {
+        "idx": 691,
+        "question": "Who criticized the book that argued that the interests of animals should be considered because of their ability to experience suffering?",
+        "question_id": "-6157430840697293103_1_3hop",
+        "gt_label": [
+            "Roger Scruton"
+        ]
+    },
+    {
+        "idx": 692,
+        "question": "In what state is the groundhog that has lived to make weather prognostications since 1886 located?",
+        "question_id": "-2263667473867415095_2_3hop",
+        "gt_label": [
+            "Pennsylvania"
+        ]
+    },
+    {
+        "idx": 693,
+        "question": "What is the nationality of the author of the novel that was adapted into a musical with music by Frank Wildhorn?",
+        "question_id": "6870462243220814178_0_3hop",
+        "gt_label": [
+            "French"
+        ]
+    },
+    {
+        "idx": 694,
+        "question": "What team selected the son of the former Major League Pitcher in the first round (10th overall) in the 2017 NFL Draft?",
+        "question_id": "6102599562226541624_1_3hop",
+        "gt_label": [
+            "Kansas City Chiefs"
+        ]
+    },
+    {
+        "idx": 695,
+        "question": "In which country is the Valley Temple with a diorite statue of the Pharaoh whose face is represented on the Sphinx located?",
+        "question_id": "-1191526386386485412_1_3hop",
+        "gt_label": [
+            "Egypt"
+        ]
+    },
+    {
+        "idx": 696,
+        "question": "In what country is the pharaoh who built the pyramid referred to in the \"Dream Stele\" located?",
+        "question_id": "-1191526386386485412_2_3hop",
+        "gt_label": [
+            "Egypt"
+        ]
+    },
+    {
+        "idx": 697,
+        "question": "Who is the creator of the fictional species that starred in two made-for-TV movies, both of which starred Warwick Davis reprising his role as Wicket?",
+        "question_id": "327835333651810561_0_3hop",
+        "gt_label": [
+            "George Lucas"
+        ]
+    },
+    {
+        "idx": 698,
+        "question": "In what city is the site where a different complex of buildings has been developed, and where Philippe Petit performed on a wire between the roofs of the Twin Towers?",
+        "question_id": "-8769541300540439819_2_3hop",
+        "gt_label": [
+            "New York City"
+        ]
+    },
+    {
+        "idx": 699,
+        "question": "What continent is the country that has an island with an area of about  situated in?",
+        "question_id": "88669114967205363_2_3hop",
+        "gt_label": [
+            "South America"
+        ]
+    },
+    {
+        "idx": 700,
+        "question": "What is the nationality of the actress who played the role of Mayor Regina Mills/The Evil Queen in the ABC adventure fantasy drama pilot, \"Once Upon a Time\"?",
+        "question_id": "-721505607756693388_2_3hop",
+        "gt_label": [
+            "American"
+        ]
+    },
+    {
+        "idx": 701,
+        "question": "What is the country of citizenship of the lead vocalist and guitarist of the rock band signed to Royal Mountain Records in the United States and Canada?",
+        "question_id": "1578000675191134268_2_3hop",
+        "gt_label": [
+            "Canada"
+        ]
+    },
+    {
+        "idx": 702,
+        "question": "Who plays the role of Belle in the film adaptation of the fairy tale written by Jeanne-Marie Leprince de Beaumont?",
+        "question_id": "-2539576293673484107_0_3hop",
+        "gt_label": [
+            "Emma Watson"
+        ]
+    },
+    {
+        "idx": 703,
+        "question": "In which state is the birthplace of the gold medalist who requested help from the government located?",
+        "question_id": "7133760628511440140_2_3hop",
+        "gt_label": [
+            "Tamil Nadu"
+        ]
+    },
+    {
+        "idx": 704,
+        "question": "What is the country of citizenship of the producer of the film that was released on Blu-ray by Lionsgate?",
+        "question_id": "-5725725582382478080_0_3hop",
+        "gt_label": [
+            "Australia"
+        ]
+    },
+    {
+        "idx": 705,
+        "question": "The leader who listened to the BBC World Service on a small transistor radio handed over powers to the President of which country?",
+        "question_id": "-2496452757353130756_0_3hop",
+        "gt_label": [
+            "Russia"
+        ]
+    },
+    {
+        "idx": 706,
+        "question": "What language does the word \"bokeh\", which is influenced by the shape of the aperture, originate from?",
+        "question_id": "-5897448254119416355_2_3hop",
+        "gt_label": [
+            "Japanese"
+        ]
+    },
+    {
+        "idx": 707,
+        "question": "What type of music did the composer whose serenade shares its name with the musical performed by students at The Royal Academy of Dramatic Art in 2017 write?",
+        "question_id": "-860614433837442917_1_3hop",
+        "gt_label": [
+            "Classical"
+        ]
+    },
+    {
+        "idx": 708,
+        "question": "What continent is the country where the 2022 Winter Olympics with 109 events over 15 disciplines in 7 sports will be held located in?",
+        "question_id": "-1016645390283400728_0_3hop",
+        "gt_label": [
+            "Asia"
+        ]
+    },
+    {
+        "idx": 709,
+        "question": "What company theatrically released the film starring the romantic partner of Tim Burton?",
+        "question_id": "285758269437365924_0_3hop",
+        "gt_label": [
+            "Walt Disney Pictures"
+        ]
+    },
+    {
+        "idx": 710,
+        "question": "What company distributed the movie about the dog named by Opal in the story?",
+        "question_id": "-9181817542594052089_2_3hop",
+        "gt_label": [
+            "20th Century Fox"
+        ]
+    },
+    {
+        "idx": 711,
+        "question": "What continent is the country with a capital in Ottawa and major urban areas like Toronto, Montreal, and Vancouver located in?",
+        "question_id": "-137291043415148020_1_3hop",
+        "gt_label": [
+            "North America"
+        ]
+    },
+    {
+        "idx": 712,
+        "question": "In what country is the organization that presents the award won by Frank Sinatra three times located?",
+        "question_id": "3116839517832935979_0_3hop",
+        "gt_label": [
+            "United States"
+        ]
+    }
+]
