@@ -32,8 +32,13 @@ BRIEF generates more concise summaries and enables a range of LLMs to achieve ex
 
 ## Release
 
+- [06/06] We release the training data and the training script for training BRIEF as well as the related code to generate such training data.
+
 - [10/29]  We released the test set for Multihop-NQ and Multihop-TriviaQA as well as the compressed result.
+
 - [10/21]  We released the compressed result and evaluation script for TriviaQA, NQ, HotpotQA and MuSiQue.
+  
+  
 
 ## Installation and Setup
 
@@ -69,6 +74,16 @@ accelerate launch --main_process_port 29500 flanul2_reader.py \
 --output_path TriviaQA_read.json \
 --downstream_dataset tqa
 ```
+
+## Training Code
+
+You can download our training data respectively for MuSiQue, HotpotQA, (Multihop) NQ and (Multihop) TriviaQA via this link: https://drive.google.com/drive/folders/1ZlBTMR3ubNpw0ChlpLHmh1SqLNRqO98n?usp=sharing
+
+Once downloaded, you can train the model with `code/train.py`, which actually called `code/accelerate_sft.py`. Our training uses the `accelerate` library.
+
+- Training Data
+  
+  These training data can be generated from the original dataset of MuSiQue, HotpotQA, NQ and TriviaQA. See `code/gen_pipe.py` for an overview of how to **identify the most helpful propositions** in the documents.
 
 ## Evaluation Code
 
