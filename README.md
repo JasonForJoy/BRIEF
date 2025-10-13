@@ -28,6 +28,9 @@
 </p>
 
 
+- The overview of the synthetic data pipeline for training BRIEF-PRO is as follows. Starting with a mixture of oracle and distractor documents for a given query, the pipeline: (a) expands each document by looking up an external knowledge corpus, (b) curates a compact summary by further reducing redundancy in the oracle documents, and (c) generates a user-controllable compression instruction by counting the number of sentences in the compact summary.
+
+
 <p align="center">
   <img src="BRIEF-Pro/src/Pipline.png" width="100%"></a> <br>
 </p>
