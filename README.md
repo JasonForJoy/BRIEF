@@ -24,12 +24,12 @@
 
 
 <p align="center">
-  <img src="BRIEF-Pro/src/Teaser_fig.png" width="40%"></a> <br>
+  <img src="BRIEF-Pro/src/Teaser_fig.png" width="60%"></a> <br>
 </p>
 
 
 <p align="center">
-  <img src="BRIEF-Pro/src/Pipline.png" width="80%"></a> <br>
+  <img src="BRIEF-Pro/src/Pipline.png" width="100%"></a> <br>
 </p>
 
 
