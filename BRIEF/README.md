@@ -6,7 +6,7 @@
 
 *Equal contribution
 
-<a href='https://arxiv.org/pdf/2410.15277'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> <a href='https://jasonforjoy.github.io/BRIEF/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
+<a href='https://arxiv.org/pdf/2410.15277'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> <a href='https://jasonforjoy.github.io/BRIEF/BRIEF/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 
 <!-- <a href=''><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> <a href=''><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Models-ffd21e"></a> <a href=''><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-blue'></a> <a href=''><img src='https://img.shields.io/badge/Project-Page-Green'></a>  -->
 
