@@ -18,12 +18,27 @@
 ## Intro
 
 
+- BRIEF-PRO. It is a universal, lightweight compressor that distills relevant evidence for a given query from multiple retrieved documents into a concise summary for seamless integration into in-context RAG.
+- Given seed data with contexts that are relatively short, each containing fewer than 1k words, BRIEF-PRO is trained towards abstractively condensing long contexts of 10k+ words across diverse scenarios.
+- Furthermore, BRIEF-PRO offers flexible user control over the length of the output summary by allowing users to specify the desired number of sentences.
+
+
+<p align="center">
+  <img src="BRIEF-Pro/src/Teaser_fig.png" width="40%"></a> <br>
+</p>
+
+
+<p align="center">
+  <img src="BRIEF-Pro/src/Pipline.png" width="80%"></a> <br>
+</p>
 
 
 
-## Benchmark Overview
 
 
+## Training 
+
+- Coming Soon
 
 
 ## Evaluation 
