@@ -6,7 +6,7 @@
 
 *Equal contribution
 
-[**🌐 Homepage**]() | [**🤗 Dataset**]() | [**📖 Paper**]()
+[**🌐 Homepage**]() | [**🤗 Model**]() | [**🤗 Dataset**]() | [**📖 Paper**]()
 
 </div>
 
