@@ -13,7 +13,7 @@
 
 ## News
 
-- We have released the training and evaluation code, the model checkpoint, and the training data.
+- We released the training and evaluation code, the model checkpoint, and the training data.
 
 ## Intro
 
