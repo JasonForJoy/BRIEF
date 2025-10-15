@@ -13,7 +13,7 @@
 
 ## News
 
-- We released the training and evaluation code and the training data.
+- We released the training and evaluation code and the data.
 
 ## Intro
 
