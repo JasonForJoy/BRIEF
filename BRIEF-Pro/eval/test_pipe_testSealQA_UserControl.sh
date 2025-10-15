@@ -10,7 +10,7 @@ SETTINGS=(
     "Brief-Pro"
     )
 MERGE_PATHS=(
-    "uclanlp/brief-pro"
+    "./brief-pro_checkpoint"
     )
 
 for i in "${!SETTINGS[@]}"; do
