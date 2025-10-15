@@ -111,7 +111,6 @@ def get_pred(rank, world_size, data, max_length, max_gen, prompt_format, dataset
             
             f.write('\n')
 
-    # 原代码
     # dist.destroy_process_group()
 
     if dist.is_initialized():
@@ -175,14 +174,8 @@ if __name__ == '__main__':
     # define your model
     max_length = model2maxlen[model_name]
     if args.e:
-        # datasets = ["qasper", "multifieldqa_en", "hotpotqa", "2wikimqa", "gov_report", "multi_news", \
-            # "trec", "triviaqa", "samsum", "passage_count", "passage_retrieval_en", "lcc", "repobench-p"]
-        # datasets = ["narrativeqa", "qasper", "multifieldqa_en", "hotpotqa", "2wikimqa", "musique"]
-        
-
-        # datasets = ["longseal_12_docs_noCompressForm"]
         datasets = ["longseal_12_docs"]
-        # datasets = ["longseal_20_docs", "longseal_30_docs"]
+
 
     else:
         datasets = ["narrativeqa", "qasper", "multifieldqa_en", "multifieldqa_zh", "hotpotqa", "2wikimqa", "musique", \
@@ -196,22 +189,11 @@ if __name__ == '__main__':
         os.makedirs("pred")
     if not os.path.exists("pred_e"):
         os.makedirs("pred_e")
-    # settings = ['MUSIQUE_DOUBLE','MUSIQUE_DEF', 'MUSIQUE_AUGMENT_POS', 'MUSIQUE_AUGMENT_DEF']
-    # settings = ['MUSIQUE_AUGMENT_POS', 'MUSIQUE_DEF', 'MUSIQUE_DOUBLE']
-    # settings = ['MUSIQUE_DOUBLE_2','MUSIQUE_DOUBLE_4']
-    # settings = ['MUSIQUE_DOUBLE_4_MIX']
-    # settings = ['MUSIQUE_DOUBLE_4_MIX_CIR_LR_1E_4_EP1']
-    # settings = ['MUSIQUE_CUR_X2_LR_1E_4_EP2', 'MUSIQUE_CUR_X3_LR_5e_5_EP3', 'MUSIQUE_CUR_X3_LR_5e_5_EP2', 'MUSIQUE_CUR_X3_LR_1e_5_EP3']
-    # settings = ['MUSIQUE_CUR_X2_LR_1E_4_EP2', 'MUSIQUE_CUR_X3_LR_5e_5_EP3']
-    # for setting in settings:
+    
+    
     setting = args.setting
     for dataset in datasets:
         if args.e:
-            # data = load_dataset('THUDM/LongBench', f"{dataset}_e", split='test')
-            # Official
-            # data = load_dataset('THUDM/LongBench', f"{dataset}", split='test')
-            # Local
-            # data = load_dataset('json',data_files=f"./LongBench/data/{dataset}.jsonl")
             # Local comp
             print("#########################################")
             print(dataset)

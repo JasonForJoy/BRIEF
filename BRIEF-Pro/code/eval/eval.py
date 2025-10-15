@@ -44,34 +44,6 @@ dataset2metric = {
     "longseal_12_docs": qa_f1_score,
     "longseal_20_docs": qa_f1_score,
     "longseal_30_docs": qa_f1_score,
-    "longseal_12_docs_noCompressForm_222": qa_f1_score,
-    "longseal_12_docs_noCompressForm_333": qa_f1_score,
-    "longseal_12_docs_222": qa_f1_score,
-    "longseal_12_docs_333": qa_f1_score,
-    "2wikimqa_222": qa_f1_score,
-    "2wikimqa_333": qa_f1_score,
-    "musique_222": qa_f1_score,
-    "FRAMES_Clean_Data_noCompressForm_maxlen128": qa_f1_score,
-    "FRAMES_Clean_Data_CompressForm_maxlen128": qa_f1_score,
-    "FRAMES_Clean_Data_noCompressForm_noShuffle_maxlen128": qa_f1_score,
-    "FRAMES_Clean_Data_CompressForm_noShuffle_maxlen128": qa_f1_score,
-    "FRAMES_Clean_Data_noCompressForm_noShuffle_2_maxlen128": qa_f1_score,
-    "FRAMES_Clean_Data_CompressForm_noShuffle_2_maxlen128": qa_f1_score,
-    "FRAMES_Clean_Data_noCompressForm_noShuffle_2": qa_f1_score,
-    "FRAMES_Clean_Data_CompressForm_noShuffle_2": qa_f1_score,
-    "FRAMES_Clean_Data_noCompressForm_noShuffle_2_noTabularData": qa_f1_score,
-    "FRAMES_Clean_Data_CompressForm_noShuffle_2_noTabularData": qa_f1_score,
-    "FanOutQA_Data_noCompressForm": rouge_score,
-    "FanOutQA_Data_CompressForm": rouge_score,
-    "LVEval_Data_loogle_CR_mixup_16k": qa_f1_score,
-    "LVEval_Data_multifieldqa_en_mixup_16k": qa_f1_score,
-    "LVEval_Data_factrecall_en_16k": qa_f1_score,
-    "LVEval_Data_loogle_SD_mixup_16k": qa_f1_score,
-    "LVEval_Data_loogle_MIR_mixup_16k": qa_f1_score,
-    "LVEval_Data_hotpotwikiqa_mixup_16k": qa_f1_score,
-    "LooGLE_longdep_qa_shortdep_qa": qa_f1_score,
-    "BABILong_Data": qa_f1_score,
-    "LooGLE_longdep_qa_shortdep_qa_All": qa_f1_score,
     "hotpotqa_Top5": qa_f1_score,
     "2wikimqa_Top5": qa_f1_score,
     "musique_Top5": qa_f1_score,
@@ -170,13 +142,8 @@ if __name__ == '__main__':
                     predictions.append(data["pred"])
                     answers.append(data["answers"])
                     # all_classes = data["all_classes"]
-                    
 
-                
-                
-                
-                    
-                    
+
         if args.e:
             # score = scorer_e(dataset, predictions, answers, lengths, all_classes)
             score = scorer_e(dataset, predictions, answers, lengths, None)

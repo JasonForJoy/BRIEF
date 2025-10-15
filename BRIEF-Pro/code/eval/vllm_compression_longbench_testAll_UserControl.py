@@ -60,11 +60,8 @@ def main():
     llm = LLM(model=model_path,tensor_parallel_size=args.parallel_size,gpu_memory_utilization=0.9)
     tokenizer = llm.get_tokenizer()
 
-    # datasets = ["hotpotqa", "2wikimqa", "musique", "narrativeqa", "qasper", "multifieldqa_en"]
     datasets = ["hotpotqa", "2wikimqa", "musique"]
 
-    # datasets = ["narrativeqa", "qasper", "multifieldqa_en"]
-    # datasets = ["hotpotqa", "2wikimqa", "musique"]
 
     print("==================Model Tokeninzer Loaded==================")
     for dataset in datasets:
@@ -78,15 +75,12 @@ def main():
         if args.instruct == False:
             raise NotImplementedError("This part is not implemented yet.")
 
-
     
         if args.instruct == True:
             
             # UserControl Mode
-            control_length = 20
-
+            control_length = 10
             control_prompt = f"\nSummarize the documents relevant to the question in K sentences, where K = <|reserved_special_token_100|>{control_length}<|reserved_special_token_101|>"
-
             prompts = [tokenizer.apply_chat_template([{'role': 'user', 'content': f"Write a high-quality summary of the provided documents with respect to the question.\n ### This is the question: {query}\n### These are the documents:\n{inputstr}\n### This is the summary:{control_prompt}"}],tokenize=False,) for query,inputstr in zip(querys,inputstrs)]
             
             # Auto Mode
@@ -112,13 +106,9 @@ def main():
 
         
 
-        # model_type = "unbias_MULTI_RAG2"
         model_type = f"unbias_{model_name}"
-        # save_jsonl(dataForInfer,f"/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/LongBench/compdata/{dataset}_{model_type}.jsonl")
-        save_jsonl(dataForInfer,f"/data2/junyizhang/BRIEF_train_eval_Code/Axolotl/outputs/{dataset}_{model_type}.jsonl")
+        save_jsonl(dataForInfer,f"/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/LongBench/compdata/{dataset}_{model_type}.jsonl")
 
-        # with open(f"/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/LongBench/compdata/{dataset}_{model_type}.json","w") as f:
-        #     dataForInfer = json.dump(dataForInfer,f,indent=4)
         print(f"======================================================")
 
 
