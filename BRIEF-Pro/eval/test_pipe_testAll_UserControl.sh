@@ -1,5 +1,5 @@
 
-
+source /data2/junyizhang/anaconda3/etc/profile.d/conda.sh
 
 source ~/.bashrc
 
