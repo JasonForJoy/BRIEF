@@ -41,17 +41,24 @@
 
 ## Training 
 
-- Follow [Axolotl](https://github.com/axolotl-ai-cloud/axolotl) to install the environment for training.
+- Follow the instructions on the [Axolotl website](https://github.com/axolotl-ai-cloud/axolotl) to set up the training environment.
 
-- Run:
+- Then run the following command to start training:
+
 
   ```
-  bash ./BRIEF-Pro/BRIEF/BRIEF-Pro/train/Axolotl/examples/llama-3.2/test3.sh
+  bash ./BRIEF-Pro/train/Axolotl/examples/llama-3.2/test3.sh
   ```
 
 ## Evaluation 
 
-- Coming Soon
+- Run the following command to for evaluation:
+  
+
+  ```
+  bash ./BRIEF-Pro/BRIEF/BRIEF-Pro/eval/test_pipe_testAll_UserControl.sh
+  bash ./BRIEF-Pro/BRIEF/BRIEF-Pro/eval/test_pipe_testSealQA_UserControl.sh
+  ```
 
 
 
