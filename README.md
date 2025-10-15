@@ -6,7 +6,7 @@
 
 *Equal contribution
 
-[**🌐 Homepage**]() | [**🤗 Model**](https://huggingface.co/uclanlp/brief-pro) | [**🤗 Dataset**]() | [**📖 Paper**]()
+[**🌐 Homepage**]() | [**🤗 Model**](https://huggingface.co/uclanlp/brief-pro) | [**🤗 Dataset**](https://huggingface.co/datasets/uclanlp/Brief-Pro) | [**📖 Paper**]()
 
 </div>
 
