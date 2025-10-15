@@ -1,0 +1,502 @@
+
+
+
+
+
+CUDA_VISIBLE_DEVICES=2 python /data2/junyizhang/BRIEF_train_eval_Code/Axolotl/inference_scripts/vllm_compression_longbench_UserControl_version5_stage1.py \
+--name "version5_temp2" \
+--model_path "/data2/junyizhang/BRIEF_train_eval_Code/Axolotl/outputs/My_finetune_MuSiqQue_x4_UserControl_version5_Final_merged" \
+--parallel_size "1"
+
+
+
+
+conda activate longbench
+
+CUDA_VISIBLE_DEVICES=1,2 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll_singleProcess.py --model "llama3.1-70B-instruct-128k" --e --setting "My_Axolotl_Finetuned_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_checkpoint1047_Auto_testAll"
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-70B-instruct-128k_My_Axolotl_Finetuned_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_checkpoint1047_Auto_testAll"
+
+
+
+
+
+######
+
+
+CUDA_VISIBLE_DEVICES=1,2 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll_singleProcess.py --model "llama3.1-70B-instruct-128k" --e --setting "My_Axolotl_Finetuned_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_2_4epoch_checkpoint698_10sentences_testAll"
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-70B-instruct-128k_My_Axolotl_Finetuned_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_2_4epoch_checkpoint698_10sentences_testAll"
+
+
+######
+
+
+
+
+CUDA_VISIBLE_DEVICES=2,3,6,7 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_noCompress_testAll_singleProcess.py --model "llama3.1-70B-instruct-128k" --e --setting "My_noCompress_testAll"
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-70B-instruct-128k_My_noCompress_testAll"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+conda activate longbench
+
+
+CUDA_VISIBLE_DEVICES=2 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll.py --model "llama3.1-8b-instruct-128k" --e --setting "Longllmlingua_targetToken2000_3"
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-8b-instruct-128k_Longllmlingua_targetToken2000_3"
+
+
+
+
+
+
+CUDA_VISIBLE_DEVICES=0 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testSealQA.py --model "llama3.1-8b-instruct-128k" --e --setting "BRIEFold_hotpotqaTrain"
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-8b-instruct-128k_BRIEFold_hotpotqaTrain"
+
+
+
+
+
+
+#######################################
+Top k
+
+conda activate longbench
+
+
+
+8B
+
+CUDA_VISIBLE_DEVICES=4,5 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_noCompress_testAll.py --model "llama3.1-8b-instruct-128k" --e --setting "noCompress_testAll_Top3"
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-8b-instruct-128k_noCompress_testAll_Top3"
+
+
+
+
+
+70B
+
+CUDA_VISIBLE_DEVICES=2,3,4,5 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_noCompress_testAll_singleProcess.py --model "llama3.1-70B-instruct-128k" --e --setting "My_noCompress_testAll_Top3"
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-70B-instruct-128k_My_noCompress_testAll_Top3"
+
+
+
+
+#######################################
+
+
+
+
+
+
+# FILM-7B
+
+conda activate longbench
+
+
+CUDA_VISIBLE_DEVICES=5,6 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_noCompress_testAll.py --model "film-7b-32k" --e --setting "noCompress_testAll"
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "film-7b-32k_noCompress_testAll"
+
+
+
+
+
+
+# ProLong
+
+conda activate longbench
+
+
+CUDA_VISIBLE_DEVICES=4,5 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_noCompress_testAll.py --model "llama3-8B-ProLong-512k-base" --e --setting "noCompress_testAll"
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3-8B-ProLong-512k-base_noCompress_testAll"
+
+
+
+
+
+
+
+###############################################
+
+
+
+8B countFLOPs
+
+
+conda activate longbench
+
+
+
+
+CUDA_VISIBLE_DEVICES=4 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_noCompress_testAll_countFLOPs.py --model "llama3.1-8b-instruct-128k" --e --setting "noCompress_testAll_countFLOPs"
+
+Delta Time:
+CUDA_VISIBLE_DEVICES=3 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_noCompress_testAll_countTime.py --model "llama3.1-8b-instruct-128k" --e --setting "noCompress_testAll_countTime"
+CUDA_VISIBLE_DEVICES=3 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_noCompress_testAll_countTime.py --model "llama3.1-8b-instruct-128k" --e --setting "noCompress_testAll_countTime_Top5"
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-8b-instruct-128k_noCompress_testAll_countFLOPs"
+
+
+
+
+
+
+
+CUDA_VISIBLE_DEVICES=5 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll_countFLOPs.py --model "llama3.1-8b-instruct-128k" --e --setting "My_Axolotl_Finetuned_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_checkpoint1047_Auto_testAll"
+
+Delta Time:
+CUDA_VISIBLE_DEVICES=3 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll_countTime.py --model "llama3.1-8b-instruct-128k" --e --setting "My_Axolotl_Finetuned_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_checkpoint1047_Auto_testAll"
+
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-8b-instruct-128k_My_Axolotl_Finetuned_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_checkpoint1047_Auto_testAll"
+
+
+
+
+
+
+conda activate multidoc_vllm
+
+
+CUDA_VISIBLE_DEVICES=6 python /data2/junyizhang/BRIEF_train_eval_Code/Axolotl/inference_scripts/vllm_compression_longbench_testAll_UserControl_countFLOPs.py --name "My_Axolotl_Finetuned_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_merged_checkpoint1047_Auto_testAll_countFLOPs" --model_path "/data2/junyizhang/BRIEF_train_eval_Code/Axolotl/outputs/My_finetune_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_merged_checkpoint1047" --parallel_size 1
+
+Delta Time:
+CUDA_VISIBLE_DEVICES=3 python /data2/junyizhang/BRIEF_train_eval_Code/Axolotl/inference_scripts/vllm_compression_longbench_testAll_UserControl_countTime.py --name "My_Axolotl_Finetuned_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_merged_checkpoint1047_Auto_testAll_countTime_4" --model_path "/data2/junyizhang/BRIEF_train_eval_Code/Axolotl/outputs/My_finetune_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_merged_checkpoint1047" --parallel_size 1
+
+
+
+
+
+CUDA_VISIBLE_DEVICES=6 python /data2/junyizhang/BRIEF_train_eval_Code/Axolotl/inference_scripts/vllm_compression_longbench_testSealQA_UserControl_countFLOPs.py --name "My_Axolotl_Finetuned_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_merged_checkpoint1047_Auto_testAll_countFLOPs" --model_path "/data2/junyizhang/BRIEF_train_eval_Code/Axolotl/outputs/My_finetune_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_merged_checkpoint1047" --parallel_size 1
+
+Delta Time:
+CUDA_VISIBLE_DEVICES=3 python /data2/junyizhang/BRIEF_train_eval_Code/Axolotl/inference_scripts/vllm_compression_longbench_testSealQA_UserControl_countTime.py --name "My_Axolotl_Finetuned_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_merged_checkpoint1047_Auto_testAll_countTime_4" --model_path "/data2/junyizhang/BRIEF_train_eval_Code/Axolotl/outputs/My_finetune_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_merged_checkpoint1047" --parallel_size 1
+
+
+
+
+###############################################
+
+
+70B countFLOPs
+
+
+CUDA_VISIBLE_DEVICES=4,5,6,7 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_noCompress_testAll_singleProcess_countFLOPs.py --model "llama3.1-70B-instruct-128k" --e --setting "My_noCompress_testAll_countFLOPs"
+
+Delta Time:
+CUDA_VISIBLE_DEVICES=0,1,2,3 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_noCompress_testAll_singleProcess_countTime.py --model "llama3.1-70B-instruct-128k" --e --setting "My_noCompress_testAll_countTime"
+CUDA_VISIBLE_DEVICES=0,1,2,3 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_noCompress_testAll_singleProcess_countTime.py --model "llama3.1-70B-instruct-128k" --e --setting "My_noCompress_testAll_countTime_Top5"
+
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-70B-instruct-128k_My_noCompress_testAll_countFLOPs"
+
+
+
+
+
+
+
+CUDA_VISIBLE_DEVICES=1,2 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll_singleProcess_countFLOPs.py --model "llama3.1-70B-instruct-128k" --e --setting "My_Axolotl_Finetuned_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_checkpoint1047_Auto_testAll"
+
+Delta Time:
+CUDA_VISIBLE_DEVICES=1,2 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll_singleProcess_countTime.py --model "llama3.1-70B-instruct-128k" --e --setting "My_Axolotl_Finetuned_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_checkpoint1047_Auto_testAll"
+
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-70B-instruct-128k_My_Axolotl_Finetuned_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_checkpoint1047_Auto_testAll"
+
+
+
+
+
+
+
+###############################################
+
+
+LongLLMLingua 
+
+
+8B countFLOPs
+
+
+conda activate longbench
+
+
+CUDA_VISIBLE_DEVICES=5 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll_countFLOPs.py --model "llama3.1-8b-instruct-128k" --e --setting "Longllmlingua_targetToken2000_3"
+
+Delta Time:
+CUDA_VISIBLE_DEVICES=3 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll_countTime.py --model "llama3.1-8b-instruct-128k" --e --setting "Longllmlingua_targetToken2000_3"
+
+
+
+
+70B countFLOPs
+
+
+conda activate longbench
+
+
+CUDA_VISIBLE_DEVICES=6,7 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll_singleProcess_countFLOPs.py --model "llama3.1-70B-instruct-128k" --e --setting "Longllmlingua_targetToken2000_3"
+
+Delta Time:
+CUDA_VISIBLE_DEVICES=0,3 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll_singleProcess_countTime.py --model "llama3.1-70B-instruct-128k" --e --setting "Longllmlingua_targetToken2000_3"
+
+
+
+###############################################
+
+
+
+Top k countFLOPs
+
+conda activate longbench
+
+
+
+8B
+
+CUDA_VISIBLE_DEVICES=2,3 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_noCompress_testAll_countFLOPs.py --model "llama3.1-8b-instruct-128k" --e --setting "noCompress_testAll_Top5_countFLOPs"
+
+
+
+
+70B
+
+CUDA_VISIBLE_DEVICES=2,3,4,5 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_noCompress_testAll_singleProcess_countFLOPs.py --model "llama3.1-70B-instruct-128k" --e --setting "My_noCompress_testAll_Top5_countFLOPs"
+
+
+
+
+
+###############################################
+
+
+# FILM-7B
+
+conda activate longbench
+
+
+CUDA_VISIBLE_DEVICES=1 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_noCompress_testAll_countFLOPs.py --model "film-7b-32k" --e --setting "noCompress_testAll_countFLOPs"
+
+Delta Time:
+CUDA_VISIBLE_DEVICES=1 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_noCompress_testAll_countTime.py --model "film-7b-32k" --e --setting "noCompress_testAll_countTime"
+
+
+
+
+###############################################
+
+
+Recomp_Extractive 
+
+
+8B countFLOPs
+
+
+conda activate longbench
+
+
+CUDA_VISIBLE_DEVICES=3 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll.py --model "llama3.1-8b-instruct-128k" --e --setting "Recomp_Extractive"
+
+
+CUDA_VISIBLE_DEVICES=3 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testSealQA.py --model "llama3.1-8b-instruct-128k" --e --setting "Recomp_Extractive"
+
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-8b-instruct-128k_Recomp_Extractive"
+
+
+
+
+
+
+
+70B countFLOPs
+
+
+conda activate longbench
+
+
+CUDA_VISIBLE_DEVICES=0,3 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll_singleProcess.py --model "llama3.1-70B-instruct-128k" --e --setting "Recomp_Extractive"
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-70B-instruct-128k_Recomp_Extractive"
+
+
+
+
+
+###############################################
+
+
+
+Recomp_Abstractive
+
+
+8B countFLOPs
+
+
+conda activate longbench
+
+
+CUDA_VISIBLE_DEVICES=2 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll.py --model "llama3.1-8b-instruct-128k" --e --setting "Recomp_Abstractive"
+
+
+CUDA_VISIBLE_DEVICES=2 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testSealQA.py --model "llama3.1-8b-instruct-128k" --e --setting "Recomp_Abstractive"
+
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-8b-instruct-128k_Recomp_Abstractive"
+
+
+
+
+
+
+
+70B countFLOPs
+
+
+conda activate longbench
+
+
+CUDA_VISIBLE_DEVICES=0,1,2,3 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll_singleProcess.py --model "llama3.1-70B-instruct-128k" --e --setting "Recomp_Abstractive"
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-70B-instruct-128k_Recomp_Abstractive"
+
+
+
+
+
+###############################################
+
+
+
+
+
+
+EXIT
+
+
+8B countFLOPs
+
+
+conda activate longbench
+
+
+CUDA_VISIBLE_DEVICES=6 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll.py --model "llama3.1-8b-instruct-128k" --e --setting "EXIT"
+
+
+CUDA_VISIBLE_DEVICES=2 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testSealQA.py --model "llama3.1-8b-instruct-128k" --e --setting "EXIT"
+
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-8b-instruct-128k_EXIT"
+
+
+
+
+
+
+
+70B countFLOPs
+
+
+conda activate longbench
+
+
+CUDA_VISIBLE_DEVICES=1,2 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll_singleProcess.py --model "llama3.1-70B-instruct-128k" --e --setting "EXIT"
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-70B-instruct-128k_EXIT"
+
+
+
+
+
+###############################################
+
+
+
+llama2 7B Chat
+
+conda activate multidoc_vllm
+
+CUDA_VISIBLE_DEVICES=3,4 python /data2/junyizhang/BRIEF_train_eval_Code/Axolotl/inference_scripts/vllm_compression_longbench_testAll_UserControl_llama2_7B_Chat.py --name "My_finetune_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_Llama-2-7b-chat_4k_truncate_myTruncate_2_checkpoint1866_Auto_testAll" --model_path "/data2/junyizhang/BRIEF_train_eval_Code/Axolotl/outputs/My_finetune_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_Llama-2-7b-chat_4k_truncate_myTruncate_2_checkpoint1866" --parallel_size 2
+
+
+
+
+
+
+conda activate longbench
+
+
+CUDA_VISIBLE_DEVICES=4 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll.py --model "llama3.1-8b-instruct-128k" --e --setting "llama2_7B_Chat_truncate_myTruncate_2_checkpoint1866_Auto"
+
+
+CUDA_VISIBLE_DEVICES=5 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testSealQA.py --model "llama3.1-8b-instruct-128k" --e --setting "llama2_7B_Chat_truncate_myTruncate_2_checkpoint1866_Auto"
+
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-8b-instruct-128k_llama2_7B_Chat_truncate_myTruncate_2_checkpoint1866_Auto"
+
+
+
+
+
+
+
+70B countFLOPs
+
+
+conda activate longbench
+
+
+CUDA_VISIBLE_DEVICES=0,1 python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_testAll_singleProcess.py --model "llama3.1-70B-instruct-128k" --e --setting "llama2_7B_Chat_truncate_myTruncate_2_checkpoint1866_Auto"
+
+
+python /data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/eval_SealQA.py --model "llama3.1-70B-instruct-128k_llama2_7B_Chat_truncate_myTruncate_2_checkpoint1866_Auto"
+
+
+
+
+
+
+
+
+
+
+
+

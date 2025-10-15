@@ -41,8 +41,13 @@
 
 ## Training 
 
-- Coming Soon
+- Follow [Axolotl](https://github.com/axolotl-ai-cloud/axolotl) to install the environment for training.
 
+- Run:
+
+  ```
+  bash ./BRIEF-Pro/BRIEF/BRIEF-Pro/train/Axolotl/examples/llama-3.2/test3.sh
+  ```
 
 ## Evaluation 
 

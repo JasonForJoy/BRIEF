@@ -1,0 +1,7 @@
+Hugging Face 会把自己的缓存（模型、数据集等）默认放在 ~/.cache/huggingface/。把 HF_HOME 指到一个全新临时目录，就等于这次运行用的是干净隔离的缓存，不会命中你历史缓存里的任何东西。
+
+建立干净缓存环境（仅本次会话有效）
+
+export HF_HOME="$(mktemp -d)"
+
+

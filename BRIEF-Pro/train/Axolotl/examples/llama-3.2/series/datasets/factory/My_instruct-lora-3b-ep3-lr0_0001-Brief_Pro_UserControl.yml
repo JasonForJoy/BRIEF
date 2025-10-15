@@ -1,0 +1,200 @@
+base_model: meta-llama/Llama-3.2-3B-Instruct
+model_type: LlamaForCausalLM
+tokenizer_type: AutoTokenizer
+
+load_in_8bit: false
+load_in_4bit: false
+
+chat_template: llama3
+datasets:
+  - path: /data2/junyizhang/BRIEF_train_eval_Code/eval/woPrune_wPrune_data/prune/my_musique_train_normDistribution_discrete_x20_UserControl.jsonl
+    type: chat_template
+    field_messages: messages
+    message_field_role: role
+    message_field_content: content
+    roles:
+      user:
+        - user
+      assistant:
+        - assistant
+  
+  - path: /data2/junyizhang/BRIEF_train_eval_Code/eval/woPrune_wPrune_data/prune/my_hotpot_train_normDistribution_discrete_x20_tokenLen_controlDisMain10000_UserControl.jsonl
+    type: chat_template
+    field_messages: messages
+    message_field_role: role
+    message_field_content: content
+    roles:
+      user:
+        - user
+      assistant:
+        - assistant
+
+  - path: /data2/junyizhang/BRIEF_train_eval_Code/eval/woPrune_wPrune_data/prune/LongAlign_GPToracle_final_Train_UserControl.jsonl
+    type: chat_template
+    field_messages: messages
+    message_field_role: role
+    message_field_content: content
+    roles:
+      user:
+        - user
+      assistant:
+        - assistant
+
+
+
+dataset_prepared_path: ./last_run_prepared
+test_datasets:
+  - path: /data2/junyizhang/BRIEF_train_eval_Code/eval/woPrune_wPrune_data/prune/my_musique_eval_normDistribution_discrete_x20_UserControl.jsonl
+    ds_type: json
+    # You need to specify a split. For "json" datasets the default split is called "train".
+    split: train
+    type: chat_template
+    field_messages: messages
+    message_field_role: role
+    message_field_content: content
+    roles:
+      user:
+        - user
+      assistant:
+        - assistant
+    data_files:
+      - /data2/junyizhang/BRIEF_train_eval_Code/eval/woPrune_wPrune_data/prune/my_musique_eval_normDistribution_discrete_x20_UserControl.jsonl
+
+  - path: /data2/junyizhang/BRIEF_train_eval_Code/eval/woPrune_wPrune_data/prune/my_hotpot_eval_normDistribution_discrete_x20_tokenLen_controlDisMain10000_UserControl.jsonl
+    ds_type: json
+    # You need to specify a split. For "json" datasets the default split is called "train".
+    split: train
+    type: chat_template
+    field_messages: messages
+    message_field_role: role
+    message_field_content: content
+    roles:
+      user:
+        - user
+      assistant:
+        - assistant
+    data_files:
+      - /data2/junyizhang/BRIEF_train_eval_Code/eval/woPrune_wPrune_data/prune/my_hotpot_eval_normDistribution_discrete_x20_tokenLen_controlDisMain10000_UserControl.jsonl
+  
+  - path: /data2/junyizhang/BRIEF_train_eval_Code/eval/woPrune_wPrune_data/prune/LongAlign_GPToracle_final_Eval_UserControl.jsonl
+    ds_type: json
+    # You need to specify a split. For "json" datasets the default split is called "train".
+    split: train
+    type: chat_template
+    field_messages: messages
+    message_field_role: role
+    message_field_content: content
+    roles:
+      user:
+        - user
+      assistant:
+        - assistant
+    data_files:
+      - /data2/junyizhang/BRIEF_train_eval_Code/eval/woPrune_wPrune_data/prune/LongAlign_GPToracle_final_Eval_UserControl.jsonl
+
+
+
+
+
+# output_dir: /data2/junyizhang/BRIEF_train_eval_Code/Axolotl/outputs/My_finetune_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl
+
+output_dir: /data2/junyizhang/BRIEF_train_eval_Code/Axolotl/outputs/My_finetune_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_2_4epoch_222
+
+
+# sequence_len: 10240
+sequence_len: 20480
+sample_packing: true
+pad_to_sequence_len: true
+
+adapter: lora
+lora_model_dir:
+lora_r: 32
+lora_alpha: 16
+lora_dropout: 0.05
+lora_target_linear: true
+lora_fan_in_fan_out: false
+
+loraplus_lr_ratio: 16 # loraplus learning rate ratio lr_B / lr_A. Recommended value is 2^4.
+loraplus_lr_embedding: 0.000001
+#  loraplus learning rate for lora embedding layers. Default value is 1e-6.
+lora_modules_to_save:
+  - embed_tokens
+  - lm_head
+
+wandb_mode: 
+wandb_project: brief-multihoprag
+wandb_entity:
+wandb_watch: all
+# wandb_name: instruct-r32-neft-lr0_0001-ep3-sent_cont-local-8longer_fixed
+# wandb_name: MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl
+wandb_name: MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_2_4epoch_222
+
+wandb_log_model: checkpoint
+
+# gradient_accumulation_steps: 16
+gradient_accumulation_steps: 32
+# micro_batch_size: 2
+micro_batch_size: 1
+
+# num_epochs: 3
+num_epochs: 4
+
+optimizer: adamw_torch
+adam_beta1: 0.9
+adam_beta2: 0.999
+adam_epsilon: 0.00000001
+lr_scheduler: cosine
+learning_rate: 0.0001
+cosine_min_lr_ratio: 0.1
+
+
+neftune_noise_alpha: 5 # default value in the NEFT paper
+
+train_on_inputs: false
+group_by_length: false
+bf16: auto
+fp16:
+tf32: false
+
+gradient_checkpointing: true
+# early_stopping_patience: 2
+resume_from_checkpoint:
+local_rank:
+logging_steps: 1
+xformers_attention:
+flash_attention: true
+s2_attention:
+
+warmup_steps: 10
+evals_per_epoch: 1
+# mutex with eval_steps
+# eval_steps: 319
+# These are not properly maintained
+# !eval_table_size: 2
+eval_batch_size: 1
+eval_max_new_tokens: 128
+# However, the false must be set in order to do causal lm eval
+eval_sample_packing: false # false will lead to drop_last, which will cause potential error
+eval_causal_lm_metrics: ['chrf','sacrebleu']
+do_causal_lm_eval: true
+
+saves_per_epoch: 1 # mutex with save_steps
+# save_steps: 319
+
+# deepspeed: deepspeed_configs/zero1.json
+ddp_timeout: 720000
+weight_decay: 0.0
+fsdp:
+fsdp_config:
+special_tokens:
+   pad_token: "<|end_of_text|>"
+   # According to https://github.com/axolotl-ai-cloud/axolotl/discussions/1812
+   # Note: <|end_of_text|> for the base model; and <|eot_id|> for the chat model
+   bos_token: "<|begin_of_text|>"
+   eos_token: "<|eot_id|>"
+
+
+seed: 42
+strict: false
+debug: true
+# trust_remote_code: true # this seems to lead to stupid CUDA memory issue, perhaps some is touching 
