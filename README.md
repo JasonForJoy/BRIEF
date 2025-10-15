@@ -6,14 +6,14 @@
 
 *Equal contribution
 
-[**🌐 Homepage**]() | [**🤗 Model**](https://huggingface.co/uclanlp/brief-pro) | [**🤗 Dataset**](https://huggingface.co/datasets/uclanlp/Brief-Pro) | [**📖 Paper**]()
+[**🌐 Homepage**]() | [**🤗 Dataset**](https://huggingface.co/datasets/uclanlp/Brief-Pro) | [**📖 Paper**]()
 
 </div>
 
 
 ## News
 
-- We released the training and evaluation code, the model checkpoint, and the training data.
+- We released the training and evaluation code and the training data.
 
 ## Intro
 
