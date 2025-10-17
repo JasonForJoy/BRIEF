@@ -50,7 +50,7 @@
 
 ## 📍 Installation
 
-TBD
+- [TBD]
 
 
 
