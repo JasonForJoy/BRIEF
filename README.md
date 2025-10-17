@@ -3,18 +3,17 @@
 [Jia-Chen Gu*](https://jasonforjoy.github.io/), [Junyi Zhang*](https://levi-zjy.github.io/), [Di Wu](https://xiaowu0162.github.io/), [Yuankai Li](https://lieziwind.github.io/), [Kai-Wei Chang](http://web.cs.ucla.edu/~kwchang/) and [Nanyun Peng](https://violetpeng.github.io/)
 
 
-[![License](https://img.shields.io/github/license/WadeYin9712/UI-Simulator)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)]()
-[![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
-[![Stars](https://img.shields.io/github/stars/WadeYin9712/UI-Simulator?style=social)]()
+[![License](BRIEF-Pro/src/license.svg)]()
+[![Python](BRIEF-Pro/src/python3.8+.svg)]()
+[![Stars](BRIEF-Pro/src/stars.svg)]()
 
 🔗 **Paper link**: https://arxiv.org/abs/2510.13799
 
 🌐 **Website**: 
 
-🤗 **Datasets:** https://huggingface.co/datasets/uclanlp/Brief-Pro 
+🤗 **Dataset:** https://huggingface.co/datasets/uclanlp/Brief-Pro 
 
-🤗 **Model Weights:** https://huggingface.co/uclanlp/brief-pro 
+🤗 **Model:** https://huggingface.co/uclanlp/brief-pro 
 
 
 
