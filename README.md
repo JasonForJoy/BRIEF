@@ -48,32 +48,14 @@
 </p>
 
 
+## 📍 Installation
 
-## Intro
-
-
-- BRIEF-PRO is a universal, lightweight compressor that distills relevant evidence for a given query from multiple retrieved documents into a concise summary for seamless integration into in-context RAG.
-- Given seed data with contexts that are relatively short, each containing fewer than 1k words, BRIEF-PRO is trained towards abstractively condensing long contexts of 10k+ words across diverse scenarios.
-- Furthermore, BRIEF-PRO offers flexible user control over the length of the output summary by allowing users to specify the desired number of sentences.
-
-
-<p align="center">
-  <img src="BRIEF-Pro/src/Teaser_fig.png" width="60%"></a> <br>
-</p>
-
-
-- The overview of the synthetic data pipeline for training BRIEF-PRO is as follows. Starting with a mixture of oracle and distractor documents for a given query, the pipeline: (a) expands each document by looking up an external knowledge corpus, (b) curates a compact summary by further reducing redundancy in the oracle documents, and (c) generates a user-controllable compression instruction by counting the number of sentences in the compact summary.
-
-
-<p align="center">
-  <img src="BRIEF-Pro/src/Pipline.png" width="100%"></a> <br>
-</p>
+TBD
 
 
 
 
-
-## Training 
+## 🏃🏻‍♀️ Training 
 
 - Follow the instructions on the [Axolotl website](https://github.com/axolotl-ai-cloud/axolotl) to set up the training environment.
 
@@ -84,7 +66,7 @@
   bash ./BRIEF-Pro/train/Axolotl/examples/llama-3.2/test3.sh
   ```
 
-## Evaluation 
+## 🔬 Evaluation 
 
 - Run the following command to for evaluation:
   
