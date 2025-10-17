@@ -24,7 +24,7 @@
 
 ## 🚀 Overview
 
-🌟 **BRIEF-PRO** is a universal, lightweight compressor that distills relevant evidence for a given query from multiple retrieved documents into a concise summary for seamless integration into in-context RAG.
+🤖 **BRIEF-PRO** is a universal, lightweight compressor that distills relevant evidence for a given query from multiple retrieved documents into a concise summary for seamless integration into in-context RAG.
 
 <p align="left">
   <img src="BRIEF-Pro/src/Teaser_fig.png" width="50%"></a> <br>
