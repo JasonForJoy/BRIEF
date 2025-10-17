@@ -7,13 +7,13 @@
 [![Python](BRIEF-Pro/src/python38.svg)]()
 <!-- [![Stars](BRIEF-Pro/src/stars.svg)]() -->
 
-🔗 **Paper link**: https://arxiv.org/abs/2510.13799
+🔗 **Paper**: [Link](https://arxiv.org/abs/2510.13799)
 
 🌐 **Website**: 
 
-🤗 **Dataset:** https://huggingface.co/datasets/uclanlp/Brief-Pro 
+🤗 **Dataset:** [Link](https://huggingface.co/datasets/uclanlp/Brief-Pro)
 
-🤗 **Model:** https://huggingface.co/uclanlp/brief-pro 
+🤗 **Model:** [Link](https://huggingface.co/uclanlp/brief-pro)
 
 
 
