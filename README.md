@@ -5,7 +5,7 @@
 
 [![License](BRIEF-Pro/src/license.svg)]()
 [![Python](BRIEF-Pro/src/python38.svg)]()
-<!-- [![Stars](BRIEF-Pro/src/stars.svg)]() -->
+[![Stars](BRIEF-Pro/src/stars.svg?style=social)]()
 
 
 [**🌐 Homepage**]() | [**🤗 Dataset**](https://huggingface.co/datasets/uclanlp/Brief-Pro) | [**🤗 Model**](https://huggingface.co/uclanlp/brief-pro) | [**📖 Paper**](https://arxiv.org/abs/2510.13799)
