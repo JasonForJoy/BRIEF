@@ -7,6 +7,10 @@
 [![Python](BRIEF-Pro/src/python38.svg)]()
 <!-- [![Stars](BRIEF-Pro/src/stars.svg)]() -->
 
+
+[**🌐 Homepage**]() | [**🤗 Dataset**](https://huggingface.co/datasets/uclanlp/Brief-Pro) | [**🤗 Model**](https://huggingface.co/uclanlp/brief-pro) | [**📖 Paper**](https://arxiv.org/abs/2510.13799)
+
+<!-- 
 🔗 **Paper**: [Link](https://arxiv.org/abs/2510.13799)
 
 🌐 **Website**: 
@@ -14,7 +18,7 @@
 🤗 **Dataset:** [Link](https://huggingface.co/datasets/uclanlp/Brief-Pro)
 
 🤗 **Model:** [Link](https://huggingface.co/uclanlp/brief-pro)
-
+ -->
 
 
 ## News
