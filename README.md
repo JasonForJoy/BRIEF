@@ -21,6 +21,12 @@
 
 
 
+## News
+
+- We released the training and evaluation code and the training data.
+
+
+
 
 ## 🚀 Overview
 
@@ -30,9 +36,18 @@
   <img src="BRIEF-Pro/src/Teaser_fig.png" width="50%"></a> <br>
 </p>
 
-## News
 
-- We released the training and evaluation code and the training data.
+## ✨ Key Features
+
+- 🔧 BRIEF-PRO pioneers the exploration of multi-hop reasoning and compression of RAG for long contexts of 10k+ words across diverse scenarios. 
+- ⚙️ A synthetic data pipeline, built on short-context seed data, is designed to synthesize long-context training data for compression learning.
+- 🧩 BRIEF-PRO, trained on the curated dataset, generates concise summaries that accelerate the inference and enhance the accuracy of a wide range of small, large, and proprietary language models.
+
+<p align="left">
+  <img src="BRIEF-Pro/src/Pipline.png" width="60%"></a> <br>
+</p>
+
+
 
 ## Intro
 
