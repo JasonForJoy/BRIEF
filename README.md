@@ -44,7 +44,7 @@
 - 🧩 BRIEF-PRO, trained on the curated dataset, generates concise summaries that accelerate the inference and enhance the accuracy of a wide range of small, large, and proprietary language models.
 
 <p align="left">
-  <img src="BRIEF-Pro/src/Pipline.png" width="100%"></a> <br>
+  <img src="BRIEF-Pro/src/Pipline.png" width="90%"></a> <br>
 </p>
 
 
