@@ -1,21 +1,14 @@
+<div align="center">
+
 # BRIEF-PRO: Universal Context Compression with Short-to-Long Synthesis for Fast and Accurate Multi-Hop Reasoning
 
 [Jia-Chen Gu*](https://jasonforjoy.github.io/), [Junyi Zhang*](https://levi-zjy.github.io/), [Di Wu](https://xiaowu0162.github.io/), [Yuankai Li](https://lieziwind.github.io/), [Kai-Wei Chang](http://web.cs.ucla.edu/~kwchang/) and [Nanyun Peng](https://violetpeng.github.io/)
 
+*Equal contribution
 
-[![License](https://img.shields.io/github/license/WadeYin9712/UI-Simulator)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)]()
-[![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
-[![Stars](https://img.shields.io/github/stars/WadeYin9712/UI-Simulator?style=social)]()
+[**🌐 Homepage**]() | [**🤗 Dataset**](https://huggingface.co/datasets/uclanlp/Brief-Pro) | [**🤗 Model**](https://huggingface.co/uclanlp/brief-pro) | [**📖 Paper**](https://arxiv.org/abs/2510.13799)
 
-🔗 **Paper link**: https://arxiv.org/abs/2510.13799
-
-🌐 **Website**: 
-
-🤗 **Datasets:** https://huggingface.co/datasets/uclanlp/Brief-Pro 
-
-🤗 **Model Weights:** https://huggingface.co/uclanlp/brief-pro 
-
+</div>
 
 
 ## News
