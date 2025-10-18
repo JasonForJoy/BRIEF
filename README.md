@@ -115,11 +115,11 @@ conda env create -f ./BRIEF-Pro/env/longbench_env.yml
 
 **📖 Data Preparation:**
 
-Download the ```musique.jsonl```, ```hotpotqa.jsonl```, and ```2wikimqa.jsonl``` files from [LongBench](https://huggingface.co/datasets/zai-org/LongBench) and place them in ```./BRIEF-Pro/eval/LongBench/data/```.
+- Download the ```musique.jsonl```, ```hotpotqa.jsonl```, and ```2wikimqa.jsonl``` files from [LongBench](https://huggingface.co/datasets/zai-org/LongBench) and place them in ```./BRIEF-Pro/eval/LongBench/data/```.
 
-Run ```./BRIEF-Pro/eval/LongBench/convert.py``` to align the test data titles with our training format.
+- Run ```./BRIEF-Pro/eval/LongBench/convert.py``` to align the test data titles with our training format.
 
-We provide the SealQA test data file at ```./BRIEF-Pro/eval/LongBench/unbiasdata/longseal.jsonl```.
+- We provide the SealQA test data file at ```./BRIEF-Pro/eval/LongBench/unbiasdata/longseal.jsonl```.
 
 
 
