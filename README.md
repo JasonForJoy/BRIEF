@@ -70,15 +70,33 @@
 
 - Run the following command to for evaluation:
   
+  - BRIEF-PRO as the Compressor 
+    - Llama-3.1-8B-Instruct / Llama-3.1-70B-Instruct as the Reader Model:
+    ```
+    bash ./BRIEF-Pro/eval/test_pipe_testAll_UserControl.sh
+    bash ./BRIEF-Pro/eval/test_pipe_testSealQA_UserControl.sh
+    ```
 
-  ```
-  bash ./BRIEF-Pro/BRIEF/BRIEF-Pro/eval/test_pipe_testAll_UserControl.sh
-  bash ./BRIEF-Pro/BRIEF/BRIEF-Pro/eval/test_pipe_testSealQA_UserControl.sh
-  ```
+    - GPT-4.1-nano as the Reader Model:
+    ```
+    python ./BRIEF-Pro/eval/GPT_pred.py
+    ```
 
 
 
 
 
 ## Citation
+
+```
+@misc{gu2025briefprouniversalcontextcompression,
+      title={BRIEF-Pro: Universal Context Compression with Short-to-Long Synthesis for Fast and Accurate Multi-Hop Reasoning}, 
+      author={Jia-Chen Gu and Junyi Zhang and Di Wu and Yuankai Li and Kai-Wei Chang and Nanyun Peng},
+      year={2025},
+      eprint={2510.13799},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2510.13799}, 
+}
+```
 
