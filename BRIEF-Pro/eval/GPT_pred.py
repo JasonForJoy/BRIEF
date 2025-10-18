@@ -2,7 +2,7 @@
 
 import json
 
-datasets_all = ["musique", "2wikimqa", "hotpotqa", "longseal_12_docs"]
+datasets_all = ["musique", "2wikimqa", "hotpotqa", "longseal"]
 
 setting = "Brief-Pro_Auto"
 # setting = "Brief-Pro_5sentences"

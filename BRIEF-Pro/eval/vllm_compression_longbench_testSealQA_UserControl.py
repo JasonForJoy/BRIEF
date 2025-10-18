@@ -62,7 +62,7 @@ def main():
     llm = LLM(model=model_path,tensor_parallel_size=args.parallel_size,gpu_memory_utilization=0.9)
     tokenizer = llm.get_tokenizer()
 
-    datasets = ["longseal_12_docs"]
+    datasets = ["longseal"]
 
     print("==================Model Tokeninzer Loaded==================")
     for dataset in datasets:

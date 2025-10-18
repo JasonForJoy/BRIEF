@@ -174,7 +174,7 @@ if __name__ == '__main__':
     # define your model
     max_length = model2maxlen[model_name]
     if args.e:
-        datasets = ["longseal_12_docs"]
+        datasets = ["longseal"]
 
 
     else:
