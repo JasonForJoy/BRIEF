@@ -4,13 +4,14 @@ source /data2/junyizhang/anaconda3/etc/profile.d/conda.sh
 source ~/.bashrc
 
 
-ALLOW_GPUS="5,6"
+ALLOW_GPUS="6,7"
 ALLOW_NUM_GPU="2"
 SETTINGS=(
-    "Brief-Pro"
+    # "Brief-Pro_Auto"
+    "Brief-Pro_20sentences"
     )
 MERGE_PATHS=(
-    "./brief-pro_checkpoint"
+    "uclanlp/brief-pro"
     )
 
 for i in "${!SETTINGS[@]}"; do

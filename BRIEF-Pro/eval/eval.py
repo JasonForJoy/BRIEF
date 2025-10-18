@@ -116,9 +116,9 @@ if __name__ == '__main__':
     args = parse_args()
     scores = dict()
     if args.e:
-        path = f"/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_e/{args.model}/"
+        path = f"./pred_e/{args.model}/"
     else:
-        path = f"/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_e/{args.model}/"
+        path = f"./pred_e/{args.model}/"
     all_files = os.listdir(path)
     print("Evaluating on:", all_files)
     for filename in all_files:
@@ -136,7 +136,7 @@ if __name__ == '__main__':
                             predictions.append(data["pred"])
                             answers.append(data["answers"])
                             all_classes = data["all_classes"]
-                else:    
+                else:
                     if "length" in data:
                         lengths.append(data["length"])
                     predictions.append(data["pred"])
@@ -152,12 +152,12 @@ if __name__ == '__main__':
             score, em_score = scorer(dataset, predictions, answers, None)
         scores[dataset] = (score, em_score)
     if args.e:
-        out_path = f"/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_e/{args.model}/result_SealQA.json"
+        out_path = f"./pred_e/{args.model}/result.json"
     else:
         if args.short:
-            out_path = f"/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_e/{args.model}/result_short_SealQA.json"
+            out_path = f"./pred_e/{args.model}/result_short.json"
         else:
-            out_path = f"/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_e/{args.model}/result_SealQA.json"
+            out_path = f"./pred_e/{args.model}/result.json"
         
     with open(out_path, "w") as f:
         json.dump(scores, f, ensure_ascii=False, indent=4)

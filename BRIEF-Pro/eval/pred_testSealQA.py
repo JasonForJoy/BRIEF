@@ -167,8 +167,8 @@ if __name__ == '__main__':
     world_size = torch.cuda.device_count()
     mp.set_start_method('spawn', force=True)
 
-    model2path = json.load(open("/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/config/model2path.json", "r"))
-    model2maxlen = json.load(open("/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/config/model2maxlen.json", "r"))
+    model2path = json.load(open("./config/model2path.json", "r"))
+    model2maxlen = json.load(open("./config/model2maxlen.json", "r"))
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model_name = args.model
     # define your model
@@ -182,8 +182,8 @@ if __name__ == '__main__':
                     "dureader", "gov_report", "qmsum", "multi_news", "vcsum", "trec", "triviaqa", "samsum", "lsht", \
                     "passage_count", "passage_retrieval_en", "passage_retrieval_zh", "lcc", "repobench-p"]
     # we design specific prompt format and max generation length for each task, feel free to modify them to optimize model output
-    dataset2prompt = json.load(open("/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/config/dataset2prompt.json", "r"))
-    dataset2maxlen = json.load(open("/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/config/dataset2maxlen.json", "r"))
+    dataset2prompt = json.load(open("./config/dataset2prompt.json", "r"))
+    dataset2maxlen = json.load(open("./config/dataset2maxlen.json", "r"))
     # predict on each dataset
     if not os.path.exists("pred"):
         os.makedirs("pred")
@@ -199,13 +199,13 @@ if __name__ == '__main__':
             print(dataset)
             print(setting)
             print("#########################################")
-            data = load_dataset('json',data_files=f"//data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/LongBench/compdata/{dataset}_unbias_{setting}.jsonl")
+            data = load_dataset('json',data_files=f"./compdata/{dataset}_unbias_{setting}.jsonl")
             # data = load_dataset('json',data_files=f"./LongBench/compdata/{dataset}_unbias_MULTI_RAG2.jsonl")
             print(repr(data))
             data = data['train']
-            if not os.path.exists(f"/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_e/{model_name}_{setting}"):
-                os.makedirs(f"/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_e/{model_name}_{setting}")
-            out_path = f"/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/pred_e/{model_name}_{setting}/{dataset}.jsonl"
+            if not os.path.exists(f"./pred_e/{model_name}_{setting}"):
+                os.makedirs(f"./pred_e/{model_name}_{setting}")
+            out_path = f"./pred_e/{model_name}_{setting}/{dataset}.jsonl"
         else:
             raise NotImplementedError
             data = load_dataset('THUDM/LongBench', dataset, split='test')

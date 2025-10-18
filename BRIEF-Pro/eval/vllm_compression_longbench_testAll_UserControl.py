@@ -79,7 +79,7 @@ def main():
         if args.instruct == True:
             
             # UserControl Mode
-            control_length = 10
+            control_length = 20
             control_prompt = f"\nSummarize the documents relevant to the question in K sentences, where K = <|reserved_special_token_100|>{control_length}<|reserved_special_token_101|>"
             prompts = [tokenizer.apply_chat_template([{'role': 'user', 'content': f"Write a high-quality summary of the provided documents with respect to the question.\n ### This is the question: {query}\n### These are the documents:\n{inputstr}\n### This is the summary:{control_prompt}"}],tokenize=False,) for query,inputstr in zip(querys,inputstrs)]
             
@@ -107,7 +107,8 @@ def main():
         
 
         model_type = f"unbias_{model_name}"
-        save_jsonl(dataForInfer,f"/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/LongBench/compdata/{dataset}_{model_type}.jsonl")
+        # save_jsonl(dataForInfer,f"/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/LongBench/compdata/{dataset}_{model_type}.jsonl")
+        save_jsonl(dataForInfer,f"./compdata/{dataset}_{model_type}.jsonl")
 
         print(f"======================================================")
 

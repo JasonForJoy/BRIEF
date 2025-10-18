@@ -131,7 +131,7 @@ def main():
         
 
         model_type = f"unbias_{model_name}"
-        save_jsonl(dataForInfer,f"/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/LongBench/compdata/{dataset}_{model_type}.jsonl")
+        save_jsonl(dataForInfer,f"./compdata/{dataset}_{model_type}.jsonl")
         
         print(f"======================================================")
 
