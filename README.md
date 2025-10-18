@@ -53,8 +53,9 @@
 <!-- 
 ## 📍 Installation
 
-- [TBD]
+-  
 -->
+
 
 
 
@@ -72,6 +73,14 @@
 
 
 ## 🔬 Evaluation 
+
+- **📍 Installation:**
+
+    Follow [vllm](https://github.com/vllm-project/vllm) to install **multidoc_vllm** environment
+
+
+---
+
 
 - Run the following command to for evaluation:
   
