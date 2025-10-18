@@ -70,17 +70,17 @@
 
 - Run the following command to for evaluation:
   
-  - BRIEF-PRO as the Compressor 
-    - Llama-3.1-8B-Instruct / Llama-3.1-70B-Instruct as the Reader Model:
-    ```
-    bash ./BRIEF-Pro/eval/test_pipe_testAll_UserControl.sh
-    bash ./BRIEF-Pro/eval/test_pipe_testSealQA_UserControl.sh
-    ```
+- BRIEF-PRO as the Compressor 
+  - Llama-3.1-8B-Instruct / Llama-3.1-70B-Instruct as the Reader Model:
+  ```
+  bash ./BRIEF-Pro/eval/test_pipe_testAll_UserControl.sh
+  bash ./BRIEF-Pro/eval/test_pipe_testSealQA_UserControl.sh
+  ```
 
-    - GPT-4.1-nano as the Reader Model:
-    ```
-    python ./BRIEF-Pro/eval/GPT_pred.py
-    ```
+  - GPT-4.1-nano as the Reader Model:
+  ```
+  python ./BRIEF-Pro/eval/GPT_pred.py
+  ```
 
 
 
