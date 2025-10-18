@@ -7,7 +7,7 @@ load_in_4bit: false
 
 chat_template: llama3
 datasets:
-  - path: /data2/junyizhang/BRIEF_train_eval_Code/eval/woPrune_wPrune_data/prune/my_musique_train_normDistribution_discrete_x20_UserControl.jsonl
+  - path: ./my_musique_train_normDistribution_discrete_x20_UserControl.jsonl
     type: chat_template
     field_messages: messages
     message_field_role: role
@@ -18,7 +18,7 @@ datasets:
       assistant:
         - assistant
   
-  - path: /data2/junyizhang/BRIEF_train_eval_Code/eval/woPrune_wPrune_data/prune/my_hotpot_train_normDistribution_discrete_x20_tokenLen_controlDisMain10000_UserControl.jsonl
+  - path: ./my_hotpot_train_normDistribution_discrete_x20_tokenLen_controlDisMain10000_UserControl.jsonl
     type: chat_template
     field_messages: messages
     message_field_role: role
@@ -29,7 +29,7 @@ datasets:
       assistant:
         - assistant
 
-  - path: /data2/junyizhang/BRIEF_train_eval_Code/eval/woPrune_wPrune_data/prune/LongAlign_GPToracle_final_Train_UserControl.jsonl
+  - path: ./LongAlign_GPToracle_final_Train_UserControl.jsonl
     type: chat_template
     field_messages: messages
     message_field_role: role
@@ -44,7 +44,7 @@ datasets:
 
 dataset_prepared_path: ./last_run_prepared
 test_datasets:
-  - path: /data2/junyizhang/BRIEF_train_eval_Code/eval/woPrune_wPrune_data/prune/my_musique_eval_normDistribution_discrete_x20_UserControl.jsonl
+  - path: ./my_musique_eval_normDistribution_discrete_x20_UserControl.jsonl
     ds_type: json
     # You need to specify a split. For "json" datasets the default split is called "train".
     split: train
@@ -58,9 +58,9 @@ test_datasets:
       assistant:
         - assistant
     data_files:
-      - /data2/junyizhang/BRIEF_train_eval_Code/eval/woPrune_wPrune_data/prune/my_musique_eval_normDistribution_discrete_x20_UserControl.jsonl
+      - ./my_musique_eval_normDistribution_discrete_x20_UserControl.jsonl
 
-  - path: /data2/junyizhang/BRIEF_train_eval_Code/eval/woPrune_wPrune_data/prune/my_hotpot_eval_normDistribution_discrete_x20_tokenLen_controlDisMain10000_UserControl.jsonl
+  - path: ./my_hotpot_eval_normDistribution_discrete_x20_tokenLen_controlDisMain10000_UserControl.jsonl
     ds_type: json
     # You need to specify a split. For "json" datasets the default split is called "train".
     split: train
@@ -74,9 +74,9 @@ test_datasets:
       assistant:
         - assistant
     data_files:
-      - /data2/junyizhang/BRIEF_train_eval_Code/eval/woPrune_wPrune_data/prune/my_hotpot_eval_normDistribution_discrete_x20_tokenLen_controlDisMain10000_UserControl.jsonl
+      - ./my_hotpot_eval_normDistribution_discrete_x20_tokenLen_controlDisMain10000_UserControl.jsonl
   
-  - path: /data2/junyizhang/BRIEF_train_eval_Code/eval/woPrune_wPrune_data/prune/LongAlign_GPToracle_final_Eval_UserControl.jsonl
+  - path: ./LongAlign_GPToracle_final_Eval_UserControl.jsonl
     ds_type: json
     # You need to specify a split. For "json" datasets the default split is called "train".
     split: train
@@ -90,15 +90,13 @@ test_datasets:
       assistant:
         - assistant
     data_files:
-      - /data2/junyizhang/BRIEF_train_eval_Code/eval/woPrune_wPrune_data/prune/LongAlign_GPToracle_final_Eval_UserControl.jsonl
+      - ./LongAlign_GPToracle_final_Eval_UserControl.jsonl
 
 
 
 
+output_dir: ./Axolotl/outputs/Brief_Pro_UserControl
 
-# output_dir: /data2/junyizhang/BRIEF_train_eval_Code/Axolotl/outputs/My_finetune_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl
-
-output_dir: /data2/junyizhang/BRIEF_train_eval_Code/Axolotl/outputs/My_finetune_MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_2_4epoch_222
 
 
 # sequence_len: 10240
@@ -127,7 +125,7 @@ wandb_entity:
 wandb_watch: all
 # wandb_name: instruct-r32-neft-lr0_0001-ep3-sent_cont-local-8longer_fixed
 # wandb_name: MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl
-wandb_name: MusiqueX8_HotpotX10_LongAlign_Mix_normDistribution_controlDisMain10000_UserControl_2_4epoch_222
+wandb_name: Brief_Pro_UserControl
 
 wandb_log_model: checkpoint
 
@@ -136,8 +134,7 @@ gradient_accumulation_steps: 32
 # micro_batch_size: 2
 micro_batch_size: 1
 
-# num_epochs: 3
-num_epochs: 4
+num_epochs: 3
 
 optimizer: adamw_torch
 adam_beta1: 0.9

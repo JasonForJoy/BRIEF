@@ -61,28 +61,63 @@
 
 ## 🏃🏻‍♀️ Training 
 
-- Follow the instructions on the [Axolotl website](https://github.com/axolotl-ai-cloud/axolotl) to set up the training environment.
+**📍 Installation:**
 
-- Then run the following command to start training:
+<!-- Follow the instructions on the [Axolotl website](https://github.com/axolotl-ai-cloud/axolotl) to set up the training environment. -->
+
+```
+conda create -n axolotl python=3.10 -y
+conda activate axolotl
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+
+pip install packaging ninja
+pip install flash-attn --no-build-isolation
+
+cd Axolotl/
+pip install --index-url https://download.pytorch.org/whl/cu124 torch==2.6.0+cu124
+pip install xformers==0.0.29.post2
+pip install axolotl==0.5.0 accelerate peft optimum bitsandbytes liger-kernel lm-eval
+
+pip install -e .
+pip install -e '.[deepspeed]'
+```
+
+You can also follow the instructions on the [Axolotl website](https://github.com/axolotl-ai-cloud/axolotl) (we use axolotl==0.5.0) to set up the training environment.
 
 
-  ```
-  bash ./BRIEF-Pro/train/Axolotl/examples/llama-3.2/test3.sh
-  ```
+**💡 Running:**
+
+
+Then run the following command to start training:
+
+
+```
+bash ./BRIEF-Pro/train/Axolotl/examples/llama-3.2/train.sh
+```
 
 
 
 ## 🔬 Evaluation 
 
-- **📍 Installation:**
+**📍 Installation:**
 
-    Follow [vllm](https://github.com/vllm-project/vllm) to install **multidoc_vllm** environment
+Follow [VLLM](https://github.com/vllm-project/vllm) to install the **multidoc_vllm** environment.
+
+Follow [LongBench](https://github.com/THUDM/LongBench) to install the **longbench** environment.
+
+You can also quickly set up the environments using the provided .yml files.
+```
+conda env create -f ./BRIEF-Pro/env/multidoc_vllm_env.yml
+conda env create -f ./BRIEF-Pro/env/longbench_env.yml
+```
 
 
----
 
 
-- Run the following command to for evaluation:
+**💡 Running:**
+
+Run the following command to for evaluation:
   
 - BRIEF-PRO as the Compressor 
   - Llama-3.1-8B-Instruct / Llama-3.1-70B-Instruct as the Reader Model:
