@@ -66,7 +66,7 @@ def main():
     print("==================Model Tokeninzer Loaded==================")
     for dataset in datasets:
         
-        dataForInfer:list[dict] = read_jsonl(f"/data2/junyizhang/BRIEF_train_eval_Code/LongBench/LongBench/LongBench/unbiasdata/{dataset}.jsonl")
+        dataForInfer:list[dict] = read_jsonl(f"./LongBench/unbiasdata/{dataset}.jsonl")
 
         inputstrs: list[str] = [temp['context'] for temp in dataForInfer]
         querys = [temp['input'] for temp in dataForInfer]

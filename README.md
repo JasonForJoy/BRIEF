@@ -1,4 +1,4 @@
-# 🤖 BRIEF-PRO: Universal Context Compression with Short-to-Long Synthesis for Fast and Accurate Multi-Hop Reasoning
+# 🗺️ BRIEF-PRO: Universal Context Compression with Short-to-Long Synthesis for Fast and Accurate Multi-Hop Reasoning
 
 **[Jia-Chen Gu*](https://jasonforjoy.github.io/), [Junyi Zhang*](https://levi-zjy.github.io/), [Di Wu](https://xiaowu0162.github.io/), [Yuankai Li](https://lieziwind.github.io/), [Kai-Wei Chang](http://web.cs.ucla.edu/~kwchang/) and [Nanyun Peng](https://violetpeng.github.io/)**
 
@@ -112,6 +112,14 @@ conda env create -f ./BRIEF-Pro/env/multidoc_vllm_env.yml
 conda env create -f ./BRIEF-Pro/env/longbench_env.yml
 ```
 
+
+**📖 Data Preparation:**
+
+Download the ```musique.jsonl```, ```hotpotqa.jsonl```, and ```2wikimqa.jsonl``` files from [LongBench](https://huggingface.co/datasets/zai-org/LongBench) and place them in ```./BRIEF-Pro/eval/LongBench/data/```.
+
+Run ```./BRIEF-Pro/eval/LongBench/convert.py``` to align the test data titles with our training format.
+
+We provide the SealQA test data file at ```./BRIEF-Pro/eval/LongBench/unbiasdata/longseal.jsonl```.
 
 
 
