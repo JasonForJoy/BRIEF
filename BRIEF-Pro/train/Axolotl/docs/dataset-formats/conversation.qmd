@@ -93,6 +93,7 @@ datasets:
 
 4. Using a custom jinja template on OpenAI messages format, training on all assistant messages.
 
+{% raw %}
 ```yaml
 # chat_template: jinja # `jinja` will be implied if the `chat_template_jinja` is set and this field is empty
 chat_template_jinja: "{{ bos_token }}{% for message in messages %}{% if (message['role'] == 'system') %}{{'<|system|>' + '\n' + message['content'] + '<|end|>' + '\n'}}{% elif (message['role'] == 'user') %}{{'<|user|>' + '\n' + message['content'] + '<|end|>' + '\n' + '<|assistant|>' + '\n'}}{% elif message['role'] == 'assistant' %}{{message['content'] + '<|end|>' + '\n'}}{% endif %}{% endfor %}"
@@ -102,6 +103,7 @@ datasets:
     type: chat_template
     roles_to_train: ["assistant"]
 ```
+{% endraw %}
 
 
 5. (Advanced) Using fine-grained control over tokens and turns to train in a conversation
