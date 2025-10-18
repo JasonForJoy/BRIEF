@@ -64,7 +64,11 @@ dataset2metric = {
     "musique_dev_ExpandTop20_Final_500": qa_f1_score,
     "musique_dev_ExpandTop40_Final_500": qa_f1_score,
     "musique_dev_ExpandTop60_Final_500": qa_f1_score,
-    "musique_dev_ExpandTop80_Final_500": qa_f1_score
+    "musique_dev_ExpandTop80_Final_500": qa_f1_score,
+    "2wikimqa_GPT4-1-nano": qa_f1_score,
+    "hotpotqa_GPT4-1-nano": qa_f1_score,
+    "musique_GPT4-1-nano": qa_f1_score,
+    "longseal_12_docs_GPT4-1-nano": qa_f1_score
 }
 
 def parse_args(args=None):
