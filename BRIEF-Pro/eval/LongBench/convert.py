@@ -31,6 +31,5 @@ for item in d:
     item['context'] = newString
     
 
-# save_jsonl(d, PATH.replace("data", "unbiasdata"))
 save_jsonl(d, f"./unbiasdata/{dataset}.jsonl")
 
