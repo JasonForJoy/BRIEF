@@ -13,7 +13,7 @@
 
 🔗 **Paper**: https://arxiv.org/abs/2510.13799
 
-<!-- 🌐 **Website**:  -->
+🌐 **Website**: https://jasonforjoy.github.io/BRIEF/
 
 🤗 **Dataset:** https://huggingface.co/datasets/uclanlp/Brief-Pro
 
