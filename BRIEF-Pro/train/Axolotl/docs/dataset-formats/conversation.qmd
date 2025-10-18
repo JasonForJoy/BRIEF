@@ -2,6 +2,7 @@
 title: Conversation
 description: Conversation format for supervised fine-tuning.
 order: 3
++render_with_liquid: false
 ---
 
 ## sharegpt
