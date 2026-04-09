@@ -23,6 +23,8 @@
 
 ## News
 
+🔥 BRIEF-Pro has been accepted to ACL 2026 Findings.
+
 🔥 We released the training and evaluation code, the model checkpoint, and the training data.
 
 
@@ -146,14 +148,10 @@ Run the following command to for evaluation:
 ## Citation
 
 ```
-@misc{gu2025briefprouniversalcontextcompression,
-      title={BRIEF-Pro: Universal Context Compression with Short-to-Long Synthesis for Fast and Accurate Multi-Hop Reasoning}, 
-      author={Jia-Chen Gu and Junyi Zhang and Di Wu and Yuankai Li and Kai-Wei Chang and Nanyun Peng},
-      year={2025},
-      eprint={2510.13799},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2510.13799}, 
+@inproceedings{gu2026briefpro,
+  title={BRIEF-Pro: Universal Context Compression with Short-to-Long Synthesis for Fast and Accurate Multi-Hop Reasoning},
+  author={Gu, Jia-Chen and Zhang, Junyi and Wu, Di and Li, Yuankai and Chang, Kai-Wei and Peng, Nanyun},
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2026},
+  year={2026}
 }
 ```
-
